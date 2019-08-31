@@ -1,0 +1,36 @@
+ 1
+ 15
+ 12
+ 10
+ 14
+ 5 , 42
+AP
+"Name",30,0,"\013",1
+"Street",35,0,"\013",2
+"Locality",30,0,"\013",3
+"Town",30,0,"\013",4
+"County",15,0,"\013",5
+"Postcode",10,1,"\013",6
+"STDCode",10,1,"\013",-1
+"Mailsort",5,1,"\013",-1
+LPT1
+@
+0
+E
+0
+F-1                               -0
+From AFD; 51 Meadowfoot Rd; W Kilbride; KA23 9BU
+
+LPT1
+&l3H&l-90A&l1O
+10
+                              
+ 5
+
+From AFD; 51 Meadowfoot Rd; W Kilbride; KA23 9BU(s10H
+(s0P&l0H
+
+
+
+[Labels to Epson Type Printer on LPT1]
+[Envelopes to HP Type on LPT1]

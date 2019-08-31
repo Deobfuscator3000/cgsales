@@ -1,0 +1,982 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="all, index, follow">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="General">
+	<meta name="copyright" content="2010 www.afd.co.uk">
+	<meta name="resource-type" content="document">
+	<meta name="revisit-after" content="1 days">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="private">
+	<meta http-equiv="cache-control" content="private">
+	<meta name="google-site-verification" content="aa8G154H89HoFpgt6FUreK14DQ96y_fGMhP-CGMVGxg" />
+
+
+
+	<META NAME="Description" CONTENT="AFD address list management systems use Electoral Roll, Royal Mail Postcode Address File (PAF) and commercial databases to provide quick address entry, address verification, postcode search, list cleaning and geodemographics for all PC systems, Unix, TCP/IP, the Internet, Web and Intranet. UK and Worldwide.">
+	<META NAME="Keywords" CONTENT="address management, postcode, postcode search, postcode finder, postcoding software, paf, postcode address file, postcoding, postcodes, address, addresses, address finder, royal mail, post office, uk address, uk address search, uk address finder, uk postcode, uk postcode search, grid reference, geocode, geodemographic, address capture, postcode web service, address web service, mailsort, presstream, barcode, zipcode, zipcodes, delivery point suffix, dps, internet, intranet, postcodeing">
+
+	<title>AFD Products: Postcode Manual</title>	
+
+	<base target="_top">
+
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/AFDicon.png">
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="css/start/jquery-ui-1.8.4.custom.css" rel="stylesheet" />	
+
+</head>
+
+<body class="mainbody" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div id='wrapper' style="  text-align: left;  width: 950px;  margin-left: auto;  margin-right: auto;  margin:0px auto;  position: relative; ">
+
+
+<div id="L1" style="position: absolute; left: 22px; top: 16px;">
+    <input type="hidden" id="OP1" value="22">
+    
+    
+    <a href="http://www.afd.co.uk">
+		<h1 class="h1Logo">
+			AFD Software. Address, Postcode and Bank solutions.
+		</h1>
+    </a>
+    
+    <!--
+    <a href="http://www.afd.co.uk/">
+        <img src="images\logo_AFD_main_new.png" 
+        alt="AFD Software - Address Management Solutions" 
+        Title="AFD Software - Address Management Solutions" 
+        width="350" height="99" border="0" />
+    </a>
+    -->
+    
+</div>
+
+
+<div id="L3" style="position: absolute; left: 380px; top: 36px;">
+<input type="hidden" id="OP3" value="380">
+<!-- <span class="Title_White">- Postcode Manual</span> -->
+</div>
+
+
+<div id="L4" style="position: absolute; left: 20px; top: 156px; width: 700px;">
+<input type="hidden" id="OP4" value="20">
+
+<title>AFD Postcode Manual: Keyboard Shortcuts</title>
+
+<p class="Title_Blue">APPENDIX B: KEYBOARD SHORTCUTS</p>
+      <table width="548" border="0" cellspacing="2" cellpadding="0" class="basefont">
+        <tr class="fontboldblack">
+          <td width="102" bgcolor="#DFEFFF">Shortcut Key</td>
+          <td width="440" bgcolor="#DFEFFF">Function</td>
+        </tr>
+        <tr>
+          <td>[Alt] + [F4]</td>
+          <td>Close Postcode</td>
+        </tr>
+        <tr>
+          <td>[Esc]</td>
+          <td>Cancel Loookup, List or Search</td>
+        </tr>
+        <tr>
+          <td>[F1]</td>
+          <td>Help</td>
+        </tr>
+        <tr>
+          <td>[F2]</td>
+          <td>Insert current address into target application</td>
+        </tr>
+        <tr>
+          <td>[F5]</td>
+          <td>Refresh Insert Menu</td>
+        </tr>
+        <tr>
+          <td>[Alt] + 1</td>
+          <td>Switch to Search Tab</td>
+        </tr>
+        <tr>
+          <td>[Alt] + 2</td>
+          <td>Switch to Results Tab</td>
+        </tr>
+        <tr>
+          <td>[Alt] + 3</td>
+          <td>Switch to Label Tab</td>
+        </tr>
+        <tr>
+          <td>[Alt] + 4</td>
+          <td>Switch to Map Tab</td>
+        </tr>
+        <tr>
+          <td>[Alt] + 5</td>
+          <td>Switch to Nearest Tab</td>
+        </tr>
+        <tr>
+          <td>[Alt] + 6</td>
+          <td>Switch to Censation Tab</td>
+        </tr>
+        <tr>
+          <td>[Alt] + B</td>
+          <td>Switch Barcode on/off</td>
+        </tr>
+        <tr>
+          <td>[Alt] + C</td>
+          <td>Clear Results List</td>
+        </tr>
+        <tr>
+          <td>[Alt] + D</td>
+          <td>Jump to Find Box</td>
+        </tr>
+        <tr>
+          <td>[Alt] + E</td>
+          <td>Activate Edit menu</td>
+        </tr>
+        <tr>
+          <td>[Alt] + F</td>
+          <td>Activate File menu</td>
+        </tr>
+        <tr>
+          <td>[Alt] + H</td>
+          <td>Activate Help menu</td>
+        </tr>
+        <tr>
+          <td>[Alt] + I</td>
+          <td>Activate Insert menu</td>
+        </tr>
+        <tr>
+          <td>[Alt] + L</td>
+          <td>Lookup the text entered in the 'Find' box</td>
+        </tr>
+        <tr>
+          <td>[Alt] + M</td>
+          <td>Activate Map Menu</td>
+        </tr>
+        <tr>
+          <td>[Alt] + N</td>
+          <td>Activate Nearest Menu</td>
+        </tr>
+        <tr>
+          <td>[Alt] + R</td>
+          <td>Print single mailing label</td>
+        </tr>
+        <tr>
+          <td>[Alt] + S</td>
+          <td>Search using the address data entered on the 'Search' tab</td>
+        </tr>
+        <tr>
+          <td>[Alt] + V</td>
+          <td>Activate View menu</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + [Insert]</td>
+          <td>Copy current field to Clipboard</td>
+        </tr>
+        <tr>
+          <td>[Shift] + [Insert]</td>
+          <td>Paste current Clipboard contents to field</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + A</td>
+          <td>Add Selected Records To Nearest</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + C</td>
+          <td>Copy current address to Clipboard</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + D</td>
+          <td>View icon for DDE</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + F</td>
+          <td>Filter Nearest List</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + K</td>
+          <td>Delete Selected Nearest Records</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + M</td>
+          <td>Toggle Distance Line</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + R</td>
+          <td>View or Alter Properties</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + S</td>
+          <td>Save Currently Displayed Nearest Record</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + T</td>
+          <td>Switch 'On Top' mode on/off</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + W</td>
+          <td>Toggle Compact View</td>
+        </tr>
+        <tr>
+          <td>[Ctrl] + X</td>
+          <td>View Examples List</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <br>
+      <table border="0" width="548" cellpadding="0" cellspacing="2" height="571">
+        <tr class="fontboldblack">
+          <td width="440" bgcolor="#DFEFFF">Function &nbsp;&nbsp; </td>
+          <td width="102" bgcolor="#DFEFFF">Shortcut Key</td>
+        </tr>
+        <tr>
+          <td>Add Nearest Records</td>
+          <td>[Ctrl] + A</td>
+        </tr>
+        <tr>
+          <td>Barcode: switch on/off</td>
+          <td>[Alt] + B</td>
+        </tr>
+        <tr>
+          <td>Cancel Lookup, List, or Search</td>
+          <td>[Esc]</td>
+        </tr>
+        <tr>
+          <td>Censation Tab</td>
+          <td>[Alt] + 6</td>
+        </tr>
+        <tr>
+          <td>Compact View (Toggle)</td>
+          <td>[Ctrl] + W</td>
+        </tr>
+        <tr>
+          <td>Copy current address to Clipboard</td>
+          <td>[Ctrl] + C</td>
+        </tr>
+        <tr>
+          <td>Clear Results List</td>
+          <td>[Alt] + C</td>
+        </tr>
+        <tr>
+          <td>Close Postcode</td>
+          <td>[Alt] + [F4]</td>
+        </tr>
+        <tr>
+          <td>DDE: view Icon for</td>
+          <td>[Ctrl] + D</td>
+        </tr>
+        <tr>
+          <td>Delete Nearest Records</td>
+          <td>[Ctrl] + K</td>
+        </tr>
+        <tr>
+          <td>Edit menu</td>
+          <td>[Alt] + E</td>
+        </tr>
+        <tr>
+          <td>Examples List</td>
+          <td>[Ctrl] + X</td>
+        </tr>
+        <tr>
+          <td>Filter Nearest Records</td>
+          <td>[Ctrl] + F</td>
+        </tr>
+        <tr>
+          <td>File menu</td>
+          <td>[Alt] + F</td>
+        </tr>
+        <tr>
+          <td>Find Box - jump to</td>
+          <td>[Alt] + D</td>
+        </tr>
+        <tr>
+          <td>Help</td>
+          <td>[F1]</td>
+        </tr>
+        <tr>
+          <td>Help menu</td>
+          <td>[Alt] + H</td>
+        </tr>
+        <tr>
+          <td>Insert current address into target application</td>
+          <td>[F2]</td>
+        </tr>
+        <tr>
+          <td>Insert menu</td>
+          <td>[Alt] + I</td>
+        </tr>
+        <tr>
+          <td>Label Tab</td>
+          <td>[Alt] + 3</td>
+        </tr>
+        <tr>
+          <td>Launch Provider</td>
+          <td>[Ctrl] + Y</td>
+        </tr>
+        <tr>
+          <td>Lookup using current Findbox contents</td>
+          <td>[Alt] + L</td>
+        </tr>
+        <tr>
+          <td>Map Menu</td>
+          <td>[Alt] + M</td>
+        </tr>
+        <tr>
+          <td>Map Tab</td>
+          <td>[Alt] + 4</td>
+        </tr>
+        <tr>
+          <td>Nearest Menu</td>
+          <td>[Alt] + N</td>
+        </tr>
+        <tr>
+          <td>Nearest Tab</td>
+          <td>[Alt] + 5</td>
+        </tr>
+        <tr>
+          <td>On Top Mode: switch on/off</td>
+          <td>[Ctrl] + T</td>
+        </tr>
+        <tr>
+          <td>Paste current Clipboard contents to field</td>
+          <td>[Shift] + [Insert]</td>
+        </tr>
+        <tr>
+          <td>Print mailing label</td>
+          <td>[Alt] + R</td>
+        </tr>
+        <tr>
+          <td>Properties - view or alter</td>
+          <td>[Ctrl] + R</td>
+        </tr>
+        <tr>
+          <td>Refresh Insert menu</td>
+          <td>[F5]</td>
+        </tr>
+        <tr>
+          <td>Results Tab</td>
+          <td>[Alt] + 2</td>
+        </tr>
+        <tr>
+          <td>Save Nearest Record</td>
+          <td>[Ctrl] + S</td>
+        </tr>
+        <tr>
+          <td>Search Tab</td>
+          <td>[Alt] + 1</td>
+        </tr>
+        <tr>
+          <td>Toggle Compact View</td>
+          <td>[Ctrl] + W</td>
+        </tr>
+        <tr>
+          <td>Toggle Distance Line</td>
+          <td>[Ctrl] + M</td>
+        </tr>
+        <tr>
+          <td>View menu</td>
+          <td>[Alt] + V</td>
+        </tr>
+      </table>
+
+</div>
+
+
+<div id="L5" style="position: absolute; left: 733px; top: 70px;">
+<input type="hidden" id="OP5" value="733">
+<img src="images\float_panel_bg_white_main.png" />
+</div>
+
+
+
+<div id="L6" style="position: absolute; left: 739px; top: 75px;">
+<input type="hidden" id="OP6" value="739">
+<img src="images\button_phone.png" alt="Any Questions? Call now on 01624 811711" title="Any Questions? Call now on 01624 811711" />
+</div>
+<div id="L7" style="position: absolute; left: 739px; top: 150px;">
+<input type="hidden" id="OP7" value="739">
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_blue_top.png" class="mod_header">
+&nbsp;<strong>
+Manual Contents
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="contents.htm"  alt=" Introduction & Installation " Title=" Introduction & Installation ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Introduction & Installation 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Overview.htm"  alt=" Overview " Title=" Overview ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Overview 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="FindBox.htm"  alt=" Find Box & Lookup " Title=" Find Box & Lookup ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Find Box & Lookup 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resfrm.htm"  alt=" Results List " Title=" Results List ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results List 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="srchfrm.htm"  alt=" Search Tab " Title=" Search Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Search Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resTab.htm"  alt=" Results Tab " Title=" Results Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="morefrm.htm"  alt=" More Tab " Title=" More Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ More Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="labfrm.htm"  alt=" Label Tab " Title=" Label Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Label Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="mapfrm.htm"  alt=" Map Tab " Title=" Map Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Map Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="nearfrm.htm"  alt=" Nearest Tab " Title=" Nearest Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Nearest Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censfrm.htm"  alt=" Censation Tab " Title=" Censation Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Censation Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="robotfrm.htm"  alt=" Postcode Robot " Title=" Postcode Robot ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode Robot 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlivedbl">
+<nobr>
+<a href="transfrm.htm"  alt=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses " Title=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="compfrm.htm"  alt=" Compact View " Title=" Compact View ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Compact View 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="otherfrm.htm"  alt=" Other Features " Title=" Other Features ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Features 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="pcdos.htm"  alt=" Postcode for DOS " Title=" Postcode for DOS ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode for DOS 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="api.htm"  alt=" Programming with Postcode " Title=" Programming with Postcode ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Programming with Postcode 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_green_top.png" class="mod_header">
+&nbsp;<strong>
+Appendix
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Commands.htm"  alt=" A - Command Line Options " Title=" A - Command Line Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A - Command Line Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Shortcut.htm"  alt=" B - Keyboard Shortcuts " Title=" B - Keyboard Shortcuts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ B - Keyboard Shortcuts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="GridRef.htm"  alt=" C - Grid References " Title=" C - Grid References ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ C - Grid References 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="eula.htm"  alt=" D - End User License Agreement " Title=" D - End User License Agreement ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ D - End User License Agreement 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="http://www.afd.co.uk/rereg/"  alt=" E - Re-Registration Form " Title=" E - Re-Registration Form ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ E - Re-Registration Form 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="counties.htm"  alt=" F - County Options " Title=" F - County Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ F - County Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censDesc.htm"  alt=" G - Censation Additional Info " Title=" G - Censation Additional Info ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ G - Censation Additional Info 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censCode.htm"  alt=" H - Censation Detailed Tables " Title=" H - Censation Detailed Tables ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ H - Censation Detailed Tables 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censBar.htm"  alt=" I - Censation Bar Charts " Title=" I - Censation Bar Charts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ I - Censation Bar Charts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censGlos.htm"  alt=" J - Censation Glossary " Title=" J - Censation Glossary ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ J - Censation Glossary 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Occupcy.htm"  alt=" K - Occupancy & Address Types " Title=" K - Occupancy & Address Types ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ K - Occupancy & Address Types 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="royalmailterms.htm"  alt=" L - Royal Mail Terms " Title=" L - Royal Mail Terms ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ L - Royal Mail Terms 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+</div>
+
+
+</div>
+ 
+<div style="position: absolute; left: 0px; width: 100%; height: 120; visibility: hidden;" name="footer" id="footer" class="footertext">
+<table width="100%" background="images\footer_bg.png">
+<tr>
+<td align="center" valign="top">
+<table width="940">
+<tr>
+<td width="420" align="left" valign="top" class="footertext">
+<a class="footertext" href="http://www.afd.co.uk/home.htm">'AFD'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_bankfinder.htm">'AFD BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_bankfinder.htm">'AFD POCKET BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/censation.htm">'CENSATION'</a>,
+'DATA EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_mailsaver.htm">'AFD MAILSAVER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_namesandnumbers.htm">'AFD NAMES &amp; NUMBERS'</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_namesandnumbers.htm">'POCKET NAMES &amp; NUMBERS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'AFD POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_postcode.htm">'POCKET POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode_everywhere.htm">'POSTCODE-EVERYWHERE&#8217;</a>,
+'POSTCODE EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_refiner.htm">'AFD REFINER&#8217;</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'ROBOT'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_tracemaster.htm">'TRACEMASTER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_worldaddress.htm">'AFD WORLD ADDRESS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_zipaddress.htm">'ZIPADDRESS'</a>,
+'POCKET ZIPADDRESS', 'Simply Beautiful',
+the AFD WorldAddress and the Flying Envelope devices are Registered Trade Marks of ZipAddress Ltd. 'ROBOT' Technology is protected by Patent No GB2369699.
+All other trade marks acknowledged.
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" align="left" class="footertext">
+AFD Products are subject to a <a href="http://www.afd.co.uk/eula.htm" target="_blank" class="footertext">License Agreement</a> and include a data license for one computer, renewable annually. AFD Software Limited. Registered in the Isle of Man No: 087072C Registered Office: Mountain View Innovation Centre, Jurby Road, Lezayre, Ramsey, ISLE OF MAN, IM7 2DZ
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td width="120" valign="top" align="left" class="footertext">
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Computers and</a>
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Software Ltd</a>. All rights reserved.<br />
+<a class="footertext" href="http://www.afd.co.uk/terms.htm">AFD Terms &amp; Conditions</a><br />
+<a class="footertext" href="http://www.afd.co.uk/privacy.htm">AFD Privacy Policy</a>
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" class="footertext">
+<img src="/images/logo_FQM.gif" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>

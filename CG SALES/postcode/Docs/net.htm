@@ -1,0 +1,3706 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="all, index, follow">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="General">
+	<meta name="copyright" content="2010 www.afd.co.uk">
+	<meta name="resource-type" content="document">
+	<meta name="revisit-after" content="1 days">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="private">
+	<meta http-equiv="cache-control" content="private">
+	<meta name="google-site-verification" content="aa8G154H89HoFpgt6FUreK14DQ96y_fGMhP-CGMVGxg" />
+
+
+
+	<META NAME="Description" CONTENT="AFD address list management systems use Electoral Roll, Royal Mail Postcode Address File (PAF) and commercial databases to provide quick address entry, address verification, postcode search, list cleaning and geodemographics for all PC systems, Unix, TCP/IP, the Internet, Web and Intranet. UK and Worldwide.">
+	<META NAME="Keywords" CONTENT="address management, postcode, postcode search, postcode finder, postcoding software, paf, postcode address file, postcoding, postcodes, address, addresses, address finder, royal mail, post office, uk address, uk address search, uk address finder, uk postcode, uk postcode search, grid reference, geocode, geodemographic, address capture, postcode web service, address web service, mailsort, presstream, barcode, zipcode, zipcodes, delivery point suffix, dps, internet, intranet, postcodeing">
+
+	<title>AFD Products: Postcode Manual</title>	
+
+	<base target="_top">
+
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/AFDicon.png">
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="css/start/jquery-ui-1.8.4.custom.css" rel="stylesheet" />	
+
+</head>
+
+<body class="mainbody" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div id='wrapper' style="  text-align: left;  width: 950px;  margin-left: auto;  margin-right: auto;  margin:0px auto;  position: relative; ">
+
+
+<div id="L1" style="position: absolute; left: 22px; top: 16px;">
+    <input type="hidden" id="OP1" value="22">
+    
+    
+    <a href="http://www.afd.co.uk">
+		<h1 class="h1Logo">
+			AFD Software. Address, Postcode and Bank solutions.
+		</h1>
+    </a>
+    
+    <!--
+    <a href="http://www.afd.co.uk/">
+        <img src="images\logo_AFD_main_new.png" 
+        alt="AFD Software - Address Management Solutions" 
+        Title="AFD Software - Address Management Solutions" 
+        width="350" height="99" border="0" />
+    </a>
+    -->
+    
+</div>
+
+
+<div id="L3" style="position: absolute; left: 380px; top: 36px;">
+<input type="hidden" id="OP3" value="380">
+<!-- <span class="Title_White">- Postcode Manual</span> -->
+</div>
+
+
+<div id="L4" style="position: absolute; left: 20px; top: 156px; width: 700px;">
+<input type="hidden" id="OP4" value="20">
+
+<title>AFD Postcode Manual: Programming with Postcode</title>
+
+
+
+
+<p class="Title_Blue">PROGRAMMING POSTCODE WITH .NET</p>
+      <p class="fontboldblack"><a name="Class"></a><span class="parahead">The
+      Postcode Class (afdpc.vb/afdpc.cs)</span></p>
+      <ul>
+        <p>For VB .NET, C# .NET, and J# .NET developers full compatibility is provided with our
+        core API using the afdpc.vb, afdpc.cs, and afdpc.jsl classes provided.&nbsp; These
+        provide direct access to the Postcode API when using .NET and the
+        classes isolate all the complexities of calling structure based native
+        Windows API's in the .NET environment, while still providing the full efficiency
+        of our fast native address engines.&nbsp; C++ .NET developers should
+        continue to use the <a class="link_blue" href="api.htm">standard API</a>.</p>
+        <p><b>For VB .NET developers:<br>
+        </b>The afdpc.vb class is, by default, located in your
+        c:\postcode\examples\NET\vbnet\afdpc.vb where c:\postcode is the folder
+        into which you installed AFD Postcode.&nbsp; If you open postcode.sln in
+        that folder (or postcode2002.vbproj for .NET 2002 developers) an example
+        of how to use the class is also provided.</p>
+        <p>To use this class in your own application copy it to your source code
+        folder for your project.&nbsp; Then with your project open in Visual
+        Studio .NET, click the Project menu, select Add Existing Item, then
+        double click the afdpc.vb class to add - it is now ready to use in your
+        project.</p>
+        <p><b>For C# .NET developers:<br>
+        </b>The afdpc.cs class is, by default, located in your
+        c:\postcode\examples\NET\csharp\afdpc.cs where c:\postcode is the
+        folder into which you installed AFD Postcode.&nbsp; If you open
+        postcode.sln in that folder (or postcode2002.csproj for .NET 2002
+        developers) an example of how to use the class is also provided.</p>
+        <p>To use this class in your own application copy it to your source code
+        folder for your project.&nbsp; Then with your project open in Visual
+        Studio .NET, click the Project menu, select Add Existing Item, then
+        double click the afdpc.cs class to add - it is now ready to use in your
+        project.</p>
+        <p><b>For J# .NET developers:<br>
+        </b>The afdpc.jsl class is, by default, located in your
+        c:\postcode\examples\NET\jsharp\afdpc.jsl where c:\postcode is the
+        folder into which you installed AFD Postcode.&nbsp; If you open
+        postcode.sln in that folder (or postcode2002.csproj for .NET 2002
+        developers) an example of how to use the class is also provided.</p>
+        <p>To use this class in your own application copy it to your source code
+        folder for your project.&nbsp; Then with your project open in Visual
+        Studio .NET, click the Project menu, select Add Existing Item, then
+        double click the afdpc.jsl class to add - it is now ready to use in your
+        project.</p>
+      </ul>
+      <blockquote>
+        <p>Please note that Postcode is not licensed for, and will not function
+          correctly, on Internet and Intranet servers.&nbsp; If you require Postcode
+          software on your server then you will need Postcode Plus Internet.</p>
+      </blockquote>
+      <p><a name="Lookup"></a><span class="parahead">Carrying out a Lookup (for Postcode or lookup string)</span></p>
+      <blockquote>
+        <p>To carry out a lookup, first create an instance of the afdpc class if
+        you have not already done so, for example:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2"></font><font face="Courier New"><font SIZE="2" COLOR="#0000ff">Dim</font><font SIZE="2">
+            pc </font><font SIZE="2" COLOR="#0000ff">As</font><font SIZE="2">
+            afdpc<br>
+            pc = </font><font SIZE="2" COLOR="#0000ff">New</font></font><font SIZE="2"><font face="Courier New">
+            afdpc</font></font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font face="Courier New" size="2">afdpc
+            pc;<br>
+            pc = <font COLOR="#0000ff">new</font> afdpc();</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2"><font face="Courier New" size="2">afdpc
+            pc;<br>
+            pc = <font COLOR="#0000ff">new</font> afdpc();</font></font></td>
+        </tr>
+      </table>
+        <p>Next, set the lookup property of the afdpc class instance with the
+        string you wish to lookup, e.g. 'B11 1AA':</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2" face="Courier New">pc.Lookup
+            = &quot;B11 1AA&quot;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font SIZE="2" face="Courier New">pc.Lookup
+            = &quot;B11 1AA&quot;;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2" face="Courier New">pc.set_Lookup(&quot;B11 1AA&quot;);</font></td>
+        </tr>
+      </table>
+        <p>Now you can set the county option, e.g. the county type that you wish
+        to return (if desired).&nbsp; By default no county is returned and it
+        should be noted that Counties are no longer considered part of a full
+        postal address.&nbsp; The options available are as follows:</p>
+        <ul>
+          <li>&quot;0&quot; - Omit County (County return property will always be
+            blank)</li>
+          <li>&quot;1&quot; - Postal County (County return property will give
+            the former Royal Mail Postal County if there is one)</li>
+          <li>&quot;2&quot; - Abbreviated Postal County (County return property
+            will give the former Royal Mail Postal County if there is one, it
+            will also be abbreviated to any official Royal Mail abbreviation if
+            one exists)</li>
+          <li>&quot;3&quot; - Postal Optional County (County return property
+            will give the Royal Mail Postal County including for towns where the
+            County was not formally used postally, the county should only be
+            blank for very large cities or for where no sensible county exists).</li>
+          <li>&quot;4&quot; - Abbreviated Postal Optional County (County return
+            property will give the Royal Mail Postal County including for towns
+            where the County was not formally used postally, it will also be
+            abbreviated to any official Royal Mail abbreviation if one exists).</li>
+          <li>&quot;5&quot; - Traditional County (County return property will
+            give the traditional county name for this town if one exists).</li>
+          <li>&quot;6&quot; - Administrative County (County return property will
+            give the administrative county name for this town if one exists -
+            not usually used for addresses).</li>
+        </ul>
+        <p>This sets the county option to Postal Optional County, however any of
+        the values above could be used instead for the CountyOption property:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2" face="Courier New">pc.CountyOption
+            = &quot;3&quot;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font SIZE="2" face="Courier New">pc.CountyOption
+            = &quot;3&quot;;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2" face="Courier New">pc.set_CountyOption(&quot;3&quot;);</font></td>
+        </tr>
+      </table>
+        <p>The next step is to call the GetFirst function to return the first
+        matching result for this lookup:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2" face="Courier New">retVal
+            = pc.GetFirst(afdpc.LOOKUP_MODE + afdpc.OUTCODE_BREAKS)</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font SIZE="2" face="Courier New">retVal
+            = pc.GetFirst(afdpc.LOOKUP_MODE + afdpc.OUTCODE_BREAKS);</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2" face="Courier New">retVal
+            = pc.GetFirst(afdpc.LOOKUP_MODE + afdpc.OUTCODE_BREAKS);</font></td>
+        </tr>
+      </table>
+        <p>The afdpc.LOOKUP_MODE constant tells the GetFirst function that a
+        lookup is being carried out.&nbsp;&nbsp;<br>
+        The afdpc.OUTCODE_BREAKS constant is optional and using it means that
+        with lookup's other than for a postcode, the GetFirst function will
+        return afdpc.RETURN_OUTCODE_BREAK (5) when it reaches the end of an
+        outcode (first part of the postcode before the space, e.g. B11)&nbsp;
+        for the lookup.&nbsp; This is recommended as it allows the user to
+        cancel in the middle of a lookup and stops your application appearing to
+        have &quot;hung&quot; in the middle of a long lookup.<br>
+        The afdpc.OUTCODE_SKIP constant can also be added to this if you only
+        require the first result per outcode to be returned from your lookup,
+        this is considered advanced functionality and would not be useful to
+        most users.</p>
+        <p>Next you can examine the return code for any error and then process
+        the results returned.&nbsp; This is the same for lookup's and searches
+        and is given in the Examining Results section which follows:</p>
+      </blockquote>
+      <p><a name="ExaminingResults"></a><span class="parahead">Examining Results
+      from a Lookup or Search</span></p>
+      <blockquote>
+        <p>Before using any of the properties now available following this
+        lookup, you first need to check the return code for any error.&nbsp; If
+        the return value (retVal above) is less than zero an error has occurred.&nbsp;
+        This error could be any of the following:</p>
+        <ul>
+          <li>afdpc.RETURN_NOT_FOUND - No Records were found matching the lookup
+            or search criteria given.</li>
+          <li>afdpc.RETURN_ERROR_OPENING_FILES - Postcode was unable to open
+            it's data files.&nbsp; Please check the software is installed
+            correctly.</li>
+          <li>afdpc.RETURN_DATA_LICENCE_ERROR - Postcode was not correctly
+            registered.&nbsp; Please run the Welcome program to register.</li>
+          <li>afdpc.RETURN_NO_SEARCH_DATA - No lookup or search data was
+            specified, i.e. the Lookup property was not set or the Search
+            criteria was all blank.</li>
+          <li>afdpc.RETURN_INVALID_LOOKUP_TYPE - An invalid lookup type was
+            given, i.e. you did not pass the value afdpc.LOOKUP_MODE or
+            afdpc.SEARCH_MODE to the GetFirst function or if you did it was
+            summed with another value that is invalid.</li>
+        </ul>
+        <p>If the return value is not negative an error has not occurred.</p>
+        <p>You can retrieve more friendly error text messages by calling the
+        ErrorText function of the object, this takes the return value (retVal in
+        this case) as a parameter and returns a string description of the
+        error.&nbsp; For example code to display this and exit the subroutine to
+        abort the lookup would be as follows:</p>
+      <table border="0" width="600" height="176">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%" height="15"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%" height="66"><font SIZE="2"><font face="Courier New"><font COLOR="#0000ff">If</font>
+            retVal &lt; 0 <font COLOR="#0000ff">Then<br>
+            </font>&nbsp;&nbsp;&nbsp; MsgBox(pc.ErrorText(retVal),
+            MsgBoxStyle.Critical, &quot;Error&quot;)<br>
+            &nbsp;&nbsp;&nbsp; <font COLOR="#0000ff">Exit</font> <font COLOR="#0000ff">Sub<br>
+            End</font> <font COLOR="#0000ff">If</font></font></font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC" height="1"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC" height="82"><font face="Courier New"><font COLOR="#0000ff">if</font>
+            (retVal &lt; 0)<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp; MessageBox.Show(afdpc.ErrorText(retVal));<font COLOR="#0000ff"><br>
+            </font>&nbsp;&nbsp;&nbsp; <font COLOR="#0000ff">return</font>;<br>
+            }</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8" height="1"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8" height="82"><font SIZE="2"><font face="Courier New"><font COLOR="#0000ff">if</font>
+            (retVal &lt; 0)<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp; MessageBox.Show(afdpc.ErrorText(retVal));<font COLOR="#0000ff"><br>
+            </font>&nbsp;&nbsp;&nbsp; <font COLOR="#0000ff">return</font>;<br>
+            }</font></font></td>
+        </tr>
+      </table>
+        <p>You may also wish to inform the user if the postcode or STD Code
+        entered as there lookup or search has changed and therefore the results
+        that are returned will include the new data.&nbsp; This can also be done
+        by checking the return code.&nbsp; If the result code is any of the
+        following then a change has occurred (these are all positive codes and
+        the first result has still been returned for the lookup or search):</p>
+        <ul>
+          <li>afdpc.RETURN_CHANGED_POSTCODE - The postcode has changed, the
+            Postcode property (i.e. pc.Postcode in this case) will hold the new
+            postcode</li>
+          <li>afdpc.RETURN_CHANGED_STD - The STD Code has changed, the StdCode
+            property (i.e. pc.StdCode in this case) will hold the new STD Code.</li>
+          <li>afdpc.RETURN_CHANGED_POSTCODE_STD - The postcode and STD Code has
+            changed, the Postcode property (i.e. pc.Postcode in this case) will
+            hold the new postcode and the StdCode property (i.e. pc.StdCode in
+            this case) will hold the new STD Code.</li>
+        </ul>
+        <p>An example of how to display this information to the user is given
+        below:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2"><font face="Courier New"><font COLOR="#0000ff">If</font>
+            retVal = afdpc.RETURN_CHANGED_POSTCODE <font COLOR="#0000ff">Or</font>
+            retVal = afdpc.RETURN_CHANGED_POSTCODE_STD <font COLOR="#0000ff">Then</font><br>
+            &nbsp;&nbsp;&nbsp; MsgBox(&quot;The postcode you entered has changed
+            to: &quot; + pc.Postcode, MsgBoxStyle.Information, &quot;Changed
+            Postcode&quot;)<font COLOR="#0000ff"><br>
+            End</font> </font><font face="Courier New" COLOR="#0000ff">If</font></font><font SIZE="2">
+            <p><font face="Courier New"><font COLOR="#0000ff">If</font> retVal =
+            afdpc.RETURN_CHANGED_STD <font COLOR="#0000ff">Or</font> retVal =
+            afdpc.RETURN_CHANGED_POSTCODE_STD <font COLOR="#0000ff">Then</font><br>
+            &nbsp;&nbsp;&nbsp; MsgBox(&quot;The STD Code you entered has changed
+            to: &quot; + pc.StdCode, MsgBoxStyle.Information, &quot;Changed STD
+            Code&quot;)<font COLOR="#0000ff"><br>
+            End</font> </font><font face="Courier New" COLOR="#0000ff">If</font></font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font face="Courier New"><font COLOR="#0000ff">if</font>
+            ((retVal == afdpc.RETURN_CHANGED_POSTCODE) || (retVal ==
+            afdpc.RETURN_CHANGED_POSTCODE_STD))<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp; MessageBox.Show(&quot;The postcode you entered
+            has changed to: &quot; + pc.Postcode);<br>
+            }</font>
+            <p><font face="Courier New"><font COLOR="#0000ff">if</font>
+            ((retVal == afdpc.RETURN_CHANGED_STD) || (retVal ==
+            afdpc.RETURN_CHANGED_POSTCODE_STD))<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp; MessageBox.Show(&quot;The STD Code you entered
+            has changed to: &quot; + pc.StdCode);<br>
+            }</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2"><font face="Courier New"><font COLOR="#0000ff">if</font>
+            ((retVal == afdpc.RETURN_CHANGED_POSTCODE) || (retVal ==
+            afdpc.RETURN_CHANGED_POSTCODE_STD))<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp; MessageBox.Show(&quot;The postcode you entered
+            has changed to: &quot; + pc.get_Postcode());<br>
+            }</font></font>
+            <p><font size="2"><font face="Courier New"><font COLOR="#0000ff">if</font>
+            ((retVal == afdpc.RETURN_CHANGED_STD) || (retVal ==
+            afdpc.RETURN_CHANGED_POSTCODE_STD))<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp; MessageBox.Show(&quot;The STD Code you entered
+            has changed to: &quot; + pc.get_StdCode());<br>
+            }</font></font></td>
+        </tr>
+      </table>
+        <p>Next you can do something with this and call off all other results
+        using the GetNext() function:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2"><font face="Courier New"><font COLOR="#0000ff">Do</font>
+            <font COLOR="#0000ff">While</font> retVal &gt;= 0<br>
+            &nbsp;&nbsp;&nbsp; <font COLOR="#0000ff">If</font> retVal &lt;&gt;
+            afdpc.RETURN_OUTCODE_BREAK <font COLOR="#0000ff">Then</font><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font COLOR="#008000">'
+            Do something with this result</font><font COLOR="#0000ff"><br>
+            </font>&nbsp;&nbsp;&nbsp; <font COLOR="#0000ff">End</font> <font COLOR="#0000ff">If</font><br>
+            &nbsp;&nbsp;&nbsp; retVal = pc.GetNext()</font><font face="Courier New" COLOR="#0000ff"><br>
+            Loop</font></font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font face="Courier New"><font COLOR="#0000ff">while</font>
+            (retVal &gt;= 0)<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp; <font COLOR="#0000ff">if</font> (retVal !=
+            afdpc.RETURN_OUTCODE_BREAK)<br>
+            &nbsp;&nbsp;&nbsp; {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font COLOR="#008000">//
+            Do something with this result<br>
+            </font>&nbsp;&nbsp;&nbsp; }<br>
+            &nbsp;&nbsp;&nbsp; retVal = pc.GetNext();<br>
+            }</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2"><font face="Courier New"><font COLOR="#0000ff">while</font>
+            (retVal &gt;= 0)<br>
+            {<br>
+            &nbsp;&nbsp;&nbsp; <font COLOR="#0000ff">if</font> (retVal !=
+            afdpc.RETURN_OUTCODE_BREAK)<br>
+            &nbsp;&nbsp;&nbsp; {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font COLOR="#008000">//
+            Do something with this result<br>
+            </font>&nbsp;&nbsp;&nbsp; }<br>
+            &nbsp;&nbsp;&nbsp; retVal = pc.GetNext();<br>
+            }</font></font></td>
+        </tr>
+      </table>
+        <p>Please note that in most cases with a single Postcode lookup only one
+        result will be returned, however there are postcodes which do have more
+        than one street on them and other types of lookup and search are quite
+        likely to return multiple results.</p>
+        <p>GetNext could return any of the following:</p>
+        <ul>
+          <li>afdpc.END_OF_SEARCH - This indicates that the lookup or search has
+            completed and there are no further records to return - no new record
+            has been returned by this call.</li>
+          <li>afdpc.RETURN_MAX_LIMIT_REACHED - This indicates that more than the
+            maximum allowable (300) records have been returned from a single
+            lookup or search.&nbsp; This would not happen in the case of a
+            single Postcode lookup and with other lookup's would indicate that
+            the criteria is far too vague to be useful.</li>
+          <li>afdpc.RETURN_OUTCODE_BREAK - This is also a possible return value
+            from GetFirst and simply means that the end of an outcode (the part
+            of the postcode before the space) being searched has been
+            encountered and is intended to give the user the chance to cancel
+            the lookup if desired.&nbsp; It cannot occur with single postcode
+            lookup's.</li>
+        </ul>
+        <p>For each result you can read all or any of the afdpc class instance
+        properties to do something with the data that is returned.&nbsp; These
+        properties are as follows:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="50%"><span class="fontboldblack">Property</span></td>
+          <td width="50%" bgcolor="#FFFFCC"><span class="fontboldblack">Description</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Postcode</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Postcode</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">PostcodeType</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The type of Postcode,
+            i.e. Large user (returns LU) or Small User (returns SU).</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Organisation</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Organisation.&nbsp;
+            Please note that Postcode does not contain Organisation data so this
+            will only be present if an obvious organisation was included in the
+            lookup, e.g. 'AFD Software Ltd, IM7 2DZ'</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Prop</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Property.&nbsp;
+            Please note that Postcode does not contain Property data so this
+            will only be present if additional non-numeric data has been
+            included in the lookup, e.g. 'The Bungalow, B11 1AA'.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Street</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Street</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Locality</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Locality</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Town</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Town</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">County</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The County (in the type
+            specified by the CountyOption you supplied prior to calling GetFirst)</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">CountyOption</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Option you
+            specified for the County prior to starting the lookup.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Mailsort</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Mailsort Code</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">StdCode</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The likely STD Code for
+            this address</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">GridN</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Grid Reference
+            Northing - blank for non-Plotter users</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">GridE</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Grid Reference
+            Easting - blank for non-Plotter users</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">CensusCode</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Censation Census
+            Code for this Postcode</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Affluence</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Affluence
+            Description for this Postcode</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">LifeStage</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The LifeStage
+            Description for this Postcode</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">AdditionalCenusInfo</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">Additional Census
+            Information for this Postcode</td>
+        </tr>
+      </table>
+        <p>For example to assign the Street to a text box called Street on your
+        form you would use the following code:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font face="Courier New" size="2">txtStreet.Text
+            = pc.Street</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font face="Courier New" size="2">txtStreet.Text
+            = pc.Street;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font face="Courier New" size="2">txtStreet.set_Text(pc.get_Street());</font></td>
+        </tr>
+      </table>
+        <p>If you wish to display the result in a list box you can also retrieve
+        a list box friendly single string by using the ListStr method of the
+        Listbox.&nbsp; The ListStr method of the afdpc class instance simply
+        returns a string.&nbsp; For example the following code would add the
+        result to a list box called lstResults on your form:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2" face="Courier New">lstResults.Items.Add(pc.ListStr())</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font SIZE="2" face="Courier New">lstResults.Items.Add(pc.ListStr());</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2" face="Courier New">lstResults.get_Items().Add(pc.ListStr());</font></td>
+        </tr>
+      </table>
+        <p>If you wish to store a result for later display then call the
+        ToString() method and store this in a string array.&nbsp; You can then
+        make an instance of the afdpc class to retrieve it by using the
+        new(string) override method of the afdpc class.&nbsp; For example the
+        following code stores the result in a string and then makes a new
+        instance of the class from it:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font size="2" face="Courier New"><font color="#008000">'
+            method to store result in a string</font><br>
+            <font SIZE="2" COLOR="#0000ff">Dim</font> storeResult <font SIZE="2" COLOR="#0000ff">As String</font><br>
+            storeResult = pc.ToString()<br>
+            <font color="#008000">' later retrieval in new method</font><br>
+            </font><font face="Courier New"><font SIZE="2" COLOR="#0000ff">Dim</font><font SIZE="2">
+            pc </font><font SIZE="2" COLOR="#0000ff">As</font><font SIZE="2">
+            afdpc<br>
+            pc = </font><font SIZE="2" COLOR="#0000ff">New</font></font><font face="Courier New" SIZE="2">
+            afdpc(storeResult)</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font face="Courier New" size="2"><font color="#008000">//
+            method to store result in a string</font><br>
+            string storeResult = pc.ToString();<br>
+            <font color="#008000">// later retrieval in new method</font><br>
+            afdpc pc;<br>
+            pc = <font color="#0000ff">new</font> afdpc(storeResult);</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font face="Courier New" size="2"><font color="#008000">//
+            method to store result in a string</font><br>
+            String storeResult = pc.ToString();<br>
+            <font color="#008000">// later retrieval in new method</font><br>
+            afdpc pc;<br>
+            pc = <font color="#0000ff">new</font> afdpc(storeResult);</font></td>
+        </tr>
+      </table>
+      </blockquote>
+      <p><a name="Search"></a><span class="parahead">Carrying out a Search</span></p>
+      <blockquote>
+        <p>You should note that Postcode has limitations in it's search
+        functionality.&nbsp; This is because, unlike our higher end products
+        such as Postcode Plus, Postcode does not contain property data.&nbsp;
+        This means that it is often not possible to determine an individual
+        Postcode for a street address as many streets contain more than one
+        Postcode - however the ability to search and then narrow down the
+        possibilities can often be useful and, of course, searching can have
+        many other uses other than locating the correct address.</p>
+        <p>To carry out a search, first create an instance of the afdpc class if
+        you have not already done so, for example:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font face="Courier New"><font SIZE="2" COLOR="#0000ff">Dim</font><font SIZE="2">
+            pc </font><font SIZE="2" COLOR="#0000ff">As</font><font SIZE="2">
+            afdpc<br>
+            pc = </font><font SIZE="2" COLOR="#0000ff">New</font></font><font face="Courier New">
+            afdpc</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font face="Courier New" size="2">afdpc
+            pc;<br>
+            pc = <font COLOR="#0000ff">new</font> afdpc();</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font face="Courier New" size="2">afdpc
+            pc;<br>
+            pc = <font COLOR="#0000ff">new</font> afdpc();</font></td>
+        </tr>
+      </table>
+        <p>Next you need to set one or more of the search
+        properties.&nbsp; You should set all properties that you don't use to a
+        blank string, as unless this is a newer created object instance old
+        address elements could exist in some of them.&nbsp; The properties available
+        for searching are as follows:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="50%"><span class="fontboldblack">Property</span></td>
+          <td width="50%" bgcolor="#FFFFCC"><span class="fontboldblack">Description</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Postcode</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">A Postcode or partial
+            Postcode to search for</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Organisation</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">Please note that
+            Postcode does not contain Organisation data so any organisation
+            supplied will simply be returned for all results and cannot be
+            matched to individual records.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Prop</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">Please note that
+            Postcode does not contain Property data so any property supplied
+            will simply be returned for all results and cannot be matched to
+            individual records.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Street</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Street to search
+            for</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Locality</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Locality to search
+            for</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">Town</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Town to search for</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">County</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The County to search
+            for - all county types are searched for this.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="50%">StdCode</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The STD Code to search
+            for</td>
+        </tr>
+      </table>
+        <p>You should note that a search must include at least part of either
+        the Postcode, Town, County or StdCode.&nbsp; The most common search is
+        for a Street and Town together.</p>
+        <p>An example of how to set the search criteria to search for Commerical
+        Street in Birmingham is as follows:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2" face="Courier New">pc.Organisation
+            = &quot;&quot;<br>
+            pc.Prop = &quot;&quot;<br>
+            pc.Street = &quot;Commercial Street&quot;<br>
+            pc.Locality = &quot;&quot;<br>
+            pc.Town = &quot;Birmingham&quot;<br>
+            pc.County = &quot;&quot;<br>
+            pc.Postcode = &quot;&quot;<br>
+            pc.StdCode = &quot;&quot;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font SIZE="2" face="Courier New">pc.Organisation
+            = &quot;&quot;;<br>
+            pc.Prop = &quot;&quot;;<br>
+            pc.Street = &quot;Commercial Street&quot;;<br>
+            pc.Locality = &quot;&quot;;<br>
+            pc.Town = &quot;Birmingham&quot;;<br>
+            pc.County = &quot;&quot;;<br>
+            pc.Postcode = &quot;&quot;;<br>
+            pc.StdCode = &quot;&quot;;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2" face="Courier New">pc.set_Organisation(&quot;&quot;);<br>
+            pc.set_Prop(&quot;&quot;);<br>
+            pc.set_Street(&quot;Commercial Street&quot;);<br>
+            pc.set_Locality(&quot;&quot;);<br>
+            pc.set_Town(&quot;Birmingham&quot;);<br>
+            pc.set_County(&quot;&quot;);<br>
+            pc.set_Postcode(&quot;&quot;);<br>
+            pc.set_StdCode(&quot;&quot;);</font></td>
+        </tr>
+      </table>
+        <p>Now you can set the county option, e.g. the county type that you wish
+        to return (if desired).&nbsp; By default no county is returned and it
+        should be noted that Counties are no longer considered part of a full
+        postal address.&nbsp; The options available are as follows:</p>
+        <ul>
+          <li>&quot;0&quot; - Omit County (County return property will always be
+            blank)</li>
+          <li>&quot;1&quot; - Postal County (County return property will give
+            the former Royal Mail Postal County if there is one)</li>
+          <li>&quot;2&quot; - Abbreviated Postal County (County return property
+            will give the former Royal Mail Postal County if there is one, it
+            will also be abbreviated to any official Royal Mail abbreviation if
+            one exists)</li>
+          <li>&quot;3&quot; - Postal Optional County (County return property
+            will give the Royal Mail Postal County including for towns where the
+            County was not formally used postally, the county should only be
+            blank for very large cities or for where no sensible county exists).</li>
+          <li>&quot;4&quot; - Abbreviated Postal Optional County (County return
+            property will give the Royal Mail Postal County including for towns
+            where the County was not formally used postally, it will also be
+            abbreviated to any official Royal Mail abbreviation if one exists).</li>
+          <li>&quot;5&quot; - Traditional County (County return property will
+            give the traditional county name for this town if one exists).</li>
+          <li>&quot;6&quot; - Administrative County (County return property will
+            give the administrative county name for this town if one exists -
+            not usually used for addresses).</li>
+        </ul>
+        <p>This sets the county option to Postal Optional County, however any of
+        the values above could be used instead for the CountyOption property:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2" face="Courier New">pc.CountyOption
+            = &quot;3&quot;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font SIZE="2" face="Courier New">pc.CountyOption
+            = &quot;3&quot;;</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2" face="Courier New">pc.set_CountyOption( &quot;3&quot;);</font></td>
+        </tr>
+      </table>
+        <p>The next step is to call the GetFirst function to return the first
+        matching result for this lookup:</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="100%"><span class="fontboldblack">VB
+            .NET</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%"><font SIZE="2" face="Courier New">retVal
+            = pc.GetFirst(afdpc.SEARCH_MODE + afdpc.OUTCODE_BREAKS)</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#FFFFCC"><span class="fontboldblack">C# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#FFFFCC"><font SIZE="2" face="Courier New">retVal
+            = pc.GetFirst(afdpc.SEARCH_MODE + afdpc.OUTCODE_BREAKS);</font></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#BBFFD8"><span class="fontboldblack">J# .NET</span></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" bgcolor="#BBFFD8"><font SIZE="2" face="Courier New">retVal
+            = pc.GetFirst(afdpc.SEARCH_MODE + afdpc.OUTCODE_BREAKS);</font></td>
+        </tr>
+      </table>
+        <p>The afdpc.SEARCH_MODE constant tells the GetFirst function that a
+        lookup is being carried out.&nbsp;&nbsp;<br>
+        The afdpc.OUTCODE_BREAKS constant is optional and using it means that
+        with lookup's other than for a postcode, the GetFirst function will
+        return afdpc.RETURN_OUTCODE_BREAK (5) when it reaches the end of an
+        outcode (first part of the postcode before the space, e.g. B11)&nbsp;
+        for the lookup.&nbsp; This is recommended as it allows the user to
+        cancel in the middle of a lookup and stops your application appearing to
+        have &quot;hung&quot; in the middle of a long lookup.<br>
+        The afdpc.OUTCODE_SKIP constant can also be added to this if you only
+        require the first result per outcode to be returned from your lookup,
+        this is considered advanced functionality and would not be useful to
+        most users.</p>
+        <p>Next you can examine the return code for any error and then process
+        the results returned.&nbsp; This is the same as for the lookup's and you
+        should refer to the <a class="link_blue" href="#ExaminingResults">Examining Results</a>
+        section for details of how to do this.</p>
+      </blockquote>
+      <p><a name="Constants"></a><span class="parahead">Constants
+      Reference</span></p>
+      <blockquote>
+        <p>The following is a complete list of all the constants found in the
+        afdpc class.</p>
+      <table border="0" width="600" height="863">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="40%" height="15"><span class="fontboldblack">Constant</span></td>
+          <td width="60%" bgcolor="#FFFFCC" height="15"><span class="fontboldblack">Description</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%" height="15" colspan="2"><b>Return
+            Codes:</b></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="28">RETURN_SUCCESS</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="28">The call to
+            GetFirst or GetNext has been successful and no changed postcode or
+            STD Code was found.&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="41">RETURN_CHANGED_POSTCODE</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="41">The call to
+            GetFirst or GetNext has been successful and the Postcode has been
+            changed from that supplied in the lookup or search.&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="41">RETURN_CHANGED_STD</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="41">The call to
+            GetFirst or GetNext has been successful and the STD Code has been
+            changed from that supplied in the lookup or search.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="54">RETURN_CHANGED_POSTCODE_STD</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="54">The call to
+            GetFirst or GetNext has been successful and the Postcode and STD
+            Code has been changed from that supplied in the lookup or search.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="41">RETURN_OUTCODE_ONLY</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="41">The call to
+            GetFirst or GetNext has been successful but a result at Outcode
+            level (first part of the postcode) only has been returned.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="54">RETURN_OUTCODE_BREAK</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="54">The call to
+            GetFirst or GetNext has been successful but no new result has been
+            returned - this is simply a break to allow the user to cancel a
+            potentially long lookup or search.&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="28">RETURN_NOT_FOUND</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="28">No Records
+            were found matching the lookup or search criteria given.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="28">RETURN_ERROR_OPENING_FILES</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="28">Postcode was unable to open it's data files.  Please check the software is installed correctly.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="54">RETURN_END_OF_SEARCH</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="54">This indicates that the lookup or search has completed and there are no further records to return - no new record has been returned by this call.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="28">RETURN_DATA_LICENCE_ERROR</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="28">Postcode was not correctly registered.  Please run the Welcome program to register.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="80">RETURN_MAX_LIMIT_REACHED</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="80">This indicates that more than the maximum allowable (300) records have been returned from a single lookup or search.  This would not happen in the case of a single Postcode lookup and with other lookup's would indicate that the criteria is far too vague to be useful.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="41">RETURN_NO_SEARCH_DATA</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="41">No lookup or search data was specified, i.e. the Lookup property was not set or the Search criteria was all blank.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="65">RETURN_INVALID_LOOKUP_TYPE</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="65"> An invalid lookup type was given, i.e. you did not pass the value afdpc.LOOKUP_MODE or afdpc.SEARCH_MODE to the GetFirst function or if you did it was summed with another value that is invalid.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="100%" height="15" colspan="2"><b>API
+            Options - The required options are summed to pass to the GetFirst
+            Function</b></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="15">LOOKUP_MODE</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="15">This
+            indicates a lookup (e.g. for a Postcode or a general lookup string)
+            is being carried out.&nbsp; The Lookup property must be set to do
+            this.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="15">SEARCH_MODE</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="15">This
+            indicates a search (e.g. for a Postcode or a general lookup string)
+            is being carried out.&nbsp; Search criteria must have been set.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="15">OUTCODE_BREAKS</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="15">This
+            indicates that with lookup's other than for a postcode, the GetFirst function will return afdpc.RETURN_OUTCODE_BREAK (5) when it reaches the end of an outcode (first part of the postcode before the space, e.g. B11)  for the lookup.  This is recommended as it allows the user to cancel in the middle of a lookup and stops your application appearing to have "hung" in the middle of a long lookup.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="40%" height="15">OUTCODE_SKIP</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC" height="15">This can be
+            specified if you only require the first result per outcode to be returned from your lookup, this is considered advanced functionality and would not be useful to most users.</td>
+        </tr>
+      </table>
+      </blockquote>
+      <p><a name="Properties"></a><span class="parahead">Properties
+      Reference</span></p>
+      <blockquote>
+        <p>The following is a complete list of all the properties found in the
+        afdpc class.</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="25%"><span class="fontboldblack">Property</span></td>
+          <td bgcolor="#DFEFFF" nowrap width="25%"><span class="fontboldblack">Type</span></td>
+          <td width="50%" bgcolor="#FFFFCC"><span class="fontboldblack">Description</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Lookup</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">Specifies the Lookup
+            String to use for a lookup.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Postcode</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The postcode to search
+            for / the postcode for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">PostcodeType</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadOnly String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The type of Postcode
+            for the returned address, i.e. Large user (returns LU) or Small User
+            (returns SU).</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Organisation</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The organisation to
+            search for / the organisation for the returned address.&nbsp; Please
+            note that Postcode does not contain Organisation data so this will
+            only be present if an obvious organisation was included in the
+            lookup or search, e.g. 'AFD Software Ltd, IM8 1RF'</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Prop</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The property to search
+            for / the property for the returned address.&nbsp; Please note that
+            Postcode does not contain Property data so this will only be present
+            if additional non-numeric data has been included in the lookup or
+            search, e.g. 'The Bungalow, B11 1AA'.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Street</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The street to search
+            for / the street for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Locality</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The locality to search
+            for / the locality for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Town</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The town to search for
+            / the locality for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">County</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The County to search
+            for / the county for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">CountyOption</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The type of County to
+            use for the search or lookup.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Mailsort</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadOnly String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Mailsort Code for
+            the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">StdCode</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadWrite String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The STD Code to search
+            for / the likely STD Code for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">GridN</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadOnly String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Grid Reference
+            Northing for the returned address - blank for non-Plotter users</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">GridE</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadOnly String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Grid Reference
+            Easting for the returned address - blank for non-Plotter users</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">CensusCode</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadOnly String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Censation Census
+            Code for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">Affluence</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadOnly String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The Affluence
+            Description for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">LifeStage</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadOnly String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">The LifeStage
+            Description for the returned address.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">AdditionalCenusInfo</td>
+          <td valign="top" bgcolor="#DFEFFF" width="25%">ReadOnly String</td>
+          <td width="50%" valign="top" bgcolor="#FFFFCC">Additional Census
+            Information for the returned address.</td>
+        </tr>
+      </table>
+      </blockquote>
+      <p><a name="Function"></a><span class="parahead">Function
+      Reference</span></p>
+      <blockquote>
+        <p>The following is a complete list of all the functions found in the
+        afdpc class.</p>
+      <table border="0" width="600">
+        <tr>
+          <td bgcolor="#DFEFFF" nowrap width="15%"><span class="fontboldblack">Function</span></td>
+          <td bgcolor="#DFEFFF" nowrap width="15%"><span class="fontboldblack">Parameters</span></td>
+          <td bgcolor="#DFEFFF" nowrap width="10%"><span class="fontboldblack">Returns</span></td>
+          <td width="60%" bgcolor="#FFFFCC"><span class="fontboldblack">Description</span></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">New</td>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">-</td>
+          <td valign="top" bgcolor="#DFEFFF" width="10%">-</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC">Default constructor for
+            this class - creates a new instance with all properties initialised
+            to be blank.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">New</td>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">String</td>
+          <td valign="top" bgcolor="#DFEFFF" width="10%">-</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC">Creates a new instance
+            of the class from a stored string representation of a previous
+            instance of the class (use ToString function to retrieve this).</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">ErrorText</td>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">Long</td>
+          <td valign="top" bgcolor="#DFEFFF" width="10%">String</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC">Takes a negative return
+            value of a call to the GetFirst or GetNext function and returns a
+            string representation of the error number.&nbsp; Static in C#.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">ListStr</td>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">-</td>
+          <td valign="top" bgcolor="#DFEFFF" width="10%">String</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC">Returns a formatted
+            string representation of the address optimised for displaying in a
+            list box for end-user display.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">ToString</td>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">-</td>
+          <td valign="top" bgcolor="#DFEFFF" width="10%">String</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC">Returns a string
+            representation of this class, allowing the instance to easily be
+            saved in minimal memory or on disk for later retrieval of the
+            address.&nbsp; Note this does not save the state of any lookup or
+            search in progress.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">GetFirst</td>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">Long</td>
+          <td valign="top" bgcolor="#DFEFFF" width="10%">Long</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC">Takes the type
+            parameter (see API Options under constants for possible
+            values).&nbsp; Providing that the Lookup Property or Search
+            properties (as appropriate) have been set this will return the first
+            result or otherwise an appropriate error number.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">GetNext</td>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">-</td>
+          <td valign="top" bgcolor="#DFEFFF" width="10%">Long</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC">This returns subsequent
+            results following a call to GetFirst.&nbsp; This should be called in
+            a loop until the return value RETURN_END_OF_SEARCH or
+            RETURN_MAX_LIMIT_REACHED is returned indicating the end of the
+            search.</td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">GetChange</td>
+          <td valign="top" bgcolor="#DFEFFF" width="15%">String</td>
+          <td valign="top" bgcolor="#DFEFFF" width="10%">String</td>
+          <td width="60%" valign="top" bgcolor="#FFFFCC">This is incorporated as
+            part of the GetFirst function so is not normally needed to be called
+            on it's own.&nbsp; However if it is it takes a postcode and will
+            return the new postcode if it has changed.&nbsp; It will return a
+            blank string if there is no change to the supplied postcode or it
+            does not exist.</td>
+        </tr>
+      </table>
+      </blockquote>
+      <a name="UtilClass"></a><span class="parahead">The AFD Utility Class (afdutil.vb/afdutil.cs/afdutil.jsl
+      )</span>
+      <ul>
+        <p>Along with the main AFD Postcode class, several utility functions are
+        provided in the afdutil library.&nbsp; These provide a set of simple
+        functions (such as for Capitalisation, Search and Replace, etc.) that
+        are very simple, but can be useful in address management development and
+        mean you don't have to spend time writing such routines yourself.&nbsp;&nbsp;
+        Also provided are grid reference and latitude and longitude conversion
+        routines as well as Map functionality.</p>
+        <p><b>For VB .NET developers:<br>
+        </b>The afdutil.vb class is, by default, located in your c:\postcode\examples\NET\vbnet\util\afdutil.vb
+        where c:\postcode is the folder into which you installed AFD Postcode.&nbsp;
+        If you open afdutil.sln in that folder (or afdutil2002.vbproj for .NET
+        2002 developers) an example of how to use the class is also provided.</p>
+        <p>To use this class in your own application copy it to your source code
+        folder for your project.&nbsp; Then with your project open in Visual
+        Studio .NET, click the Project menu, select Add Existing Item, then
+        double click the afdutil.vb class to add - it is now ready to use in
+        your project.</p>
+        <p><b>For C# .NET developers:<br>
+        </b>The afdutil.cs class is, by default, located in your c:\postcode\examples\NET\csharp\afdutil.cs
+        where c:\postcode is the folder into which you installed AFD Postcode.&nbsp;
+        If you open afdutil.sln in that folder (or afdutil2002.csproj for .NET
+        2002 developers) an example of how to use the class is also provided.</p>
+        <p>To use this class in your own application copy it to your source code
+        folder for your project.&nbsp; Then with your project open in Visual
+        Studio .NET, click the Project menu, select Add Existing Item, then
+        double click the afdutil.cs class to add - it is now ready to use in
+        your project.</p>
+        <p><b>For J# .NET developers:<br>
+        </b>The afdutil.jsl class is, by default, located in your c:\postcode\examples\NET\jsharp\afdutil.jsl
+        where c:\postcode is the folder into which you installed AFD Postcode.&nbsp;
+        If you open afdutil.sln in that folder (or afdutil2002.csproj for .NET
+        2002 developers) an example of how to use the class is also provided.</p>
+        <p>To use this class in your own application copy it to your source code
+        folder for your project.&nbsp; Then with your project open in Visual
+        Studio .NET, click the Project menu, select Add Existing Item, then
+        double click the afdutil.jsl class to add - it is now ready to use in
+        your project.</p>
+      </ul>
+      <p><a name="UtilExamples"></a><span class="parahead">AFD Utility Class
+      Functions by Example</span></p>
+      <blockquote>
+        <p>The examples given for each of these functions assumes that you have
+        already created an instance of the afdutil class called util as follows:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#0000ff">Dim</font>
+                util <font color="#0000ff" size="2">As</font> afdutil<br>
+                util = <font color="#0000ff" size="2">New</font> afdutil</font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2">afdutil
+                util;<br>
+                util = <font color="#0000ff">new</font> afdutil();</font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2">afdutil
+                util;<br>
+                util = <font color="#0000ff">new</font> afdutil();</font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>The functions present in the Utility class are as follows:</p>
+        <p><b>UtilSearchReplace<br>
+        </b>This function takes a string and replaces all occurrences of the
+        Search string from within it to your supplied Replace string.&nbsp;
+        Setting the flags parameter to 1 does a word search and replace rather
+        than a character based search and replace (e.g. with flags = 0 with
+        Search=&quot;is&quot; and Replace=&quot;it&quot;, an occurrence of 'is'
+        in the string would change to 'it' and 'this' would be changed to 'thit'.&nbsp;
+        With flags = 1, and the same search and replace string, the word 'is'
+        would still change to 'it', but the word 'this' would remain unchanged.&nbsp;</p>
+        <p>For example to replace all instances of is with it in the string
+        &quot;this is a test&quot;:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                The string to search</font><br>
+                searchTxt = &quot;This is a test&quot;<br>
+                <font color="#008000">' The text to search for</font><br>
+                searchFor = &quot;is&quot;<br>
+                <font color="#008000">' The text to replace it with</font><br>
+                replaceWith = &quot;it&quot;<br>
+                flags = 0 <font color="#008000">' Set to 1 for whole word
+                replacement only<br>
+                ' Call function to replace text</font><br>
+                util.UtilSearchReplace(searchTxt, searchFor, replaceWith, flags)<br>
+                <font color="#008000">' searchTxt now holds the value &quot;Thit
+                it a test&quot;</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                The string to search</font><br>
+                searchTxt = &quot;This is a test&quot;;<br>
+                <font color="#008000">// The text to search for</font><br>
+                searchFor = &quot;is&quot;;<br>
+                <font color="#008000">// The text to replace it with</font><br>
+                replaceWith = &quot;it&quot;;<br>
+                flags = 0; <font color="#008000">' Set to 1 for whole word
+                replacement only<br>
+                // Call function to replace text</font><br>
+                util.UtilSearchReplace(<font color="#0000ff">ref </font>searchTxt,
+                searchFor, replaceWith, flags);<br>
+                <font color="#008000">// searchTxt now holds the value &quot;Thit
+                it a test&quot;</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                The string to search</font><br>
+                String searchTxt[] = {&quot;This is a test&quot;};<br>
+                <font color="#008000">// The text to search for</font><br>
+                String searchFor = &quot;is&quot;;<br>
+                <font color="#008000">// The text to replace it with</font><br>
+                String replaceWith = &quot;it&quot;;<br>
+                <font color="#0000ff">long</font> flags = 0; <font color="#008000">'
+                Set to 1 for whole word replacement only<br>
+                // Call function to replace text</font><br>
+                util.UtilSearchReplace(searchTxt, searchFor, replaceWith,
+                flags);<br>
+                <font color="#008000">// searchTxt[0] now holds the value &quot;Thit
+                it a test&quot;</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilCapitalise<br>
+        </b>This function takes a string and corrects the capitalisation to that
+        generally used by addresses: ensuring the first letter of each word is
+        upper case and the rest is lower case, taking into account special cases
+        were dashes are used as word separators, PO Box, etc.<br>
+        <br>
+        For example to capitalise the string &quot;this is a test&quot;:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                The string to capitalise</font><br>
+                capitTxt = &quot;This is a test&quot;<br>
+                <font color="#008000">' Call function to capitalise text</font><br>
+                util.UtilCapitalise(capitTxt)<br>
+                <font color="#008000">' capitTxt now holds the value &quot;This
+                Is A Test&quot;</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//</font><font face="Courier New" size="2"><font color="#008000">
+                The string to capitalise</font><br>
+                capitTxt = &quot;This is a test&quot;;<br>
+                <font color="#008000">// Call function to capitalise text</font><br>
+                util.UtilCapitalise(<font color="#0000ff">ref </font>capitTxt);<br>
+                <font color="#008000">// capitTxt now holds the value &quot;This
+                Is A Test&quot;</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//</font><font face="Courier New" size="2"><font color="#008000">
+                The string to capitalise</font><br>
+                String capitTxt[] = {&quot;This is a test&quot;};<br>
+                <font color="#008000">// Call function to capitalise text</font><br>
+                util.UtilCapitalise(capitTxt);<br>
+                <font color="#008000">// capitTxt[0] now holds the value
+                &quot;This Is A Test&quot;</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilCheckPostcode<br>
+        </b>This function takes a string and checks if the end of the string
+        indicates that this is likely to be a postcode.&nbsp; It also separates
+        out the outcode and incode portions of the postcode which if taken
+        together and separated by a space would give a correctly formatted
+        postcode.&nbsp; This is useful for auto lookup functionality when you
+        wish to check if the user has entered a whole postcode.<br>
+        <br>
+        For example to check this with the string &quot;b11aa&quot;:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                The string to check</font><br>
+                pcode = &quot;b11aa&quot;<br>
+                <font color="#008000">' Call function to check if it is a
+                postcode<br>
+                </font>retVal = util.UtilCheckPostcode(pcode, outcode, incode)<br>
+                <font color="#008000">' If it looks like a postcode retVal = 1
+                otherwise retVal = 0<br>
+                ' If retVal = 1 then outcode and incode will contain the portion
+                of the<br>
+                '&nbsp;&nbsp; postcode before and after the space respectively.&nbsp;</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//</font><font face="Courier New" size="2"><font color="#008000">
+                The string to check</font><br>
+                pcode = &quot;b11aa&quot;;<br>
+                <font color="#008000">// Call function to check if it is a
+                postcode<br>
+                </font>retVal = util.UtilCheckPostcode(pcode, <font color="#0000ff">ref
+                </font>outcode, <font color="#0000ff">ref </font>incode);<br>
+                <font color="#008000">// If it looks like a postcode retVal = 1
+                otherwise retVal = 0<br>
+                // If retVal = 1 then outcode and incode will contain the
+                portion of the<br>
+                //&nbsp;&nbsp; postcode before and after the space respectively.&nbsp;</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//</font><font face="Courier New" size="2"><font color="#008000">
+                The string to check</font><br>
+                String pcode = &quot;b11aa&quot;;<br>
+                String outcode[] = {&quot;&quot;};<br>
+                String incode[] = {&quot;&quot;};<br>
+                <font color="#008000">// Call function to check if it is a
+                postcode<br>
+                </font>retVal = util.UtilCheckPostcode(pcode, outcode, incode);<br>
+                <font color="#008000">// If it looks like a postcode retVal = 1
+                otherwise retVal = 0<br>
+                // If retVal = 1 then outcode[0] and incode[0] will contain the
+                portion of<br>
+                //</font></font> <font color="#008000">the postcode before and
+                after the space respectively.&nbsp;</font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilGridDistance<br>
+        </b>This function calculates the linear distance between two grid
+        references.&nbsp; If you supply it with the postcodes it will take
+        account of postcodes which do not have Grid Reference data by using an
+        approximation.&nbsp; Please note these distances are 'As the Crow
+        Flies', and will not be accurate travel distances.<br>
+        <br>
+        For example to find the distance between the postcodes &quot;B1
+        1AA&quot; and &quot;AB10 1AF&quot;:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" color="#008000" size="2">'
+                The postcode and grid references to find the distance from<br>
+                '&nbsp; - Use a postcode lookup in the main class to lookup the
+                grid reference</font><font face="Courier New" size="2"><font color="#008000"><br>
+                </font>pcodeFrom = &quot;B1 1AA&quot;<br>
+                gridEFrom = 40660<br>
+                gridNFrom = 28650<br>
+                pcodeTo = &quot;AB10 1AF&quot;<br>
+                gridETo = 39410<br>
+                gridNTo = 80640<br>
+                <font color="#008000">' Call function to calculate the distance<br>
+                </font><font size="2">km = util.UtilGridDistance(pcodeFrom,
+                fromE, fromN, pcodeTo, toE, toN)<br>
+                </font><font color="#008000">' km will hold the distance in
+                kilometers (see KmToMiles to convert)</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//
+                The postcode and grid references to find the distance from<br>
+                //&nbsp; - Use NNGetPostcode function to lookup the grid
+                reference</font><font face="Courier New" size="2"><font color="#008000"><br>
+                </font>pcodeFrom = &quot;B1 1AA&quot;;<br>
+                gridEFrom = 40660;<br>
+                gridNFrom = 28650;<br>
+                pcodeTo = &quot;AB10 1AF&quot;;<br>
+                gridETo = 39410;<br>
+                gridNTo = 80640;<br>
+                <font color="#008000">// Call function to calculate the distance<br>
+                </font><font size="2">km = util.UtilGridDistance(pcodeFrom,
+                fromE, fromN, pcodeTo, toE, toN);<br>
+                </font><font color="#008000">// km will hold the distance in
+                kilometres (see KmToMiles to convert)</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//
+                The postcode and grid references to find the distance from<br>
+                //&nbsp; - Use NNGetPostcode function to lookup the grid
+                reference</font><font face="Courier New" size="2"><font color="#008000"><br>
+                </font>pcodeFrom = &quot;B1 1AA&quot;;<br>
+                gridEFrom = 40660;<br>
+                gridNFrom = 28650;<br>
+                pcodeTo = &quot;AB10 1AF&quot;;<br>
+                gridETo = 39410;<br>
+                gridNTo = 80640;<br>
+                <font color="#008000">// Call function to calculate the distance<br>
+                </font><font size="2">km = util.UtilGridDistance(pcodeFrom,
+                fromE, fromN, pcodeTo, toE, toN);<br>
+                </font><font color="#008000">// km will hold the distance in
+                kilometres (see KmToMiles to convert)</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilKmToMiles<br>
+        </b>This function converts a distance from kilometres to miles.&nbsp;
+        This is useful if you are using the UtilGridDistance function but want
+        the distance in miles instead of kilometres, if you call this function
+        on the distance GridDistance returns it will convert it for you<br>
+        <br>
+        For example to convert 20 kilometres to miles:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" color="#008000" size="2">'
+                Specify km value to convert to miles or UtilGridDistance return
+                value<br>
+                </font><font face="Courier New" size="2">km = 20<br>
+                <font color="#008000">' Call function to convert the distance<br>
+                </font><font size="2">miles = util.UtilKmToMiles(km)<br>
+                </font><font color="#008000">' miles will hold the distance in
+                miles</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//
+                Specify km value to convert to miles or UtilGridDistance return
+                value<br>
+                </font><font face="Courier New" size="2">km = 20;<br>
+                <font color="#008000">// Call function to convert the distance<br>
+                </font><font size="2">miles = util.UtilKmToMiles(km);<br>
+                </font><font color="#008000">// miles will hold the distance in
+                miles</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//
+                Specify km value to convert to miles or UtilGridDistance return
+                value<br>
+                </font><font face="Courier New" size="2">km = 20;<br>
+                <font color="#008000">// Call function to convert the distance<br>
+                </font><font size="2">miles = util.UtilKmToMiles(km);<br>
+                </font><font color="#008000">// miles will hold the distance in
+                miles</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilMilesToKm<br>
+        </b>This function converts a distance from miles to kilometres.<br>
+        <br>
+        For example to convert 20 miles to kilometres:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" color="#008000" size="2">'
+                Specify miles value to convert to km<br>
+                </font><font face="Courier New" size="2">miles = 20<br>
+                <font color="#008000">' Call function to convert the distance<br>
+                </font>km<font size="2"> = util.UtilMilesToKm(miles)<br>
+                </font><font color="#008000">' km will hold the distance in
+                kilometres</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//
+                Specify miles value to convert to km<br>
+                </font><font face="Courier New" size="2">miles = 20;<br>
+                <font color="#008000">// Call function to convert the distance<br>
+                </font>km<font size="2"> = util.UtilMilesToKm(miles);<br>
+                </font><font color="#008000">// km will hold the distance in
+                kilometres</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//
+                Specify miles value to convert to km<br>
+                </font><font face="Courier New" size="2">miles = 20;<br>
+                <font color="#008000">// Call function to convert the distance<br>
+                </font>km<font size="2"> = util.UtilMilesToKm(miles);<br>
+                </font><font color="#008000">// km will hold the distance in
+                kilometres</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilCleanPostcode<br>
+        </b>This function is useful for avoiding postcode typing errors.&nbsp;
+        It converts outcodes like 1M to IM.&nbsp; You can pass a full postcode
+        or just an outcode to this function.<br>
+        <br>
+        For example to convert 1M8 1RF:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" color="#008000" size="2">'
+                Specify postcode to clean<br>
+                </font><font face="Courier New" size="2">pcode = &quot;1M8
+                1RF&quot;<br>
+                <font color="#008000">' Call function to clean postcode<br>
+                </font>util.UtilCleanPostcode(pcode)<br>
+                <font color="#008000">' pcode now holds the cleaned postcode</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//
+                Specify postcode to clean<br>
+                </font><font face="Courier New" size="2">pcode = &quot;1M8
+                1RF&quot;;<br>
+                <font color="#008000">// Call function to clean postcode<br>
+                </font>util.UtilCleanPostcode(<font color="#0000ff">ref </font>pcode);<br>
+                <font color="#008000">// pcode now holds the cleaned postcode</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//
+                Specify postcode to clean<br>
+                </font><font face="Courier New" size="2">String pcode[] =
+                {&quot;1M8 1RF&quot;};<br>
+                <font color="#008000">// Call function to clean postcode<br>
+                </font>util.UtilCleanPostcode(pcode);<br>
+                <font color="#008000">// pcode[0] now holds the cleaned postcode</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilCleanAddressLine<br>
+        </b>This function is useful for tidying up address lines.&nbsp; It will
+        remove non address characters from an address line (i.e. those that are
+        not alphanumeric, brackets, dash, forward slash, or ampersand), remove
+        double spaces, remove any spaces before a comma, remove leading and
+        trailing spaces, remove garbage at the start/end of lines and remove any
+        comma's after numbers.</p>
+        <p>For example to clean &quot;-20 Old Kent Road,&quot;:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" color="#008000" size="2">'
+                Specify address line to clean<br>
+                </font><font face="Courier New" size="2">addrLine = &quot;-20
+                Old Kent Road,&quot;<br>
+                <font color="#008000">' Call function to clean the address line<br>
+                </font>util.UtilCleanAddressLine(addrLine)<br>
+                <font color="#008000">' addrLine now holds the cleaned line</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//
+                Specify address line to clean<br>
+                </font><font face="Courier New" size="2">addrLine = &quot;-20
+                Old Kent Road,&quot;;<br>
+                <font color="#008000">// Call function to clean the address line<br>
+                </font>util.UtilCleanAddressLine(<font color="#0000ff">ref </font>addrLine);<br>
+                <font color="#008000">// addrLine now holds the cleaned line</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//
+                Specify address line to clean<br>
+                </font><font face="Courier New" size="2">String addrLine[] =
+                {&quot;-20 Old Kent Road,&quot;};<br>
+                <font color="#008000">// Call function to clean the address line<br>
+                </font>util.UtilCleanAddressLine(addrLine);<br>
+                <font color="#008000">// addrLine[0] now holds the cleaned line</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilAbbreviateCounty<br>
+        </b>When passed a county name, this function will return in the county
+        name parameter the postal abbreviation for that county if one exists
+        (otherwise the county name is left intact).</p>
+        <p>For example to obtain the official Royal Mail county abbreviation for
+        &quot;Buckinghamshire&quot;:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" color="#008000" size="2">'
+                Specify county to obtain the abbreviation for<br>
+                </font><font face="Courier New" size="2">county =
+                &quot;Buckinghamshire&quot;<br>
+                <font color="#008000">' <font color="#008000" size="2">Call
+                function to obtain the county abbreviation</font><br>
+                </font><font size="2">retVal = util.UtilAbbreviateCounty(county)<br>
+                <font color="#008000">' retval is 1 if an abbreviation was
+                found, otherwise it is 0</font><br>
+                </font><font color="#008000">' county now holds the abbreviated
+                county or the original county name if<br>
+                '&nbsp; no abbreviation existed</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//
+                Specify county to obtain the abbreviation for<br>
+                </font><font face="Courier New" size="2">county =
+                &quot;Buckinghamshire&quot;;<br>
+                <font color="#008000">// <font color="#008000" size="2">Call
+                function to obtain the county abbreviation</font><br>
+                </font><font size="2">retVal = util.UtilAbbreviateCounty(</font><font color="#0000ff" size="2">ref</font><font size="2">
+                county);<br>
+                <font color="#008000">// retval is 1 if an abbreviation was
+                found, otherwise it is 0</font><br>
+                </font><font color="#008000">// county now holds the abbreviated
+                county or the original county name if<br>
+                //&nbsp; no abbreviation existed</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//
+                Specify county to obtain the abbreviation for<br>
+                </font><font face="Courier New" size="2">String county[] =
+                {&quot;Buckinghamshire&quot;};<br>
+                <font color="#008000">// <font color="#008000" size="2">Call
+                function to obtain the county abbreviation</font><br>
+                </font><font size="2">retVal = util.UtilAbbreviateCounty(
+                county);<br>
+                <font color="#008000">// retval is 1 if an abbreviation was
+                found, otherwise it is 0</font><br>
+                </font><font color="#008000">// county[0] now holds the
+                abbreviated county or the original county name //&nbsp; if no
+                abbreviation existed</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilGetGridReference<br>
+        </b>This function returns an approximation as to the grid reference for
+        the centre of most localities and towns. This is useful for postcodes
+        which do not have grid references available such as those on the Isle of
+        Man and PO Boxes (this are not available for Northern Ireland or the
+        Channel Isles), or for getting an approximate grid reference for a
+        locality/town when you don't know the postcode.</p>
+        <p>You need to pass this function a locality or town (when both are
+        specified locality takes precedence if matched, otherwise town is used).&nbsp;
+        You should also pass to it the start of the postcode (as a minimum the
+        letters at the start of the postcode (e.g. B for Birmingham, BD for
+        Bradford)) for an accurate match (as there are many localities with the
+        same name in different parts of the British Isles you might get the
+        wrong one), although it will work without it.</p>
+        <p>For example to obtain an approximate grid reference for the locality
+        Sparkhill in Birmingham:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Specify locality and/or town and optionally the start of the
+                postcode to&nbsp;<br>
+                '&nbsp;&nbsp; find an approximate grid reference for<br>
+                </font>startPCode = &quot;B&quot;<br>
+                locality = &quot;Sparkhill&quot;<br>
+                town = &quot;Birmingham&quot;<br>
+                <font color="#008000">' Call function to get a grid reference
+                approximation</font><br>
+                retVal = util.UtilGetGridReference(startPCode, locality, town,
+                gridE, gridN)<br>
+                <font color="#008000">' retVal will be 1 if a locality match was
+                successful<br>
+                ' retVal will be 2 if a town match was successful<br>
+                ' retVal will be 0 if no match was found for the locality/town
+                specified<br>
+                ' retVal will be -1 if the map.afd data file was not found<br>
+                ' gridE and gridN will contain the grid reference if retVal was
+                1 or 2</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify locality and/or town and optionally the start of the
+                postcode<br>
+                //&nbsp;&nbsp; to find an approximate grid reference for<br>
+                </font>startPCode = &quot;B&quot;;<br>
+                locality = &quot;Sparkhill&quot;;<br>
+                town = &quot;Birmingham&quot;;<br>
+                <font color="#008000">// Call function to get a grid reference
+                approximation</font><br>
+                retVal = util.UtilGetGridReference(startPCode, locality, town, <font color="#0000ff">ref</font>
+                gridE, <font color="#0000ff">ref</font> gridN);<br>
+                <font color="#008000">// retVal will be 1 if a locality match
+                was successful<br>
+                // retVal will be 2 if a town match was successful<br>
+                // retVal will be 0 if no match was found for the locality/town
+                specified<br>
+                // retVal will be -1 if the map.afd data file was not found<br>
+                // gridE and gridN will contain the grid reference if retVal was
+                1 or 2</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify locality and/or town and optionally the start of the
+                postcode<br>
+                //&nbsp;&nbsp; to find an approximate grid reference for<br>
+                </font>String startPCode = &quot;B&quot;;<br>
+                String locality = &quot;Sparkhill&quot;;<br>
+                String town = &quot;Birmingham&quot;;<br>
+                <font color="#0000ff">long</font> gridE[] = {0};<br>
+                <font color="#0000ff">long</font> gridN[] = {0};<br>
+                <font color="#008000">// Call function to get a grid reference
+                approximation</font><br>
+                retVal = util.UtilGetGridReference(startPCode, locality, town,
+                gridE,&nbsp; gridN);<br>
+                <font color="#008000">// retVal will be 1 if a locality match
+                was successful<br>
+                // retVal will be 2 if a town match was successful<br>
+                // retVal will be 0 if no match was found for the locality/town
+                specified<br>
+                // retVal will be -1 if the map.afd data file was not found<br>
+                // gridE[0] and gridN[0] will contain the grid reference if
+                retVal &gt; 0</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilConvertGB2LatLng<br>
+        </b>When passed a grid reference aligned on the GB Grid this function
+        will convert it to it's equivalent Latitude and Longitude values.&nbsp;
+        See the <a class="link_blue" href="file:///C:/Temp/utilNET/pcp/GridRef.htm">Grid
+        References Appendix</a> for details about the accuracy of this
+        conversion.</p>
+        <p>For example to convert the grid reference with Grid Easting=40774 and
+        Grid Northing=28765 to latitude and longitude values:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Specify grid reference to convert<br>
+                </font>gridE = 40774<br>
+                gridN = 28765<br>
+                <font color="#008000">' Call function to get the latitude and
+                longitude values</font><br>
+                retVal = util.UtilConvertGB2LatLng(gridE, gridN, latitude,
+                longitude, latDirection, latDegrees, latMinutes, latSeconds,
+                longDirection, longDegrees, longMinutes, longSeconds)<br>
+                <font color="#008000">' retVal will be 1 if success, 0 if the
+                grid easting/northing values are<br>
+                '&nbsp; out of range<br>
+                ' latitude and longitude will contain the decimal latitude and
+                longitude<br>
+                '&nbsp; values, returned as a double data type<br>
+                ' latDirection, latDegrees, latMinutes and latSeconds return the
+                degrees<br>
+                '&nbsp; variant of the latitude value - a long except
+                latDirection is a string<br>
+                ' longDirection, longDegrees, longMinutes and longSeconds return
+                the&nbsp;<br>
+                </font></font><font face="Courier New" color="#008000" size="2">'&nbsp;
+                degrees variant of the longitude value</font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify grid reference to convert<br>
+                </font>gridE = 40774;<br>
+                gridN = 28765;<br>
+                <font color="#008000">// Call function to get the latitude and
+                longitude values</font><br>
+                retVal = util.UtilConvertGB2LatLng(gridE, gridN, <font color="#0000ff" size="2">ref
+                </font>latitude,&nbsp;<font color="#0000ff" size="2"><br>
+                ref </font>longitude, <font color="#0000ff" size="2">ref </font>latDirection,
+                <font color="#0000ff" size="2">ref </font>latDegrees, <font color="#0000ff" size="2">ref
+                </font>latMinutes,&nbsp;<font color="#0000ff" size="2"><br>
+                ref </font>latSeconds, <font color="#0000ff" size="2">ref </font>longDirection,
+                <font color="#0000ff" size="2">ref </font>longDegrees, <font color="#0000ff" size="2">ref
+                </font>longMinutes,&nbsp;<font color="#0000ff" size="2"><br>
+                ref </font>longSeconds);<br>
+                <font color="#008000">// retVal will be 1 if success, 0 if the
+                grid easting/northing values are<br>
+                //&nbsp; out of range<br>
+                // latitude and longitude will contain the decimal latitude and
+                longitude<br>
+                //&nbsp; values, returned as a double data type<br>
+                // latDirection, latDegrees, latMinutes and latSeconds return
+                the degrees<br>
+                //&nbsp; variant of the latitude value - a long except
+                latDirection is a string<br>
+                // longDirection, longDegrees, longMinutes and longSeconds
+                return the&nbsp;<br>
+                </font></font><font face="Courier New" color="#008000" size="2">//&nbsp;
+                degrees variant of the longitude value</font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify grid reference to convert<br>
+                </font><font color="#0000ff">long</font> gridE = 40774;<br>
+                <font color="#0000ff">long</font> gridN = 28765;<br>
+                </font><font face="Courier New"><font color="#0000ff" size="2">double</font><font size="2">
+                latitude[] = {0}; </font><font color="#0000ff" size="2">double</font><font size="2">
+                longitude[] = {0};<br>
+                String latDirection[] = {&quot;&quot;}; String longDirection[] =
+                {&quot;&quot;};<br>
+                </font><font color="#0000ff" size="2">long</font><font size="2">
+                latDegrees[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                latMinutes[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                latSeconds[] = {0};<br>
+                </font><font color="#0000ff" size="2">long</font><font size="2">
+                longDegrees[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                longMinutes[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                longSeconds[] = {0};</font></font><font face="Courier New" size="2"><br>
+                <font color="#008000">// Call function to get the latitude and
+                longitude values</font><br>
+                retVal = util.UtilConvertGB2LatLng(gridE, gridN, latitude,&nbsp;longitude,<br>
+                latDirection, latDegrees, latMinutes,&nbsp;latSeconds,
+                longDirection,&nbsp;<br>
+                longDegrees, longMinutes,&nbsp;longSeconds);<br>
+                <font color="#008000">// retVal will be 1 if success, 0 if the
+                grid easting/northing values are<br>
+                //&nbsp; out of range<br>
+                // latitude[0] and longitude[0] will contain the decimal
+                latitude and<br>
+                // longitude values, returned as a double data type<br>
+                // latDirection[0], latDegrees[0], latMinutes[0] and
+                latSeconds[0] return<br>
+                // the degrees variant of the latitude value - a long except<br>
+                // latDirection[0] is a string<br>
+                // longDirection[0], longDegrees[0], longMinutes[0] and
+                longSeconds[0]<br>
+                // return the&nbsp;</font></font><font face="Courier New" color="#008000" size="2">degrees
+                variant of the longitude value</font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilConvertNI2LatLng<br>
+        </b>When passed a grid reference aligned on the NI Grid this function
+        will convert it to it's equivalent Latitude and Longitude values.&nbsp;
+        See the <a class="link_blue" href="file:///C:/Temp/utilNET/pcp/GridRef.htm">Grid
+        References Appendix</a> for details about the accuracy of this
+        conversion.</p>
+        <p>For example to convert the grid reference with Grid Easting=33430 and
+        Grid Northing=37470 to latitude and longitude values:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Specify grid reference to convert<br>
+                </font>gridE = 33430<br>
+                gridN = 37470<br>
+                <font color="#008000">' Call function to get the latitude and
+                longitude values</font><br>
+                retVal = util.UtilConvertNI2LatLng(gridE, gridN, latitude,
+                longitude, latDirection, latDegrees, latMinutes, latSeconds,
+                longDirection, longDegrees, longMinutes, longSeconds)<br>
+                <font color="#008000">' retVal will be 1 if success, 0 if the
+                grid easting/northing values are<br>
+                '&nbsp; out of range<br>
+                ' latitude and longitude will contain the decimal latitude and
+                longitude<br>
+                '&nbsp; values, returned as a double data type<br>
+                ' latDirection, latDegrees, latMinutes and latSeconds return the
+                degrees<br>
+                '&nbsp; variant of the latitude value - a long except
+                latDirection is a string<br>
+                ' longDirection, longDegrees, longMinutes and longSeconds return
+                the&nbsp;<br>
+                </font></font><font face="Courier New" color="#008000" size="2">'&nbsp;
+                degrees variant of the longitude value</font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify grid reference to convert<br>
+                </font>gridE = 33430;<br>
+                gridN = 37470;<br>
+                <font color="#008000">// Call function to get the latitude and
+                longitude values</font><br>
+                retVal = util.UtilConvertNI2LatLng(gridE, gridN, <font color="#0000ff" size="2">ref
+                </font>latitude,&nbsp;<font color="#0000ff" size="2"><br>
+                ref </font>longitude, <font color="#0000ff" size="2">ref </font>latDirection,
+                <font color="#0000ff" size="2">ref </font>latDegrees, <font color="#0000ff" size="2">ref
+                </font>latMinutes,&nbsp;<font color="#0000ff" size="2"><br>
+                ref </font>latSeconds, <font color="#0000ff" size="2">ref </font>longDirection,
+                <font color="#0000ff" size="2">ref </font>longDegrees, <font color="#0000ff" size="2">ref
+                </font>longMinutes,&nbsp;<font color="#0000ff" size="2"><br>
+                ref </font>longSeconds);<br>
+                <font color="#008000">// retVal will be 1 if success, 0 if the
+                grid easting/northing values are<br>
+                //&nbsp; out of range<br>
+                // latitude and longitude will contain the decimal latitude and
+                longitude<br>
+                //&nbsp; values, returned as a double data type<br>
+                // latDirection, latDegrees, latMinutes and latSeconds return
+                the degrees<br>
+                //&nbsp; variant of the latitude value - a long except
+                latDirection is a string<br>
+                // longDirection, longDegrees, longMinutes and longSeconds
+                return the&nbsp;<br>
+                </font></font><font face="Courier New" color="#008000" size="2">//&nbsp;
+                degrees variant of the longitude value</font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify grid reference to convert<br>
+                </font><font color="#0000ff">long</font> gridE = 33430;<br>
+                <font color="#0000ff">long</font> gridN = 37470;<br>
+                </font><font face="Courier New"><font color="#0000ff" size="2">double</font><font size="2">
+                latitude[] = {0}; </font><font color="#0000ff" size="2">double</font><font size="2">
+                longitude[] = {0};<br>
+                String latDirection[] = {&quot;&quot;}; String longDirection[] =
+                {&quot;&quot;};<br>
+                </font><font color="#0000ff" size="2">long</font><font size="2">
+                latDegrees[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                latMinutes[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                latSeconds[] = {0};<br>
+                </font><font color="#0000ff" size="2">long</font><font size="2">
+                longDegrees[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                longMinutes[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                longSeconds[] = {0};</font></font><font face="Courier New" size="2"><br>
+                <font color="#008000">// Call function to get the latitude and
+                longitude values</font><br>
+                retVal = util.UtilConvertNI2LatLng(gridE, gridN, latitude,&nbsp;longitude,<br>
+                latDirection, latDegrees, latMinutes,&nbsp;latSeconds,
+                longDirection,&nbsp;<br>
+                longDegrees, longMinutes,&nbsp;longSeconds);<br>
+                <font color="#008000">// retVal will be 1 if success, 0 if the
+                grid easting/northing values are<br>
+                //&nbsp; out of range<br>
+                // latitude[0] and longitude[0] will contain the decimal
+                latitude and<br>
+                // longitude values, returned as a double data type<br>
+                // latDirection[0], latDegrees[0], latMinutes[0] and
+                latSeconds[0] return<br>
+                // the degrees variant of the latitude value - a long except<br>
+                // latDirection[0] is a string<br>
+                // longDirection[0], longDegrees[0], longMinutes[0] and
+                longSeconds[0]<br>
+                // return the&nbsp;</font></font><font face="Courier New" color="#008000" size="2">
+                degrees variant of the longitude value</font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilConvertGB2NI<br>
+        </b>When passed a grid reference aligned on the GB Grid this function
+        will convert it to it's equivalent values on the Irish Grid.&nbsp;</p>
+        <p>For example to convert the grid reference with Grid Easting=40774 and
+        Grid Northing=28765 to equivalent values on the Irish Grid (note this is
+        for comparison purposes as these values are actually outside the area
+        covered by the Irish Grid):</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Specify grid reference to convert<br>
+                </font>GBGridE = 40774<br>
+                GBGridN = 28765<br>
+                <font color="#008000">' Call function to get the latitude and
+                longitude values</font><br>
+                <font size="2">retVal = util.UtilConvertGB2NI(GBGridE, GBGridN,
+                NIGridE, NIGridN)<br>
+                </font><font color="#008000">' retVal will be 1 if success, 0 if
+                the grid easting/northing values are<br>
+                '&nbsp; out of range<br>
+                ' NIGridE and NIGridN will hold the Northern Irish equivalent
+                grid<br>
+                '&nbsp; reference values as Long's</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify grid reference to convert<br>
+                </font>GBGridE = 40774;<br>
+                GBGridN = 28765;<br>
+                <font color="#008000">// Call function to get the latitude and
+                longitude values</font><br>
+                <font size="2">retVal = util.UtilConvertGB2NI(GBGridE, GBGridN, </font><font color="#0000ff" size="2">ref
+                </font><font size="2">NIGridE,<br>
+                </font><font color="#0000ff" size="2">ref </font><font size="2">NIGridN);<br>
+                </font><font color="#008000">// retVal will be 1 if success, 0
+                if the grid easting/northing values are<br>
+                //&nbsp; out of range<br>
+                // NIGridE and NIGridN will hold the Northern Irish equivalent
+                grid<br>
+                //&nbsp; reference values as Long's</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify grid reference to convert<br>
+                </font><font color="#0000ff">long</font> GBGridE = 40774;<br>
+                <font color="#0000ff">long</font> GBGridN = 28765;<br>
+                <font color="#0000ff">long</font> NIGridE[] = {0};<br>
+                <font color="#0000ff">long</font> NIGridN[] = {0};<br>
+                <font color="#008000">// Call function to get the latitude and
+                longitude values</font><br>
+                <font size="2">retVal = util.UtilConvertGB2NI(GBGridE, GBGridN,
+                NIGridE, NIGridN);<br>
+                </font><font color="#008000">// retVal will be 1 if success, 0
+                if the grid easting/northing values are<br>
+                //&nbsp; out of range<br>
+                // NIGridE[0] and NIGridN[0] will hold the Northern Irish
+                equivalent grid<br>
+                //&nbsp; reference values as Long's</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilConvertNI2GB<br>
+        </b>When passed a grid reference aligned on the NI Grid this function
+        will convert it to it's equivalent values on the British Grid.&nbsp;</p>
+        <p>For example to convert the grid reference with Grid Easting=33430 and
+        Grid Northing=37470 to equivalent values on the British Grid (note this
+        is for comparison purposes as these values are actually outside the area
+        covered by the British Grid):</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Specify grid reference to convert<br>
+                </font>NIGridE = 33430<br>
+                NIGridN = 37470<br>
+                <font color="#008000">' Call function to get the latitude and
+                longitude values</font><br>
+                <font size="2">retVal = util.UtilConvertNI2GB(NIGridE, NIGridN,
+                GBGridE, GBGridN)<br>
+                </font><font color="#008000">' retVal will be 1 if success, 0 if
+                the grid easting/northing values are<br>
+                '&nbsp; out of range<br>
+                ' GBGridE and GBGridN will hold the British equivalent grid
+                reference<br>
+                '&nbsp; values as Long's</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify grid reference to convert<br>
+                </font>NIGridE = 33430;<br>
+                NIGridN = 37470;<br>
+                <font color="#008000">// Call function to get the latitude and
+                longitude values</font><br>
+                <font size="2">retVal = util.UtilConvertNI2GB(NIGridE, NIGridN, </font><font color="#0000ff" size="2">ref
+                </font><font size="2">GBGridE,&nbsp;</font><font color="#0000ff" size="2"><br>
+                ref </font><font size="2">GBGridN);<br>
+                </font><font color="#008000">// retVal will be 1 if success, 0
+                if the grid easting/northing values are<br>
+                //&nbsp; out of range<br>
+                // GBGridE and GBGridN will hold the British equivalent grid
+                reference<br>
+                //&nbsp; values as Long's</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify grid reference to convert<br>
+                </font><font color="#0000ff">long</font> NIGridE = 33430;<br>
+                <font color="#0000ff">long</font> NIGridN = 37470;<br>
+                <font color="#0000ff">long</font> GBGridE[] = {0};<br>
+                <font color="#0000ff">long</font> GBGridN[] = {0};<br>
+                <font color="#008000">// Call function to get the latitude and
+                longitude values</font><br>
+                <font size="2">retVal = util.UtilConvertNI2GB(NIGridE, NIGridN,
+                GBGridE, GBGridN);<br>
+                </font><font color="#008000">// retVal will be 1 if success, 0
+                if the grid easting/northing values are<br>
+                //&nbsp; out of range<br>
+                // GBGridE[0] and GBGridN[0] will hold the British equivalent
+                grid<br>
+                //&nbsp; reference values as Long's</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <blockquote>
+        <p><b>UtilConvertLatLng2GB<br>
+        </b>When passed latitude and longitude values this function will convert
+        it to it's equivalent grid reference aligned on the GB Grid.&nbsp; See
+        the <a class="link_blue" href="file:///C:/Temp/utilNET/pcp/GridRef.htm">Grid
+        References Appendix</a> for details about the accuracy of this
+        conversion.&nbsp;</p>
+        <p>For example to convert the latitude=52.476 and longitude=-1.904
+        values to equivalent grid reference values on the British Grid:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Specify latitude and longitude values to convert<br>
+                </font>latitude = 52.476<br>
+                longitude = -1.904<font color="#008000"><br>
+                ' Call function to get the British Grid reference values<br>
+                </font><font size="2">retVal =
+                util.UtilConvertLatLng2GB(latitude, longitude, gridE, gridN)<br>
+                </font><font color="#008000">' retVal will be 1 if success, 0 if
+                the latitude/longitude values are<br>
+                '&nbsp; out of range<br>
+                ' gridE and gridN will hold the British equivalent grid
+                reference<br>
+                '&nbsp; values as Long's</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify latitude and longitude values to convert<br>
+                </font>latitude = 52.476;<br>
+                longitude = -1.904;<font color="#008000"><br>
+                // Call function to get the British Grid reference values<br>
+                </font><font size="2">retVal =
+                util.UtilConvertLatLng2GB(latitude, longitude, </font><font color="#0000ff" size="2">ref
+                </font><font size="2">gridE,<br>
+                </font><font color="#0000ff" size="2">ref </font><font size="2">gridN);<br>
+                </font><font color="#008000">// retVal will be 1 if success, 0
+                if the latitude/longitude values are<br>
+                //&nbsp; out of range<br>
+                // gridE and gridN will hold the British equivalent grid
+                reference<br>
+                //&nbsp; values as Long's</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify latitude and longitude values to convert<br>
+                </font><font color="#0000ff">double</font> latitude = 52.476;<br>
+                <font color="#0000ff">double </font>longitude = -1.904;<br>
+                <font color="#0000ff">long</font> gridE[] = {0};<font color="#008000"><br>
+                </font><font color="#0000ff">long</font> gridN[] = {0};<font color="#008000"><br>
+                // Call function to get the British Grid reference values<br>
+                </font><font size="2">retVal =
+                util.UtilConvertLatLng2GB(latitude, longitude, gridE, gridN);<br>
+                </font><font color="#008000">// retVal will be 1 if success, 0
+                if the latitude/longitude values are<br>
+                //&nbsp; out of range<br>
+                // gridE[0] and gridN[0] will hold the British equivalent grid
+                reference<br>
+                //&nbsp; values as Long's</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilConvertLatLng2NI<br>
+        </b>When passed latitude and longitude values this function will convert
+        it to it's equivalent grid reference aligned on the Irish Grid.&nbsp;
+        See the <a class="link_blue" href="file:///C:/Temp/utilNET/pcp/GridRef.htm">Grid
+        References Appendix</a> for details about the accuracy of this
+        conversion.&nbsp;</p>
+        <p>For example to convert the latitude=54.602 and longitude=-5.922
+        values to equivalent grid reference values on the Irish Grid:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Specify latitude and longitude values to convert<br>
+                </font>latitude = 54.602<br>
+                longitude = -5.922<font color="#008000"><br>
+                ' Call function to get the Irish Grid reference values<br>
+                </font><font size="2">retVal =
+                util.UtilConvertLatLng2NI(latitude, longitude, gridE, gridN)<br>
+                </font><font color="#008000">' retVal will be 1 if success, 0 if
+                the latitude/longitude values are<br>
+                '&nbsp; out of range<br>
+                ' gridE and gridN will hold the Irish equivalent grid reference<br>
+                '&nbsp; values as Long's</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify latitude and longitude values to convert<br>
+                </font>latitude = 54.602;<br>
+                longitude = -5.922;<font color="#008000"><br>
+                // Call function to get the Irish Grid reference values<br>
+                </font><font size="2">retVal =
+                util.UtilConvertLatLng2NI(latitude, longitude, </font><font color="#0000ff" size="2">ref
+                </font><font size="2">gridE,<br>
+                </font><font color="#0000ff" size="2">ref </font><font size="2">gridN);<br>
+                </font><font color="#008000">// retVal will be 1 if success, 0
+                if the latitude/longitude values are<br>
+                //&nbsp; out of range<br>
+                // gridE and gridN will hold the Irish equivalent grid reference<br>
+                //&nbsp; values as Long's</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify latitude and longitude values to convert<br>
+                </font><font color="#0000ff">double</font> latitude = 54.602;<br>
+                <font color="#0000ff">double</font> longitude = -5.922;<br>
+                <font color="#0000ff">long</font> gridE[] = {0};<font color="#008000"><br>
+                </font><font color="#0000ff">long</font> gridN[] = {0};<font color="#008000"><br>
+                // Call function to get the Irish Grid reference values<br>
+                </font><font size="2">retVal =
+                util.UtilConvertLatLng2NI(latitude, longitude, gridE, gridN);<br>
+                </font><font color="#008000">// retVal will be 1 if success, 0
+                if the latitude/longitude values are<br>
+                //&nbsp; out of range<br>
+                // gridE[0] and gridN[0] will hold the Irish equivalent grid
+                reference<br>
+                //&nbsp; values as Long's</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilConvertDeg2Dec<br>
+        </b>When passed a latitude or longitude value in direction, degrees,
+        minutes and seconds format this function will convert it to it's decimal
+        format.&nbsp; This is useful for converting from a more friendly display
+        of a longitude or latitude value for user input to one that is more
+        useful in computer based calculations and for supplying to other
+        conversion functions.</p>
+        <p>For example to convert the value N 52° 28' 33&quot; to a decimal
+        value:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" color="#008000" size="2">'
+                Specify degrees values to convert</font><font face="Courier New" size="2"><font color="#008000"><br>
+                </font>direction = &quot;N&quot;<br>
+                degrees = 52<br>
+                minutes = 28<br>
+                seconds = 33<font color="#008000"><br>
+                ' Call function to <font color="#008000" size="2">convert
+                degrees values to a decimal value<br>
+                </font></font><font size="2">retVal =
+                util.UtilConvertDeg2Dec(direction, degrees, minutes, seconds,
+                dec)<br>
+                </font><font color="#008000">' retVal will be 1 for success<br>
+                ' dec will hold the decimal equivalent value (as a double)</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify degrees values to convert<br>
+                </font>direction = &quot;N&quot;;<br>
+                degrees = 52;<br>
+                minutes = 28;<br>
+                seconds = 33;<font color="#008000"><br>
+                // Call function to <font color="#008000" size="2">convert
+                degrees values to a decimal value<br>
+                </font></font><font size="2">retVal =
+                util.UtilConvertDeg2Dec(direction, degrees, minutes, seconds,&nbsp;</font><font color="#0000ff" size="2"><br>
+                ref </font><font size="2">dec);<br>
+                </font><font color="#008000">// retVal will be 1 for success<br>
+                // dec will hold the decimal equivalent value (as a double)</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify degrees values to convert<br>
+                </font>String direction = &quot;N&quot;;<br>
+                <font color="#0000ff">long</font> degrees = 52;<br>
+                <font color="#0000ff">long</font> minutes = 28;<br>
+                <font color="#0000ff">long</font> seconds = 33;<br>
+                <font color="#0000ff">double </font>dec[] = {0};<font color="#008000"><br>
+                // Call function to <font color="#008000" size="2">convert
+                degrees values to a decimal value<br>
+                </font></font><font size="2">retVal =
+                util.UtilConvertDeg2Dec(direction, degrees, minutes, seconds,&nbsp;</font><br>
+                <font size="2">dec);<br>
+                </font><font color="#008000">// retVal will be 1 for success<br>
+                // dec[0] will hold the decimal equivalent value (as a double)</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilConvertDec2Deg<br>
+        </b>When passed a decimal latitude or longitude value this function will
+        convert it to it's direction, degrees, minutes and seconds format.&nbsp;
+        This is useful for a more friendly display of a longitude or latitude
+        value.</p>
+        <p>For example to convert the value 54.602 (latitude) to a degrees
+        value:</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2">'
+                Specify if value is latitude (1-latitude, 0-longitude)<br>
+                latitude = 1<br>
+                ' Specify decimal values to convert<font color="#008000"><br>
+                </font>dec = 54.602<font color="#008000"><br>
+                ' Call function to <font color="#008000" size="2">convert
+                degrees values to a decimal value<br>
+                </font></font><font size="2">retVal =
+                util.UtilConvertDec2Deg(latitude, dec, direction, degrees,
+                minutes, seconds)<br>
+                </font><font color="#008000">' retVal will be 1 for success<br>
+                ' direction, degrees, minutes and seconds hold the equivalent
+                values<br>
+                '&nbsp; (all longs except direction which is a string)</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" color="#008000" size="2">//
+                Specify if value is latitude (1-latitude, 0-longitude)<br>
+                </font><font face="Courier New" size="2">latitude = 1;<br>
+                // Specify decimal values to convert<font color="#008000"><br>
+                </font>dec = 54.602;<font color="#008000"><br>
+                // Call function to <font color="#008000" size="2">convert
+                degrees values to a decimal value<br>
+                </font></font><font size="2">retVal =
+                util.UtilConvertDec2Deg(latitude, dec, </font><font color="#0000ff" size="2">ref
+                </font><font size="2">direction,&nbsp;</font><font color="#0000ff" size="2"><br>
+                ref </font><font size="2">degrees, </font><font color="#0000ff" size="2">ref
+                </font><font size="2">minutes, </font><font color="#0000ff" size="2">ref
+                </font><font size="2">seconds);<br>
+                </font><font color="#008000">// retVal will be 1 for success<br>
+                // direction, degrees, minutes and seconds hold the equivalent
+                values<br>
+                //&nbsp; (all longs except direction which is a string)</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" color="#008000" size="2">//
+                Specify if value is latitude (1-latitude, 0-longitude)<br>
+                </font><font face="Courier New" size="2"><font color="#0000ff">long</font>
+                latitude = 1;<br>
+                <font color="#008000">// Specify decimal values to convert<br>
+                </font><font color="#0000ff">double</font> dec = 54.602;<br>
+                String direction[] = {&quot;&quot;};<br>
+                <font color="#0000ff" size="2">long</font><font size="2">
+                degrees[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                minutes[] = {0}; </font><font color="#0000ff" size="2">long</font><font size="2">
+                seconds[] = {0};</font><font color="#008000"><br>
+                // Call function to <font color="#008000" size="2">convert
+                degrees values to a decimal value<br>
+                </font></font><font size="2">retVal =
+                util.UtilConvertDec2Deg(latitude, dec, direction,&nbsp;degrees,<br>
+                minutes, seconds);<br>
+                </font><font color="#008000">// retVal will be 1 for success<br>
+                // direction[0], degrees[0], minutes[0] and seconds[0] hold the
+                equivalent<br>
+                // values (all longs except direction which is a string)</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilDrawMap<br>
+        </b>This function draws the map for specified grid reference values
+        using a device context handle.&nbsp; For example this can be used to
+        draw a map image onto a PictureBox in .NET.&nbsp; The hDC property
+        required to do this can be obtained using the WindowsGetDC function in
+        the afdutil class by passing it the handle property for the PictureBox.&nbsp;
+        You should set the first parameter (NI) to 1 if requiring the Northern
+        Irish map.</p>
+        <p>For example to display a map for grid reference 40660 and 28650 in a
+        PictureBox called picMap: (you can lookup the postcode in the main class
+        to obtain the grid reference)</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Specify if the Northern Irish Map is required</font><br>
+                NI = 0<br>
+                <font color="#008000">' Specify the grid reference</font><br>
+                gridE = 40660<br>
+                gridN = 28650<br>
+                <font color="#008000">' Specify the image width and height</font><br>
+                width = picMap.Width<br>
+                height = picMap.Height<br>
+                </font><font face="Courier New" color="#008000" size="2">'
+                Specify the picture box hDC property</font><br>
+                <font face="Courier New" size="2">hDC =
+                util.WindowsGetDC(picMap.Handle.ToInt32)<br>
+                <font color="#008000">' Call function to draw the map image<font color="#008000" size="2"><br>
+                </font></font><font size="2">retVal = util.UtilDrawMap(NI, gridE,
+                gridN, width, height, hDC)</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Specify if the Northern Irish Map is required</font><br>
+                NI = 0;<br>
+                <font color="#008000">// Specify the grid reference</font><br>
+                gridE = 40660;<br>
+                gridN = 28650;<br>
+                <font color="#008000">// Specify the image width and height</font><br>
+                width = picMap.Width;<br>
+                height = picMap.Height;<br>
+                </font><font face="Courier New" color="#008000" size="2">//
+                Specify the picture box hDC property</font><br>
+                <font face="Courier New" size="2">hDC =
+                util.WindowsGetDC(picMap.Handle.ToInt32);<br>
+                <font color="#008000">// Call function to draw the map image<font color="#008000" size="2"><br>
+                </font></font><font size="2">retVal = util.UtilDrawMap(NI, gridE,
+                gridN, width, height, hDC);</font></font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Specify if the Northern Irish Map is required</font><br>
+                NI = 0;<br>
+                <font color="#008000">// Specify the grid reference</font><br>
+                gridE = 40660;<br>
+                gridN = 28650;<br>
+                <font color="#008000">// Specify the image width and height</font><br>
+                width = picMap.get_Width();<br>
+                height = picMap.get_Height();<br>
+                </font><font face="Courier New" color="#008000" size="2">//
+                Specify the picture box hDC property</font><br>
+                <font face="Courier New" size="2">hDC =
+                util.WindowsGetDC(picMap.get_Handle().ToInt32);<br>
+                <font color="#008000">// Call function to draw the map image<font color="#008000" size="2"><br>
+                </font></font><font size="2">retVal = util.UtilDrawMap(NI, gridE,
+                gridN, width, height, hDC);</font></font></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><b>UtilDrawMapBMP<br>
+        </b>This function saves the map for specified grid reference to a file,
+        this can also be displayed in a picture box by loading the file if
+        desired. You should set the first parameter (NI) to 1 if requiring the
+        Northern Irish map.</p>
+        <p>For example to save a map for grid reference 40660 and 28650 and then
+        display it in a PictureBox called picMap: (you can lookup the postcode
+        in the main class to obtain the grid reference)</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="100%" bgColor="#DFEFFF"><span class="fontboldblack">VB
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#DFEFFF"><font face="Courier New" size="2"><font color="#008000">'
+                Dispose of any existing image in the picture box so we can
+                overwrite<br>
+                '&nbsp;&nbsp; the same file if needed</font><br>
+                <font color="#008000"><font color="#0000ff">If</font> <font color="#0000ff">Not</font>
+                </font>IsNothing(picMap.Image) <font color="#0000ff">Then</font>
+                picMap.Image.Dispose()<br>
+                <font color="#008000">' Specify if the Northern Irish Map is
+                required<br>
+                </font>NI = 0<br>
+                <font color="#008000">' Specify the grid reference</font><br>
+                gridE = 40660<br>
+                gridN = 28650<br>
+                <font color="#008000">' Specify the image width and height</font><br>
+                width = picMap.Width<br>
+                height = picMap.Height<br>
+                </font><font face="Courier New" color="#008000" size="2">'
+                Specify the file to save too<br>
+                </font><font face="Courier New" size="2">outputFile = &quot;c:\temp.bmp&quot;<font color="#008000"><br>
+                ' Call function to save the map image<font color="#008000" size="2"><br>
+                </font></font><font size="2">retVal = util.UtilDrawMapBMP(NI,
+                gridE, gridN, width, height, outputFile)<br>
+                </font><font color="#008000">' <font color="#008000" size="2">Load
+                the image into the picture box for display<br>
+                </font></font>picMap.Image = Image.FromFile(outputFile)</font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#ffffcc"><span class="fontboldblack">C#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#ffffcc"><font face="Courier New" size="2"><font color="#008000">//
+                Dispose of any existing image in the picture box so we can
+                overwrite<br>
+                //&nbsp;&nbsp; the same file if needed</font><br>
+                </font><font face="Courier New"><font color="#0000ff" size="2">if</font><font size="2">
+                (picMap.Image != </font><font color="#0000ff" size="2">null</font><font size="2">)
+                picMap.Image.Dispose();</font></font><font face="Courier New" size="2"><br>
+                <font color="#008000">// Specify if the Northern Irish Map is
+                required</font><br>
+                NI = 0;<br>
+                <font color="#008000">// Specify the grid reference</font><br>
+                gridE = 40660;<br>
+                gridN = 28650;<br>
+                <font color="#008000">// Specify the image width and height</font><br>
+                width = picMap.Width;<br>
+                height = picMap.Height;<br>
+                </font><font face="Courier New" color="#008000" size="2">//
+                Specify the file to save too<br>
+                </font><font face="Courier New" size="2">outputFile = &quot;c:\\temp.bmp&quot;;<font color="#008000"><br>
+                // Call function to save the map image<font color="#008000" size="2"><br>
+                </font></font><font size="2">retVal = util.UtilDrawMapBMP(NI,
+                gridE, gridN, width, height, outputFile);<br>
+                </font><font color="#008000">// <font color="#008000" size="2">Load
+                the image into the picture box for display<br>
+                </font></font>picMap.Image = Image.FromFile(outputFile);</font></td>
+            </tr>
+            <tr>
+              <td width="100%" bgColor="#bbffd8"><span class="fontboldblack">J#
+                .NET</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="100%" bgColor="#bbffd8"><font face="Courier New" size="2"><font color="#008000">//
+                Dispose of any existing image in the picture box so we can
+                overwrite<br>
+                //&nbsp;&nbsp; the same file if needed</font><br>
+                </font><font face="Courier New"><font color="#0000ff" size="2">if</font><font size="2">
+                (picMap.get_Image() != </font><font color="#0000ff" size="2">null</font><font size="2">)
+                picMap.get_Image().Dispose();</font></font><font face="Courier New" size="2"><br>
+                <font color="#008000">// Specify if the Northern Irish Map is
+                required</font><br>
+                NI = 0;<br>
+                <font color="#008000">// Specify the grid reference</font><br>
+                gridE = 40660;<br>
+                gridN = 28650;<br>
+                <font color="#008000">// Specify the image width and height</font><br>
+                width = picMap.Width;<br>
+                height = picMap.Height;<br>
+                </font><font face="Courier New" color="#008000" size="2">//
+                Specify the file to save too<br>
+                </font><font face="Courier New" size="2">outputFile = &quot;c:\\temp.bmp&quot;;<font color="#008000"><br>
+                // Call function to save the map image<font color="#008000" size="2"><br>
+                </font></font><font size="2">retVal = util.UtilDrawMapBMP(NI,
+                gridE, gridN, width, height, outputFile);<br>
+                </font><font color="#008000">// <font color="#008000" size="2">Load
+                the image into the picture box for display<br>
+                </font></font>picMap.set_Image( Image.FromFile(outputFile));</font></td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <p><a name="UtilFunction"></a><span class="parahead">AFD Utility Class
+      Function Reference</span></p>
+      <blockquote>
+        <p>The following is a complete list of all the functions found in the
+        afdutil class.</p>
+        <table width="600" border="0">
+          <tbody>
+            <tr>
+              <td noWrap width="126" bgColor="#DFEFFF"><span class="fontboldblack">Function</span></td>
+              <td noWrap width="81" bgColor="#DFEFFF"><span class="fontboldblack">Parameters</span></td>
+              <td noWrap width="55" bgColor="#DFEFFF"><span class="fontboldblack">Returns</span></td>
+              <td width="312" bgColor="#ffffcc"><span class="fontboldblack">Description</span></td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilSearchReplace</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">ref String,<br>
+                String, String, Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">-</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a string,
+                text to search the string for, and text to replace each instance
+                of the text searched with.&nbsp; The final parameter indicates
+                if whole words only should be replaced (set to 1 if so,
+                otherwise set to 0).</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilCapitalise</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">ref String</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">-</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a string and
+                corrects the capitalisation to that generally used by addresses.&nbsp;</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilCheckPostcode</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">String,&nbsp;<br>
+                ref String,&nbsp;<br>
+                ref String</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a postcode to
+                check as the first parameter and returns in the second and third
+                parameters the outcode and incode portions of the postcode (part
+                before and after the space) if the string specified looks like a
+                postcode.&nbsp; The function returns 0 if it was not supplied
+                something that looks like it could be a postcode or 1 if it does
+                look like it has.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilGridDistance</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">String, String,
+                String, String, String, String</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This function takes
+                the postcode to find the distance from along with it's grid
+                easting and northing values as strings (use main class to lookup
+                these), along with the postcode to find the distance to along
+                with it's grid easting and northing values as strings.&nbsp; It
+                returns the distance between the two points in kilometres.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilKmToMiles</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This function takes
+                a distance in Kilometres and returns the distance converted into
+                Miles.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilMilesToKm</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This function takes
+                a distance in Miles and returns the distance converted into
+                Kilometres.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilCleanPostcode</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">ref String</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">-</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a string
+                representing a postcode and converts outcode errors such as 1M
+                to IM.&nbsp;</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilCleanAddressLine</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">ref String</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">-</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a string
+                containing an address line to clean and removes things such as
+                non-address characters, double spaces, garbage at the start/end
+                of lines etc.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilAbbreviateCounty</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">ref String</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a county name
+                as as string and replaces it with the valid Royal Mail
+                abbreviation for that county name if one exists (otherwise it is
+                left intact).&nbsp; Return value is 1 if an abbreviation was
+                found, otherwise it is 0.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilGetGridReference</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">String, String,
+                String,&nbsp;<br>
+                ref Long,&nbsp;<br>
+                ref Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This function takes
+                a locality, town and the letters at the start of the postcode
+                and returns an approximation for the Grid Easting and Grid
+                Northing for that location.&nbsp; Only one of either the
+                locality or town needs to be specified, if they are both
+                specified the locality will be used in preference to the town
+                but if it cannot be found the town will be used instead.&nbsp;
+                The start of the postcode can be left blank but if specified
+                helps ensure a spurious match (e.g. locality with same name in a
+                different area) isn't returned.<br>
+                Returns: 1 if the locality it matched successfully,<br>
+                2 if the town is matched successfully,<br>
+                0 if no match is found<br>
+                -1 if the Map data was not found</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilConvertGB2LatLng</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long, Long, Double,
+                Double, ref String, ref Long, ref Long, ref Long, ref String,
+                ref Long, ref Long, ref Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This function takes
+                a grid reference on the UK grid and returns the latitude and
+                longitude values for it.&nbsp; These are both returned in
+                decimal and degrees format.&nbsp; The 3rd and 4th parameters
+                return them in decimal format as double values.&nbsp; The
+                latitude and longitude values are then also returned as the
+                direction (N,E,S,W), degrees, minutes and seconds values
+                respectively.&nbsp; The return value is 1 if successful, 0 if
+                the supplied grid easting/northing values were out of range.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilConvertNI2LatLng</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long, Long, Double,
+                Double, ref String, ref Long, ref Long, ref Long, ref String,
+                ref Long, ref Long, ref Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This function takes
+                a grid reference on the Irish grid and returns the latitude and
+                longitude values for it.&nbsp; These are both returned in
+                decimal and degrees format.&nbsp; The 3rd and 4th parameters
+                return them in decimal format as double values.&nbsp; The
+                latitude and longitude values are then also returned as the
+                direction (N,E,S,W), degrees, minutes and seconds values
+                respectively.&nbsp; The return value is 1 if successful, 0 if
+                the supplied Grid Easting/Northing values were out of range.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilConvertGB2NI</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long, Long,<br>
+                ref Long,&nbsp;<br>
+                ref Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This takes a grid
+                easting and northing value on the British Grid and supplies
+                these converted into a grid easting and grid northing value on
+                the Irish grid in the 3rd and 4th parameters.&nbsp; The function
+                returns 1 if successful, 0 if the grid easting/northing values
+                supplied were out of range.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilConvertNI2GB</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long, Long,<br>
+                ref Long,&nbsp;<br>
+                ref Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This takes a grid
+                easting and northing value on the Irish Grid and supplies these
+                converted into a grid easting and grid northing value on the
+                British grid in the 3rd and 4th parameters.&nbsp; The function
+                returns 1 if successful, 0 if the grid easting/northing values
+                supplied were out of range.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilConvertLatLng2GB</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Double, Double,<br>
+                ref Long,<br>
+                ref Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a latitude
+                and longitude value and supplies the equivalent&nbsp; grid
+                easting and northing value on the British grid.&nbsp;&nbsp;
+                Returns 1 if successful, 0 if the latitude and longitude values
+                are out of range.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilConvertLatLng2NI</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">double, double,<br>
+                ref Long,<br>
+                ref Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a latitude
+                and longitude value and supplies the equivalent&nbsp; grid
+                easting and northing value on the Irish grid.&nbsp;&nbsp;
+                Returns 1 if successful, 0 if the latitude and longitude values
+                are out of range.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilConvertDeg2Dec</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">String, Long, Long,
+                Long, ref Double</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Takes a direction (N,E,S,W),
+                degrees, minutes and seconds representation of a latitude or
+                longitude value and supplies the same value in decimal
+                representation.&nbsp; Returns 1 for success.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilConvertDec2Deg</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long, Double, ref
+                String,<br>
+                ref Long,<br>
+                ref Long,<br>
+                ref Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Converts a decimal
+                representation of a latitude or longitude value to a degrees
+                representation.&nbsp; The first parameter is an indicator as to
+                if the value is latitude (set to 1) or longitude (set to 0).&nbsp;
+                The next parameter specifies the latitude or longitude value to
+                convert.&nbsp; It then supplies the direction, degrees, minutes
+                and seconds in the rest of the functions parameters.&nbsp; The
+                function returns 1 for success.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilDrawMap</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long, Long, Long,
+                Long, Long, Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Draws a map image
+                using a device context handle.&nbsp; The first parameter
+                indicates if a Northern Ireland map image is required (1 if it
+                is, otherwise set to 0).&nbsp; The next two parameters are the
+                grid easting and northing values to display (on the British
+                grid).&nbsp; The next two parameters specify the image width and
+                height of the image to return.&nbsp; The final parameter is the
+                device context handle (use WindowsGetDC to get that handle from
+                a window handle of a picture box). Returns 1 if success, -1 if
+                the map data was not found.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">UtilDrawMapBMP</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long, Long, Long,
+                Long, Long, String</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">Saves a map image
+                as a bitmap file to disk.&nbsp; The first parameter indicates if
+                a Northern Ireland map image is required (1 if it is, otherwise
+                set to 0).&nbsp; The next two parameters are the grid easting
+                and northing values to display (on the British grid).&nbsp; The
+                next two parameters specify the image width and height of the
+                image to save.&nbsp; The final parameter is the file name to use
+                to save the image. Returns 1 if success, -1 if the map data was
+                not found.</td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="126" bgColor="#DFEFFF">WindowsGetDC</td>
+              <td vAlign="top" width="81" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="55" bgColor="#DFEFFF">Long</td>
+              <td vAlign="top" width="312" bgColor="#ffffcc">This function is
+                the Windows API GetDC function which returns the device context
+                handle associated with the window handle passed to it.&nbsp; For
+                example calling WindowsGetDC(picMap.Handle) would return the hDC
+                property needed by the UtilDrawMap function for a picture box
+                called picMap.</td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <p><BR>
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+</div>
+
+
+<div id="L5" style="position: absolute; left: 733px; top: 70px;">
+<input type="hidden" id="OP5" value="733">
+<img src="images\float_panel_bg_white_main.png" />
+</div>
+
+
+
+<div id="L6" style="position: absolute; left: 739px; top: 75px;">
+<input type="hidden" id="OP6" value="739">
+<img src="images\button_phone.png" alt="Any Questions? Call now on 01624 811711" title="Any Questions? Call now on 01624 811711" />
+</div>
+<div id="L7" style="position: absolute; left: 739px; top: 150px;">
+<input type="hidden" id="OP7" value="739">
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_blue_top.png" class="mod_header">
+&nbsp;<strong>
+Manual Contents
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="contents.htm"  alt=" Introduction & Installation " Title=" Introduction & Installation ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Introduction & Installation 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Overview.htm"  alt=" Overview " Title=" Overview ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Overview 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="FindBox.htm"  alt=" Find Box & Lookup " Title=" Find Box & Lookup ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Find Box & Lookup 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resfrm.htm"  alt=" Results List " Title=" Results List ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results List 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="srchfrm.htm"  alt=" Search Tab " Title=" Search Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Search Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resTab.htm"  alt=" Results Tab " Title=" Results Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="morefrm.htm"  alt=" More Tab " Title=" More Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ More Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="labfrm.htm"  alt=" Label Tab " Title=" Label Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Label Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="mapfrm.htm"  alt=" Map Tab " Title=" Map Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Map Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="nearfrm.htm"  alt=" Nearest Tab " Title=" Nearest Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Nearest Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censfrm.htm"  alt=" Censation Tab " Title=" Censation Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Censation Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="robotfrm.htm"  alt=" Postcode Robot " Title=" Postcode Robot ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode Robot 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlivedbl">
+<nobr>
+<a href="transfrm.htm"  alt=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses " Title=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="compfrm.htm"  alt=" Compact View " Title=" Compact View ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Compact View 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="otherfrm.htm"  alt=" Other Features " Title=" Other Features ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Features 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="pcdos.htm"  alt=" Postcode for DOS " Title=" Postcode for DOS ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode for DOS 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="api.htm"  alt=" Programming with Postcode " Title=" Programming with Postcode ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Programming with Postcode 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_green_top.png" class="mod_header">
+&nbsp;<strong>
+Appendix
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Commands.htm"  alt=" A - Command Line Options " Title=" A - Command Line Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A - Command Line Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Shortcut.htm"  alt=" B - Keyboard Shortcuts " Title=" B - Keyboard Shortcuts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ B - Keyboard Shortcuts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="GridRef.htm"  alt=" C - Grid References " Title=" C - Grid References ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ C - Grid References 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="eula.htm"  alt=" D - End User License Agreement " Title=" D - End User License Agreement ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ D - End User License Agreement 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="http://www.afd.co.uk/rereg/"  alt=" E - Re-Registration Form " Title=" E - Re-Registration Form ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ E - Re-Registration Form 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="counties.htm"  alt=" F - County Options " Title=" F - County Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ F - County Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censDesc.htm"  alt=" G - Censation Additional Info " Title=" G - Censation Additional Info ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ G - Censation Additional Info 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censCode.htm"  alt=" H - Censation Detailed Tables " Title=" H - Censation Detailed Tables ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ H - Censation Detailed Tables 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censBar.htm"  alt=" I - Censation Bar Charts " Title=" I - Censation Bar Charts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ I - Censation Bar Charts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censGlos.htm"  alt=" J - Censation Glossary " Title=" J - Censation Glossary ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ J - Censation Glossary 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Occupcy.htm"  alt=" K - Occupancy & Address Types " Title=" K - Occupancy & Address Types ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ K - Occupancy & Address Types 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="royalmailterms.htm"  alt=" L - Royal Mail Terms " Title=" L - Royal Mail Terms ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ L - Royal Mail Terms 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+</div>
+
+
+</div>
+ 
+<div style="position: absolute; left: 0px; width: 100%; height: 120; visibility: hidden;" name="footer" id="footer" class="footertext">
+<table width="100%" background="images\footer_bg.png">
+<tr>
+<td align="center" valign="top">
+<table width="940">
+<tr>
+<td width="420" align="left" valign="top" class="footertext">
+<a class="footertext" href="http://www.afd.co.uk/home.htm">'AFD'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_bankfinder.htm">'AFD BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_bankfinder.htm">'AFD POCKET BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/censation.htm">'CENSATION'</a>,
+'DATA EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_mailsaver.htm">'AFD MAILSAVER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_namesandnumbers.htm">'AFD NAMES &amp; NUMBERS'</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_namesandnumbers.htm">'POCKET NAMES &amp; NUMBERS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'AFD POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_postcode.htm">'POCKET POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode_everywhere.htm">'POSTCODE-EVERYWHERE&#8217;</a>,
+'POSTCODE EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_refiner.htm">'AFD REFINER&#8217;</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'ROBOT'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_tracemaster.htm">'TRACEMASTER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_worldaddress.htm">'AFD WORLD ADDRESS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_zipaddress.htm">'ZIPADDRESS'</a>,
+'POCKET ZIPADDRESS', 'Simply Beautiful',
+the AFD WorldAddress and the Flying Envelope devices are Registered Trade Marks of ZipAddress Ltd. 'ROBOT' Technology is protected by Patent No GB2369699.
+All other trade marks acknowledged.
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" align="left" class="footertext">
+AFD Products are subject to a <a href="http://www.afd.co.uk/eula.htm" target="_blank" class="footertext">License Agreement</a> and include a data license for one computer, renewable annually. AFD Software Limited. Registered in the Isle of Man No: 087072C Registered Office: Mountain View Innovation Centre, Jurby Road, Lezayre, Ramsey, ISLE OF MAN, IM7 2DZ
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td width="120" valign="top" align="left" class="footertext">
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Computers and</a>
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Software Ltd</a>. All rights reserved.<br />
+<a class="footertext" href="http://www.afd.co.uk/terms.htm">AFD Terms &amp; Conditions</a><br />
+<a class="footertext" href="http://www.afd.co.uk/privacy.htm">AFD Privacy Policy</a>
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" class="footertext">
+<img src="/images/logo_FQM.gif" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>

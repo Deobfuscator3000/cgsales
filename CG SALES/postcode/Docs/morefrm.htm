@@ -1,0 +1,793 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="all, index, follow">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="General">
+	<meta name="copyright" content="2010 www.afd.co.uk">
+	<meta name="resource-type" content="document">
+	<meta name="revisit-after" content="1 days">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="private">
+	<meta http-equiv="cache-control" content="private">
+	<meta name="google-site-verification" content="aa8G154H89HoFpgt6FUreK14DQ96y_fGMhP-CGMVGxg" />
+
+
+
+	<META NAME="Description" CONTENT="AFD address list management systems use Electoral Roll, Royal Mail Postcode Address File (PAF) and commercial databases to provide quick address entry, address verification, postcode search, list cleaning and geodemographics for all PC systems, Unix, TCP/IP, the Internet, Web and Intranet. UK and Worldwide.">
+	<META NAME="Keywords" CONTENT="address management, postcode, postcode search, postcode finder, postcoding software, paf, postcode address file, postcoding, postcodes, address, addresses, address finder, royal mail, post office, uk address, uk address search, uk address finder, uk postcode, uk postcode search, grid reference, geocode, geodemographic, address capture, postcode web service, address web service, mailsort, presstream, barcode, zipcode, zipcodes, delivery point suffix, dps, internet, intranet, postcodeing">
+
+	<title>AFD Products: Postcode Manual</title>	
+
+	<base target="_top">
+
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/AFDicon.png">
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="css/start/jquery-ui-1.8.4.custom.css" rel="stylesheet" />	
+
+</head>
+
+<body class="mainbody" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div id='wrapper' style="  text-align: left;  width: 950px;  margin-left: auto;  margin-right: auto;  margin:0px auto;  position: relative; ">
+
+
+<div id="L1" style="position: absolute; left: 22px; top: 16px;">
+    <input type="hidden" id="OP1" value="22">
+    
+    
+    <a href="http://www.afd.co.uk">
+		<h1 class="h1Logo">
+			AFD Software. Address, Postcode and Bank solutions.
+		</h1>
+    </a>
+    
+    <!--
+    <a href="http://www.afd.co.uk/">
+        <img src="images\logo_AFD_main_new.png" 
+        alt="AFD Software - Address Management Solutions" 
+        Title="AFD Software - Address Management Solutions" 
+        width="350" height="99" border="0" />
+    </a>
+    -->
+    
+</div>
+
+
+<div id="L3" style="position: absolute; left: 380px; top: 36px;">
+<input type="hidden" id="OP3" value="380">
+<!-- <span class="Title_White">- Postcode Manual</span> -->
+</div>
+
+
+<div id="L4" style="position: absolute; left: 20px; top: 156px; width: 700px;">
+<input type="hidden" id="OP4" value="20">
+
+<title>AFD Postcode Manual: More Tab</title>
+
+
+
+
+<p class="Title_Blue">MORE TAB</p>
+      <p class="fontboldblack"><a name="MoreTab"></a><span class="parahead">Using
+          the More Tab</span></p>
+      <ul>
+        <p>This tab is used to display the additional
+        information provided by Postcode. It can be selected by clicking the tab -
+          or use the [Alt]+3 keyboard shortcut.</p>
+      </ul>
+      <p align="center"><img src="images\pcMain11.gif" alt="The More Tab" width="451" height="454"></p>
+      <blockquote>
+      <p>These fields contain the following data: </p>
+        <table border="0" width="100%">
+          <tr>
+            <td width="171"><b>Field</b></td>
+            <td width="904"><b>Meaning</b></td>
+          </tr>
+          <tr>
+            <td width="171" valign="top">Mailsort Code</td>
+            <td width="904">The code is assigned by Royal Mail and used to sort
+              mail for discounts.</td>
+          </tr>
+          <tr>
+            <td width="171" valign="top">Postcode Type</td>
+            <td width="904">Indicates if this is a large or small user
+              postcode.&nbsp; A large user postcode always contains a single
+              organisation, a small user postcode is normally shared between a
+              number of organisations and/or residential properties.</td>
+          </tr>
+          <tr>
+            <td width="171" valign="top">Grid East and North</td>
+            <td width="904">A grid reference relating to the location
+              of the postcode on the National Grid, or the Irish Grid for
+              postcodes in Northern Ireland (starting BT).&nbsp; Please refer to <a class="link_blue" href="gridref.htm">Appendix
+              C</a> for more information regarding Grid References in Postcode.</td>
+          </tr>
+          <tr>
+            <td width="171" valign="top">STD Code</td>
+            <td width="904">An indication of the STD Code for the location that
+              this postcode is in.&nbsp; Please note that STD Code boundaries do
+              not follow address areas exactly and often multiple codes are
+              found in the same area.&nbsp; Hence this is only an indication of
+              the possible STD Code.</td>
+          </tr>
+          <tr>
+            <td width="171" valign="top">Latitude and Longitude</td>
+            <td width="904">The corresponding latitude and longitude values for
+              the given Grid Easting and Northing for this postcode.&nbsp; These
+              are based on the WGS84 standard.</td>
+          </tr>
+          <tr>
+            <td width="171" valign="top">Occupancy</td>
+            <td width="904">This gives an indication of the type of occupants of
+              properties found on the selected postcode.&nbsp; The possible values for this are as
+              follows:
+              <ul>
+                <li>Large User Organisation (Single Organisation on this
+                  postcode)</li>
+                <li>Small User Organisation (All the properties on this postcode
+                  are likely to be businesses)</li>
+                <li>Mostly Organisations (Most of the properties on this
+                  postcode are organisations)</li>
+                <li>Mixed (This postcode contains a mixture of business and residential
+                  addresses)</li>
+                <li>Mostly Residential (Most of the properties on this postcode
+                  are residential)</li>
+                <li>Residential (All the properties on this postcode are likely
+                  to be residential).</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td width="171" valign="top">Address Type</td>
+            <td width="904">This gives an indication of the type of property
+              level data you will need to capture to have the full address for
+              properties on the selected postcode.&nbsp; The possible values for this are as
+              follows:
+              <ul>
+                <li>Numbered (Only a property number needs to be captured)</li>
+                <li>Numbered and Named (This postcode contains a mixture of
+                  properties needing a property number and those needing a
+                  property name (including properties such as 16b)</li>
+                <li>Numbered and Named, Likelihood of Multiple Occupancy (This
+                  postcode contains a mixture of properties needing a property
+                  number and those needing a property name.&nbsp; Some of the
+                  properties on this postcode are likely to contain multiple
+                  occupants, e.g. flats).</li>
+                <li>Named (This postcode only contains properties needing a
+                  property name).</li>
+                <li>Non-Standard Address Format (This refers to addresses which
+                  do not have a street field at all, or have multiple street
+                  names on the same postcode.&nbsp; This also includes addresses
+                  with numbered localities (no street but a house number which
+                  goes in with the locality field).&nbsp; It is in-effect a
+                  warning to be careful in capturing the property information as
+                  it is not in one of the most common address formats).</li>
+                <li>PO Box (This postcode has a PO Box number)</li>
+                <li>No Property Information (Addresses on this postcode have no property
+                  information - i.e. capture an Organisation or Resident name
+                  only)</li>
+              </ul>
+              <p>Please refer to <a class="link_blue" href="occupcy.htm">Appendix K</a> for more
+              information regarding the Occupancy and Address Type indicators in
+              Postcode.
+            </td>
+          </tr>
+        </table>
+      </blockquote>
+      <p class="fontboldblack"><a name="DragDrop"></a><span class="parahead">Drag &amp; Drop</span></p>
+      <ul>
+        <p>You can drag
+            text from the individual fields of the More Tab and drop it into
+            other Windows programs - like Microsoft Word.</span></p>
+      </ul>
+      <ul>
+        <p>Hold down one of the [Shift] keys (usually
+            marked with a hollow arrow pointing upwards). Then click and hold
+            down the left mouse button on the field you wish to move (drag) text
+            FROM - the cursor will turn into a dragging icon.&nbsp; Now move
+            to the program you wish to place the text in (keeping the mouse button
+            down). Finally, release the mouse button to drop the text in the
+            new field.</span></p>
+    </ul>
+
+</div>
+
+
+<div id="L5" style="position: absolute; left: 733px; top: 70px;">
+<input type="hidden" id="OP5" value="733">
+<img src="images\float_panel_bg_white_main.png" />
+</div>
+
+
+
+<div id="L6" style="position: absolute; left: 739px; top: 75px;">
+<input type="hidden" id="OP6" value="739">
+<img src="images\button_phone.png" alt="Any Questions? Call now on 01624 811711" title="Any Questions? Call now on 01624 811711" />
+</div>
+<div id="L7" style="position: absolute; left: 739px; top: 150px;">
+<input type="hidden" id="OP7" value="739">
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_blue_top.png" class="mod_header">
+&nbsp;<strong>
+Manual Contents
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="contents.htm"  alt=" Introduction & Installation " Title=" Introduction & Installation ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Introduction & Installation 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Overview.htm"  alt=" Overview " Title=" Overview ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Overview 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="FindBox.htm"  alt=" Find Box & Lookup " Title=" Find Box & Lookup ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Find Box & Lookup 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resfrm.htm"  alt=" Results List " Title=" Results List ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results List 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="srchfrm.htm"  alt=" Search Tab " Title=" Search Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Search Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resTab.htm"  alt=" Results Tab " Title=" Results Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="morefrm.htm"  alt=" More Tab " Title=" More Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ More Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="labfrm.htm"  alt=" Label Tab " Title=" Label Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Label Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="mapfrm.htm"  alt=" Map Tab " Title=" Map Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Map Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="nearfrm.htm"  alt=" Nearest Tab " Title=" Nearest Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Nearest Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censfrm.htm"  alt=" Censation Tab " Title=" Censation Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Censation Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="robotfrm.htm"  alt=" Postcode Robot " Title=" Postcode Robot ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode Robot 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlivedbl">
+<nobr>
+<a href="transfrm.htm"  alt=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses " Title=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="compfrm.htm"  alt=" Compact View " Title=" Compact View ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Compact View 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="otherfrm.htm"  alt=" Other Features " Title=" Other Features ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Features 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="pcdos.htm"  alt=" Postcode for DOS " Title=" Postcode for DOS ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode for DOS 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="api.htm"  alt=" Programming with Postcode " Title=" Programming with Postcode ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Programming with Postcode 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_green_top.png" class="mod_header">
+&nbsp;<strong>
+Appendix
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Commands.htm"  alt=" A - Command Line Options " Title=" A - Command Line Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A - Command Line Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Shortcut.htm"  alt=" B - Keyboard Shortcuts " Title=" B - Keyboard Shortcuts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ B - Keyboard Shortcuts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="GridRef.htm"  alt=" C - Grid References " Title=" C - Grid References ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ C - Grid References 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="eula.htm"  alt=" D - End User License Agreement " Title=" D - End User License Agreement ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ D - End User License Agreement 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="http://www.afd.co.uk/rereg/"  alt=" E - Re-Registration Form " Title=" E - Re-Registration Form ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ E - Re-Registration Form 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="counties.htm"  alt=" F - County Options " Title=" F - County Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ F - County Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censDesc.htm"  alt=" G - Censation Additional Info " Title=" G - Censation Additional Info ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ G - Censation Additional Info 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censCode.htm"  alt=" H - Censation Detailed Tables " Title=" H - Censation Detailed Tables ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ H - Censation Detailed Tables 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censBar.htm"  alt=" I - Censation Bar Charts " Title=" I - Censation Bar Charts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ I - Censation Bar Charts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censGlos.htm"  alt=" J - Censation Glossary " Title=" J - Censation Glossary ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ J - Censation Glossary 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Occupcy.htm"  alt=" K - Occupancy & Address Types " Title=" K - Occupancy & Address Types ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ K - Occupancy & Address Types 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="royalmailterms.htm"  alt=" L - Royal Mail Terms " Title=" L - Royal Mail Terms ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ L - Royal Mail Terms 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+</div>
+
+
+</div>
+ 
+<div style="position: absolute; left: 0px; width: 100%; height: 120; visibility: hidden;" name="footer" id="footer" class="footertext">
+<table width="100%" background="images\footer_bg.png">
+<tr>
+<td align="center" valign="top">
+<table width="940">
+<tr>
+<td width="420" align="left" valign="top" class="footertext">
+<a class="footertext" href="http://www.afd.co.uk/home.htm">'AFD'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_bankfinder.htm">'AFD BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_bankfinder.htm">'AFD POCKET BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/censation.htm">'CENSATION'</a>,
+'DATA EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_mailsaver.htm">'AFD MAILSAVER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_namesandnumbers.htm">'AFD NAMES &amp; NUMBERS'</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_namesandnumbers.htm">'POCKET NAMES &amp; NUMBERS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'AFD POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_postcode.htm">'POCKET POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode_everywhere.htm">'POSTCODE-EVERYWHERE&#8217;</a>,
+'POSTCODE EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_refiner.htm">'AFD REFINER&#8217;</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'ROBOT'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_tracemaster.htm">'TRACEMASTER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_worldaddress.htm">'AFD WORLD ADDRESS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_zipaddress.htm">'ZIPADDRESS'</a>,
+'POCKET ZIPADDRESS', 'Simply Beautiful',
+the AFD WorldAddress and the Flying Envelope devices are Registered Trade Marks of ZipAddress Ltd. 'ROBOT' Technology is protected by Patent No GB2369699.
+All other trade marks acknowledged.
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" align="left" class="footertext">
+AFD Products are subject to a <a href="http://www.afd.co.uk/eula.htm" target="_blank" class="footertext">License Agreement</a> and include a data license for one computer, renewable annually. AFD Software Limited. Registered in the Isle of Man No: 087072C Registered Office: Mountain View Innovation Centre, Jurby Road, Lezayre, Ramsey, ISLE OF MAN, IM7 2DZ
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td width="120" valign="top" align="left" class="footertext">
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Computers and</a>
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Software Ltd</a>. All rights reserved.<br />
+<a class="footertext" href="http://www.afd.co.uk/terms.htm">AFD Terms &amp; Conditions</a><br />
+<a class="footertext" href="http://www.afd.co.uk/privacy.htm">AFD Privacy Policy</a>
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" class="footertext">
+<img src="/images/logo_FQM.gif" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+Session Start=Mon Nov 21 10:37:24 2016
+Emulated OS=Windows XP (Professional), (Terminal Services in Remote Admin Mode), (Multiprocessor Free), (x86-32 Processor) v5.1 Build:2600 Service Pack: 3
+Underlying OS=Underlying OS: Windows XP (Professional), (Terminal Services in Remote Admin Mode), (Multiprocessor Free), (x86-32 Processor) v5.1 Build:2600 Service Pack: 3
+Computer name=SALES01
+User name=cashgen
+Administrator=No
+Remote Session=No
+Windows Folder=C:\WINDOWS
+System Windows Folder=C:\WINDOWS\system32
+Home Folder=C:\Documents and Settings\cashgen.CGSTORE
+HOMESHARE=(blank)
+clientname=Console
+Volume Serial Number=(C:\) 98A60D9E
+DLL="C:\WINDOWS\system32\PCODE32.DLL" 17-09-2013 08:26:48:000 10.5.36.0
+Main Folder=c:\postcode\
+Alternate Folder=
+File 0=c:\postcode\pc.dll 20-04-2016 16:16:18:000
+File 1=c:\postcode\pc1.dll 21-03-2016 15:25:00:000
+File 2=c:\postcode\pc2.dll Not Found
+File 3=c:\postcode\pc3.dll 21-03-2016 15:25:00:000
+File 4=c:\postcode\pc4.dll 21-03-2016 15:25:00:000
+File 5=c:\postcode\pc5.dll 21-03-2016 15:25:00:000
+File 6=c:\postcode\changes.afd 21-03-2016 01:21:00:000
+Eval=N
+Expiry Date=20170415
+Region Code=00
+Status=Startup OK
+
+Sumcheck 2FA45089
+Time updated 2016-11-21 10:37:24

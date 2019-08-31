@@ -1,0 +1,1101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="all, index, follow">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="General">
+	<meta name="copyright" content="2010 www.afd.co.uk">
+	<meta name="resource-type" content="document">
+	<meta name="revisit-after" content="1 days">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="private">
+	<meta http-equiv="cache-control" content="private">
+	<meta name="google-site-verification" content="aa8G154H89HoFpgt6FUreK14DQ96y_fGMhP-CGMVGxg" />
+
+
+
+	<META NAME="Description" CONTENT="AFD address list management systems use Electoral Roll, Royal Mail Postcode Address File (PAF) and commercial databases to provide quick address entry, address verification, postcode search, list cleaning and geodemographics for all PC systems, Unix, TCP/IP, the Internet, Web and Intranet. UK and Worldwide.">
+	<META NAME="Keywords" CONTENT="address management, postcode, postcode search, postcode finder, postcoding software, paf, postcode address file, postcoding, postcodes, address, addresses, address finder, royal mail, post office, uk address, uk address search, uk address finder, uk postcode, uk postcode search, grid reference, geocode, geodemographic, address capture, postcode web service, address web service, mailsort, presstream, barcode, zipcode, zipcodes, delivery point suffix, dps, internet, intranet, postcodeing">
+
+	<title>AFD Products: Postcode Manual</title>	
+
+	<base target="_top">
+
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/AFDicon.png">
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="css/start/jquery-ui-1.8.4.custom.css" rel="stylesheet" />	
+
+</head>
+
+<body class="mainbody" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div id='wrapper' style="  text-align: left;  width: 950px;  margin-left: auto;  margin-right: auto;  margin:0px auto;  position: relative; ">
+
+
+<div id="L1" style="position: absolute; left: 22px; top: 16px;">
+    <input type="hidden" id="OP1" value="22">
+    
+    
+    <a href="http://www.afd.co.uk">
+		<h1 class="h1Logo">
+			AFD Software. Address, Postcode and Bank solutions.
+		</h1>
+    </a>
+    
+    <!--
+    <a href="http://www.afd.co.uk/">
+        <img src="images\logo_AFD_main_new.png" 
+        alt="AFD Software - Address Management Solutions" 
+        Title="AFD Software - Address Management Solutions" 
+        width="350" height="99" border="0" />
+    </a>
+    -->
+    
+</div>
+
+
+<div id="L3" style="position: absolute; left: 380px; top: 36px;">
+<input type="hidden" id="OP3" value="380">
+<!-- <span class="Title_White">- Postcode Manual</span> -->
+</div>
+
+
+<div id="L4" style="position: absolute; left: 20px; top: 156px; width: 700px;">
+<input type="hidden" id="OP4" value="20">
+
+<title>AFD Postcode Manual: Postcode for DOS</title>
+
+
+
+
+<p class="Title_Blue">POSTCODE FOR DOS</p>
+      <p>AFD Postcode provides a simple way to speed up the entry of address
+        information into any DOS program: e.g. Word Processors, Databases and
+        accounting programs etc.&nbsp; </p>
+      <p> Type in the postcode you require and the Town, Locality, County, Mailsort
+        Code and most STD codes are provided for you. You can amend these, add
+        a house name and/or street number, then press the [Insert] key to transfer
+        the address to your program.&nbsp; In view of different methods of operating
+        DOS programs, AFD offer several ways of using the rapid addressing techniques.
+        The two principle and popular methods are: </p>
+      <ul>
+        <li>PC-POP Terminate-Stay-Resident (TSR) Address Lookup</li>
+        <li>PC-DOS Command-Line Address Lookup</li>
+      </ul>
+      <p class="fontboldblack"><a name="PC-POP"></a><span class="parahead">PC-POP
+          Terminate-Stay-Resident (TSR) Address Lookup</span></p>
+      <ul>
+        <p>This program is loaded BEFORE your application (database, accounts
+          program, word-processor etc). When you wish to look up a postcode or
+          wish to use Street and Town to find an address, a Hot Key is pressed
+          (typically [Alt]+P). This pops-up a box over the top of your program.
+          When you've found the address, press the [Insert] key and it is typed
+          into the program underneath it. By configuring PC-POP, you can have
+          the address data typed just where you require it and with a range of
+          layout options. PC-POP also provides a powerful label and envelope
+          printing facility.</p>
+        <p><span class="fontboldblack">Setting up PC-POP</span><br>
+          Once you have completed the installation, set-up is quite easy.</p>
+        <p>Just add the line of text shown below to your autoexec.bat file before
+          any menus etc, reboot and the postcode program (PC-POP) is ready to
+          go. (You may find it useful to load PC-POP itself straight afterwards
+          - to do this also type the PC-POP line)</p>
+        <p>SET PC=C:\POSTCODE<br>
+    C:\POSTCODE\PC-POP /N -&nbsp;</p>
+        <p>The second line loads PC-POP and makes it available when your computer
+          starts up. The '/N' is an option to make PC-POP load automatically
+          without awaiting confirmation.</p>
+        <p>There are several command-line parameters to control PC-POP: see Command
+          Line Parameters, below, or type PC-POP /? to see them on screen.</p>
+        <p>Once loaded, you may invoke the pop-up program: simply hold down the
+          ALT key then press P ([Alt]+P) (or the alternative hot key you have
+          chosen) and type in the required postcode. PC-POP then provides the
+          following data:</p>
+      </ul>
+      <blockquote>
+        <ul>
+          <li>Street</li>
+          <li>Locality</li>
+          <li>Town</li>
+          <li>County (where a county is present)</li>
+          <li>STD Code</li>
+          <li>Mailsort Code</li>
+        </ul>
+      </blockquote>
+      <ul>
+        <p>If a postcode has more than one possible street entry, a small arrow
+          will appear next to the street on screen - press the down arrow to
+          view the next possible street: an up arrow allows you to move back
+          to a previous street entry.&nbsp;&nbsp;</p>
+        <p> If you do not know the postcode but have a post town and a street
+          name you can search for its postcode by typing the $ sign. This will
+          bring up a search window that will allow for the entry of the street
+          and post town to search for the postcode that you require. You may
+          also enter the locality name to constrain the search to a locality
+          - but you must have a post town as well.</p>
+        <p> If you are unsure of the correct spelling of either street, locality
+          or town names, place a $ sign at the beginning of either line to perform
+          a phonetic (fuzzy) search. This will then produce a list of possible
+          addresses. Highlight the one you want using the keyboard arrow keys
+          and press [Enter]. To abandon the search, press [Esc]. To try a new
+          search, press N.</p>
+        <p><span class="fontboldblack">Rapid Address</span><br>
+          PC-POP can use a special rapid-address format like '1,b11aa' which
+            will return a fully formatted address of Commercial Street, B1 1AA.
+            Putting the line &quot;The Red House,b11aa&quot; will place the property
+            before the street, on the street line separated by a comma.</p>
+        <p>You can add (or alter) other parts of the address: like the name,
+          first line and street number by pressing the [Enter] key to enter the
+          address panel.</p>
+        <p>Once the address is as required, the following options are available:</p>
+      </ul>
+      <blockquote>
+        <p>Press</p>
+        <ul>
+          <li>N to enter a new postcode to lookup</li>
+          <li>[Ins] to insert the address into your program (eg Word processor)</li>
+          <li>L to print mailing labels for the address</li>
+          <li>V to print envelopes for the address</li>
+          <li>X to unload PC-POP from memory: only possible if no other program
+            has been loaded into memory since PC-POP was started </li>
+          <li>PgDn to clear PC-POP from screen should you have popped it up by
+            accident or to exit editing of an address</li>
+          <li>[Esc] to close the PC-POP screen without other action </li>
+        </ul>
+      </blockquote>
+      <ul>
+        <p><span class="fontboldblack">Finding STD Codes</span><br>
+          You can use PC-POP to look up in which geographical area a certain
+            telephone STD code is located, as well as using it to find postal
+            addresses from the Postcode. Press the &quot;/&quot; key and enter
+            the STD code you require.</p>
+        <p>If you enter an old-type STD code, the new type will be shown, then
+          the program will find the postal areas using that STD code.</p>
+        <p><span class="fontboldblack">Note</span>: In some areas, especially
+          in larger cities, it is impossible to predict STD codes from postcode
+          data with total accuracy: they are not limited to the same geographical
+          areas and in some cases an area may have several possible STD codes.
+          The information provided by postcode should therefore be treated as
+          an aid to data entry only.&nbsp;</p>
+        <p><span class="fontboldblack">Command Line Parameters</span><br>
+          The following command lines will help you control PC-POP. To use them,
+            type them after PC-POP eg:</p>
+        <p>PC-POP /? [Enter]</p>
+        <p>would cause PC-POP to display its command line options.</p>
+        <p>Parameters Available:</p>
+      </ul>
+      <blockquote>
+        <ul>
+          <li>/? Show command line parameters</li>
+          <li>/I:inifile use INIFILE.INI initialization file (default=USERNAME.INI)</li>
+          <li>/N become memory-resident without awaiting keystroke confirmation</li>
+          <li>/K:nn Max No of characters to pass to keyboard buffer (default=no
+            limit)</li>
+        </ul>
+      </blockquote>
+      <ul>
+        <p><span class="fontboldblack">Configuration of PC-POP</span></p>
+        <p>PLEASE NOTE:- Using this configuration program while PC-POP is loaded
+          will not alter the way the current program operates. To ensure that
+          the new configuration you key in is used, unload PC-POP from memory
+          and then run this utility.</p>
+        <p>PC-POP can be configured to deal with your address and printer control
+          information: you can even have different PC-POP files for different
+          purposes and you can change the Hot Key (normally [Alt]+P) used to
+          activate PC-POP to another letter.</p>
+        <p>To configure PC-POP, simply type PCPOPCF myfile [Enter] at the C:\POSTCODE&gt; prompt,
+          where &quot;myfile&quot; is the name of the .INI file you wish to alter.</p>
+        <p>You will see a screen that provides 5 selections. At the top right
+          of this screen will be the .INI file you will be altering.</p>
+      </ul>
+      <blockquote>
+        <p><span class="fontboldblack">A - Set Address Parameters</span><br>
+    This will take you into the section that will configure PC-POP to place the
+      data into your application in the manner you want. You can move around
+      this screen using the arrow keys. Once you have finished, press Page Down
+      to exit the screen.</p>
+        <p><span class="fontboldblack">Title Field</span><br>
+    This allows you to alter the name of the field, this does not appear when
+      the address is transferred.</p>
+        <p><span class="fontboldblack">Max Len</span><br>
+    This allows you to alter the maximum number of characters that will be transferred
+      to your application.</p>
+        <p><span class="fontboldblack">Option</span><br>
+    This forces, or not, the transferred field into upper case:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 - Normal<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - Force Upper Case </p>
+        <p>In the case of the County field, it will allow you to choose the type
+          of county information you require:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 0 - Postal counties - does not provide counties for
+large or county towns<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 1 - Optional counties - provides county names for all
+except large cities<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 2 - Abbreviated Postal counties - uses standard abbreviations
+to shorten postal counties<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 3 - Abbreviated Optional counties - uses standard abbreviations
+to shorten optional counties </p>
+        <p><span class="fontboldblack">Delimiter</span><br>
+    This enables you to use DOS ASCII codes to replace the keystrokes that you
+      would normally use to exit the field that has just been completed and move
+      to the next data input field of your database etc.&nbsp; Some examples
+      are :-<br>
+&nbsp;&nbsp;&nbsp;&nbsp; \008 Backspace<br>
+&nbsp;&nbsp;&nbsp;&nbsp; \009 Horizontal Tab<br>
+&nbsp;&nbsp;&nbsp;&nbsp; \011 Vertical Tab<br>
+&nbsp;&nbsp;&nbsp;&nbsp; \013 Carriage return [Enter]<br>
+&nbsp;&nbsp;&nbsp;&nbsp; \027 Esc (Escape)<br>
+&nbsp;&nbsp;&nbsp;&nbsp; \044 , (comma)<br>
+    Consult your DOS manual for more.&nbsp; It will even allow you to have plain
+    text added.</p>
+        <p><span class="fontboldblack">Line</span><br>
+    This will set the Line Number order in which the data is transferred. A zero
+      will compress the line, use this when transferring into a word processor
+      when there is no locality field available. Entering '-1' will ignore the
+      line completely when transferring data. Defaults are:</p>
+      </blockquote>
+      <ul>
+        <table border="0" width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="20%">Name</td>
+            <td width="3%" align="right">30</td>
+            <td width="17%"></td>
+            <td width="20%">0</td>
+            <td width="20%">\013</td>
+            <td width="10%" align="right">1</td>
+            <td width="10%"></td>
+          </tr>
+          <tr>
+            <td width="20%">Street</td>
+            <td width="3%" align="right">35</td>
+            <td width="17%"></td>
+            <td width="20%">0</td>
+            <td width="20%">\013</td>
+            <td width="10%" align="right">2</td>
+            <td width="10%"></td>
+          </tr>
+          <tr>
+            <td width="20%">Locality</td>
+            <td width="3%" align="right">30</td>
+            <td width="17%"></td>
+            <td width="20%">0</td>
+            <td width="20%">\013</td>
+            <td width="10%" align="right">3</td>
+            <td width="10%"></td>
+          </tr>
+          <tr>
+            <td width="20%">Town</td>
+            <td width="3%" align="right">30</td>
+            <td width="17%"></td>
+            <td width="20%">0</td>
+            <td width="20%">\013</td>
+            <td width="10%" align="right">4</td>
+            <td width="10%"></td>
+          </tr>
+          <tr>
+            <td width="20%">County</td>
+            <td width="3%" align="right">15</td>
+            <td width="17%"></td>
+            <td width="20%">0</td>
+            <td width="20%">\013</td>
+            <td width="10%" align="right">5</td>
+            <td width="10%"></td>
+          </tr>
+          <tr>
+            <td width="20%">Postcode</td>
+            <td width="3%" align="right">10</td>
+            <td width="17%"></td>
+            <td width="20%">1</td>
+            <td width="20%">\013</td>
+            <td width="10%" align="right">6</td>
+            <td width="10%"></td>
+          </tr>
+          <tr>
+            <td width="20%">STDCode</td>
+            <td width="3%" align="right">10</td>
+            <td width="17%"></td>
+            <td width="20%">1</td>
+            <td width="20%">\013</td>
+            <td width="10%" align="right">-1</td>
+            <td width="10%"></td>
+          </tr>
+          <tr>
+            <td width="20%">Mailcode</td>
+            <td width="3%" align="right">5</td>
+            <td width="17%"></td>
+            <td width="20%">1</td>
+            <td width="20%">\013</td>
+            <td width="10%" align="right">-1</td>
+            <td width="10%"></td>
+          </tr>
+        </table>
+      </ul>
+      <ul>
+        <p><span class="fontboldblack">C - Set Colours</span><br>
+          Use this section to change the colour of PC-POP. You will see the changes
+            happening as you alter the relevant colour code numbers but be WARNED,
+            changing the colours can cause PC-POP to appear invisible after it
+            is popped up over an application which has the same colour. Page
+            Down, again exits this screen once you are finished.</p>
+        <p><span class="fontboldblack">H - Set Hot Key</span><br>
+          This sets the Hot Key that you will use in conjunction with the Alt
+            key to pop up PC-POP.</p>
+        <p>You can also set which (if any) 'Shift Key' should be pressed with
+          your chosen key. You may choose from None (0), A - Alt, C - Ctrl, L
+          - Left Shift or R - Right Shift. The default 'shift' key is Alt.</p>
+        <p>The default key is [Alt]+P</p>
+        <p><span class="fontboldblack">P - Set Printers</span><br>
+          This configures PC-POP to use your printer which allows you to use
+            the label and envelope printing features of PC-POP. You can configure
+            PC-POP to use two printers. A label printer and an envelope printer. &nbsp;</p>
+        <p> <span class="fontboldblack">Device</span><br>
+          This specifies the DOS device or DOS file name to send the data to:
+            e.g. LPT1 for Printer 1 or c:\Myfile.prn to send the text to a file
+            called Myfile.prn on your C drive.</p>
+        <p><span class="fontboldblack">Initialise</span><br>
+          Allows you to set up printer initialisation codes (like reset, margins
+            etc). These can usually be found in the reference section of your
+            printer manual. &nbsp;</p>
+        <p> <span class="fontboldblack">Set Top</span><br>
+          Printer commands to send before each label or envelope - like line
+            feeds etc. </p>
+        <p> <span class="fontboldblack">Set Left</span><br>
+          Printer commands to send before each line of text - like spaces. </p>
+        <p> <span class="fontboldblack">Below Text</span><br>
+          The number of lines to leave below the last line of the address before
+            starting the first footer line.</p>
+        <p><span class="fontboldblack">Footer 1</span><br>
+          The text and/or printer codes to print as footer line 1.</p>
+        <p><span class="fontboldblack">Footer 2</span><br>
+          The text and/or printer codes to print as footer line 2.</p>
+        <p><span class="fontboldblack">Base</span><br>
+          Commands to send after each envelope or label (eg page feed)</p>
+        <p>A sample .INI file is provided for EPSON (PC-POP.EP) and HP (PC-POP.HP)
+          type printers To use one of these, simply rename it to PC-POP.INI.</p>
+        <p><span class="fontboldblack">R Register Postcode for DOS</span><br>
+          Use this option to Register your copy of Postcode. This can be done
+            via the <a href="www.afd.co.uk/register.htm">AFD Web Site</a>.
+            This process activates your copy of Postcode for the remaining period
+            of your license.</p>
+        <p>Users with both Windows and DOS versions of Postcode should use the
+          windows 'Welcome' program instead.</p>
+      </ul>
+      <p class="fontboldblack"><a name="PC-DOS"></a><span class="parahead">INSTRUCTIONS
+          - PC-DOS Command-Line Address Lookup</span></p>
+      <blockquote>
+        <p>PC-DOS is a powerful and versatile rapid address program, which can
+          actually write programs for your application, in order to pass data
+          to them. It can be used in a very wide range of database and programming
+          systems, including Alpha 4, Basic, Clipper, dBase, FoxPro, Paradox
+          and most programming languages.</p>
+        <p>PC-DOS can look up postcodes, or use Street and Town to find an address
+          and a range of parameters allow you to tune calls to the program exactly
+          as you require them.</p>
+      </blockquote>
+      <ul>
+        <p>PC-DOS shares its Street/Town lookup facilities with PC-POP, so instructions
+          for common features are not repeated here.&nbsp;&nbsp;</p>
+        <p>PC-DOS operates as a command-line driven program. Parameters allows
+          you to pass a request to PC-DOS and tell it the format and location
+          of the answer. PC-DOS places the results of its request in a text or
+          program file - which is either opened and read by the application calling
+          it, or run as a program by the calling application. </p>
+        <p>Examples are provided showing how to use these techniques from Alpha
+          4, from dBase/Fox/Clipper etc and from Paradox.</p>
+      </ul>
+      <blockquote>
+        <p class="fontboldblack">Parameters</p>
+        <ul>
+          <table border="0" width="576" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="93">/?</td>
+              <td width="467">Show command line parameters </td>
+            </tr>
+            <tr>
+              <td width="93">/C:nnnn </td>
+              <td width="467">Convert 'nnnn' STD Code to Phoneday Code</td>
+            </tr>
+            <tr>
+              <td width="93">/F:filename</td>
+              <td width="467">Place data in FILENAME (default = AFD-PC.TXT)<br>
+          Allows you to give a path and filename for the result of your address
+            look-up</td>
+            </tr>
+            <tr>
+              <td width="93">/I:inifile</td>
+              <td width="467">Use INIFILE.INI initialisation file (default =
+                USERNAME.INI) This allows you to choose which INIFILE contains
+                the colour settings you wish to use - see configuring PC-POP
+                above.</td>
+            </tr>
+            <tr>
+              <td width="93">/M:BW</td>
+              <td width="467">Set for Mono (B&amp;W) monitor<br>
+          PC-DOS defaults to EGA/VGA mode - use this parameter if you have a
+            monochrome display.</td>
+            </tr>
+            <tr>
+              <td width="93">/P:(AA12 3BB)</td>
+              <td width="467">Lookup postcode AA12 3BB and place result in FILENAME
+                file</td>
+            </tr>
+            <tr>
+              <td width="93">/S:nnnn</td>
+              <td width="467">Convert 'nnnn' STD Code to Phoneday Code &amp; look
+                up location</td>
+            </tr>
+            <tr>
+              <td width="93" valign="top">/T:x</td>
+              <td width="467">Result file type where:
+                  <blockquote>
+                    <p>A=Alpha 4<br>
+              D=dBase / Fox / Clipper etc<br>
+              P=Paradox<br>
+              T=Dos Text File</p>
+                  </blockquote>
+                  <p>This parameter allows you to control the format of the result
+                    file - If A, D or P types are specified, the file can be
+                    used as a PROGRAM from the respective application.</td>
+            </tr>
+          </table>
+        </ul>
+      </blockquote>
+      <ul>
+        <p><span class="fontboldblack">Examples</span> </p>
+        <p><span class="fontboldblack">dBase / Fox / Clipper</span></p>
+        <p>This program fragment packs the postcode from a variable or field
+          called 'pcode' and specifies Type D file in C:\Postcode\AFD-PC for
+          a Monochrome screen. </p>
+      </ul>
+      <blockquote>
+        <ul>
+          <li> Assemble a memory variable with the PC-DOS Parameters<br>
+      FindAddress = &quot;/P:(&quot; + Pcode + &quot;) /T:D /F:C:\postcode\AFD-PC
+      /M:BW&quot;<br>
+          </li>
+          <li> Call the PC-DOS routine from AFD<br>
+      ! C:\postcode\PC-DOS &amp;FindAddress<br>
+          </li>
+          <li> Make sure that the new copy of AFD-PC is used<br>
+      Clear Program AFD-PC<br>
+          </li>
+          <li> Run the resulting program created by PC-DOS<br>
+      DO C:\postcode\AFD-PC</li>
+        </ul>
+        <p class="fontboldblack">Paradox</p>
+      </blockquote>
+      <ul>
+        <p>This is a similar routine as a script for Paradox (type P).&nbsp; The
+          FindAddres line should be all on one line.</p>
+        <blockquote>
+          <p>; Make up parameters for AFD Postcode<br>
+      FindAddress = &quot;C:\postcode\PC-DOS /P:(&quot; + Pcode + &quot;) /T:P
+      /M:BW /F:C:\postcode\AFD-PC&quot;</p>
+          <p>; Call the PC-DOS routine from AFD<br>
+      Run NOREFRESH FindAddress</p>
+          <p>; Run the resulting Script created by PC-DOS<br>
+      Play &quot;C:\postcode\AFD-PC&quot;</p>
+        </blockquote>
+        <p>Fully commented versions of these examples are provided in the DOS
+          examples of your Postcode installation.</p>
+    </ul>
+
+</div>
+
+
+<div id="L5" style="position: absolute; left: 733px; top: 70px;">
+<input type="hidden" id="OP5" value="733">
+<img src="images\float_panel_bg_white_main.png" />
+</div>
+
+
+
+<div id="L6" style="position: absolute; left: 739px; top: 75px;">
+<input type="hidden" id="OP6" value="739">
+<img src="images\button_phone.png" alt="Any Questions? Call now on 01624 811711" title="Any Questions? Call now on 01624 811711" />
+</div>
+<div id="L7" style="position: absolute; left: 739px; top: 150px;">
+<input type="hidden" id="OP7" value="739">
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_blue_top.png" class="mod_header">
+&nbsp;<strong>
+Manual Contents
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="contents.htm"  alt=" Introduction & Installation " Title=" Introduction & Installation ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Introduction & Installation 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Overview.htm"  alt=" Overview " Title=" Overview ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Overview 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="FindBox.htm"  alt=" Find Box & Lookup " Title=" Find Box & Lookup ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Find Box & Lookup 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resfrm.htm"  alt=" Results List " Title=" Results List ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results List 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="srchfrm.htm"  alt=" Search Tab " Title=" Search Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Search Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resTab.htm"  alt=" Results Tab " Title=" Results Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="morefrm.htm"  alt=" More Tab " Title=" More Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ More Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="labfrm.htm"  alt=" Label Tab " Title=" Label Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Label Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="mapfrm.htm"  alt=" Map Tab " Title=" Map Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Map Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="nearfrm.htm"  alt=" Nearest Tab " Title=" Nearest Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Nearest Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censfrm.htm"  alt=" Censation Tab " Title=" Censation Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Censation Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="robotfrm.htm"  alt=" Postcode Robot " Title=" Postcode Robot ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode Robot 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlivedbl">
+<nobr>
+<a href="transfrm.htm"  alt=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses " Title=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="compfrm.htm"  alt=" Compact View " Title=" Compact View ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Compact View 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="otherfrm.htm"  alt=" Other Features " Title=" Other Features ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Features 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="pcdos.htm"  alt=" Postcode for DOS " Title=" Postcode for DOS ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode for DOS 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="api.htm"  alt=" Programming with Postcode " Title=" Programming with Postcode ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Programming with Postcode 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_green_top.png" class="mod_header">
+&nbsp;<strong>
+Appendix
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Commands.htm"  alt=" A - Command Line Options " Title=" A - Command Line Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A - Command Line Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Shortcut.htm"  alt=" B - Keyboard Shortcuts " Title=" B - Keyboard Shortcuts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ B - Keyboard Shortcuts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="GridRef.htm"  alt=" C - Grid References " Title=" C - Grid References ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ C - Grid References 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="eula.htm"  alt=" D - End User License Agreement " Title=" D - End User License Agreement ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ D - End User License Agreement 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="http://www.afd.co.uk/rereg/"  alt=" E - Re-Registration Form " Title=" E - Re-Registration Form ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ E - Re-Registration Form 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="counties.htm"  alt=" F - County Options " Title=" F - County Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ F - County Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censDesc.htm"  alt=" G - Censation Additional Info " Title=" G - Censation Additional Info ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ G - Censation Additional Info 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censCode.htm"  alt=" H - Censation Detailed Tables " Title=" H - Censation Detailed Tables ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ H - Censation Detailed Tables 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censBar.htm"  alt=" I - Censation Bar Charts " Title=" I - Censation Bar Charts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ I - Censation Bar Charts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censGlos.htm"  alt=" J - Censation Glossary " Title=" J - Censation Glossary ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ J - Censation Glossary 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Occupcy.htm"  alt=" K - Occupancy & Address Types " Title=" K - Occupancy & Address Types ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ K - Occupancy & Address Types 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="royalmailterms.htm"  alt=" L - Royal Mail Terms " Title=" L - Royal Mail Terms ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ L - Royal Mail Terms 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+</div>
+
+
+</div>
+ 
+<div style="position: absolute; left: 0px; width: 100%; height: 120; visibility: hidden;" name="footer" id="footer" class="footertext">
+<table width="100%" background="images\footer_bg.png">
+<tr>
+<td align="center" valign="top">
+<table width="940">
+<tr>
+<td width="420" align="left" valign="top" class="footertext">
+<a class="footertext" href="http://www.afd.co.uk/home.htm">'AFD'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_bankfinder.htm">'AFD BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_bankfinder.htm">'AFD POCKET BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/censation.htm">'CENSATION'</a>,
+'DATA EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_mailsaver.htm">'AFD MAILSAVER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_namesandnumbers.htm">'AFD NAMES &amp; NUMBERS'</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_namesandnumbers.htm">'POCKET NAMES &amp; NUMBERS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'AFD POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_postcode.htm">'POCKET POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode_everywhere.htm">'POSTCODE-EVERYWHERE&#8217;</a>,
+'POSTCODE EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_refiner.htm">'AFD REFINER&#8217;</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'ROBOT'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_tracemaster.htm">'TRACEMASTER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_worldaddress.htm">'AFD WORLD ADDRESS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_zipaddress.htm">'ZIPADDRESS'</a>,
+'POCKET ZIPADDRESS', 'Simply Beautiful',
+the AFD WorldAddress and the Flying Envelope devices are Registered Trade Marks of ZipAddress Ltd. 'ROBOT' Technology is protected by Patent No GB2369699.
+All other trade marks acknowledged.
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" align="left" class="footertext">
+AFD Products are subject to a <a href="http://www.afd.co.uk/eula.htm" target="_blank" class="footertext">License Agreement</a> and include a data license for one computer, renewable annually. AFD Software Limited. Registered in the Isle of Man No: 087072C Registered Office: Mountain View Innovation Centre, Jurby Road, Lezayre, Ramsey, ISLE OF MAN, IM7 2DZ
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td width="120" valign="top" align="left" class="footertext">
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Computers and</a>
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Software Ltd</a>. All rights reserved.<br />
+<a class="footertext" href="http://www.afd.co.uk/terms.htm">AFD Terms &amp; Conditions</a><br />
+<a class="footertext" href="http://www.afd.co.uk/privacy.htm">AFD Privacy Policy</a>
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" class="footertext">
+<img src="/images/logo_FQM.gif" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>

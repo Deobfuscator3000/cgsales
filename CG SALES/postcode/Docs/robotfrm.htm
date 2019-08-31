@@ -1,0 +1,972 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="all, index, follow">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="General">
+	<meta name="copyright" content="2010 www.afd.co.uk">
+	<meta name="resource-type" content="document">
+	<meta name="revisit-after" content="1 days">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="private">
+	<meta http-equiv="cache-control" content="private">
+	<meta name="google-site-verification" content="aa8G154H89HoFpgt6FUreK14DQ96y_fGMhP-CGMVGxg" />
+
+
+
+	<META NAME="Description" CONTENT="AFD address list management systems use Electoral Roll, Royal Mail Postcode Address File (PAF) and commercial databases to provide quick address entry, address verification, postcode search, list cleaning and geodemographics for all PC systems, Unix, TCP/IP, the Internet, Web and Intranet. UK and Worldwide.">
+	<META NAME="Keywords" CONTENT="address management, postcode, postcode search, postcode finder, postcoding software, paf, postcode address file, postcoding, postcodes, address, addresses, address finder, royal mail, post office, uk address, uk address search, uk address finder, uk postcode, uk postcode search, grid reference, geocode, geodemographic, address capture, postcode web service, address web service, mailsort, presstream, barcode, zipcode, zipcodes, delivery point suffix, dps, internet, intranet, postcodeing">
+
+	<title>AFD Products: Postcode Manual</title>	
+
+	<base target="_top">
+
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/AFDicon.png">
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="css/start/jquery-ui-1.8.4.custom.css" rel="stylesheet" />	
+
+</head>
+
+<body class="mainbody" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div id='wrapper' style="  text-align: left;  width: 950px;  margin-left: auto;  margin-right: auto;  margin:0px auto;  position: relative; ">
+
+
+<div id="L1" style="position: absolute; left: 22px; top: 16px;">
+    <input type="hidden" id="OP1" value="22">
+    
+    
+    <a href="http://www.afd.co.uk">
+		<h1 class="h1Logo">
+			AFD Software. Address, Postcode and Bank solutions.
+		</h1>
+    </a>
+    
+    <!--
+    <a href="http://www.afd.co.uk/">
+        <img src="images\logo_AFD_main_new.png" 
+        alt="AFD Software - Address Management Solutions" 
+        Title="AFD Software - Address Management Solutions" 
+        width="350" height="99" border="0" />
+    </a>
+    -->
+    
+</div>
+
+
+<div id="L3" style="position: absolute; left: 380px; top: 36px;">
+<input type="hidden" id="OP3" value="380">
+<!-- <span class="Title_White">- Postcode Manual</span> -->
+</div>
+
+
+<div id="L4" style="position: absolute; left: 20px; top: 156px; width: 700px;">
+<input type="hidden" id="OP4" value="20">
+
+<title>AFD Postcode Manual: Robot</title>
+
+
+
+
+<p class="Title_Blue">THE POSTCODE ROBOT</p>
+      <p>ROBOT Technology is protected by Patent No GB2369699.</p>
+      <p class="fontboldblack"><a name="Introducing"></a><span class="parahead">Introducing
+          Robot Technology</span></p>
+      <blockquote>
+        <p>AFD Postcode contains AFD ROBOT technology (Patent GB 2369699) which
+          will automatically detect the typing of a postcode in most Windows
+          applications, and convert it into a street address.</p>
+        <p>Postcode allows you to enable or disable Robot entirely - but you
+          can also choose, separately for each application you use,&nbsp; whether
+          to enable Robot at all - and if so, whether to operate normally or
+          in &quot;Quiet&quot; mode.</p>
+        <p>In &quot;Normal&quot; mode, when Robot detects that you have typed
+          a postcode it will show&nbsp; a window, and allow you to choose whether
+          to insert the address, for the postcode you typed, into your application.&nbsp;
+        If Robot doesn't recognise your application then you will be prompted to
+        teach Robot how to enter an address - the last time you will need to type
+        an address manually.</p>
+        <p>In &quot;Quiet&quot; mode Robot will only prompt you if the postcode
+          you typed may indicate more than one address.&nbsp; Most postcodes
+          only have one street address associated with them - in which case Quiet
+          mode allows Robot to operate entirely invisibly and automatically.&nbsp; A
+          number of postcodes have more than one street address - and Robot must
+          ask you which of the possible street addresses to use.&nbsp; The most
+          extreme case, HD7 5UZ, has a choice of 7 different forms of the street
+          address for one postcode.</p>
+        <p>Robot also supports a &quot;Fast Find&quot; mode where it can search
+          for addresses in the same way as the 'Find' field on the main Postcode
+          window by typing a sequence such as #Commercial Street, Birmingham#
+          into your application. Alternatively if you are not using quiet mode
+        and type any known postcode (e.g. B1 1RR) into your application you can
+        then use Fast Find direct from the Robot window to find the address you
+        require.</p>
+      </blockquote>
+      <p class="fontboldblack"><a name="Enabling"></a><span class="parahead">Enabling
+          Robot</span></p>
+      <blockquote>
+        <p>When Postcode is first installed, Robot is enabled.&nbsp; To turn
+          this feature off across all applications, simply de-select the 'Enable
+          Postcode Robot' option on the General tab from the Postcode Main Window's
+          File - Properties menu option.&nbsp;&nbsp;</p>
+        <p>You can also choose if the <a class="link_blue" href="#sysTray">System
+            Tray Icon</a> is displayed from here.&nbsp; The &quot;Prompt user to
+        setup Robot with new applications&quot; option enables Robot to
+        automatic detect postcodes entered in unrecognised applications and
+        prompt you to show Robot how to enter an address so that you will never
+        have to enter the address manually in that application again.&nbsp; If
+        you do not wish to use this mode then you can switch this option off
+        from here.</p>
+      </blockquote>
+      <p align="center"><img border="0" src="images\shortcut.gif" width="380" height="325"></p>
+      <blockquote>
+        <p>The Startup options 'Normal', and 'Compact', 'Minimised' and 'Robot
+          Only' allow you to specify how Postcode starts.&nbsp; If you mainly
+          use the Robot you may wish for Postcode to be minimised, so you can
+          easily bring it up when required, or to simply have the Robot on it's
+          own running - you can Restore Postcode from the Robot <a class="link_blue" href="#sysTray">System
+          Tray</a> icon is needed.</p>
+      </blockquote>
+      <p class="fontboldblack"><a name="using"></a><span class="parahead">Using
+          Robot</span></p>
+      <blockquote>
+        <p>Robot is the simplest way to get a complete address into your application
+          - Start AFD Postcode, switch to the program you wish to insert the
+          address into and type in a postcode.&nbsp; Robot will prompt you to
+          check that you really do wish to add the address and, on clicking Insert,
+          inserts the address for you - right back into the application you're
+          using!&nbsp; If the address is not as expected you can enter another
+        postcode or fast find into the 'Find' box and click Lookup to find the
+        right address.</p>
+        <p align="center"><img border="0" src="images\pcmain8.gif" width="323" height="216"></p>
+        <p>For example:</p>
+        <table border="0">
+          <tr>
+            <td width="25%" valign="top" bgcolor="#DFEFFF"><span class="fontboldblack">Your
+                Action</span></td>
+            <td width="25%" valign="top" bgcolor="#DFEFFF"><span class="fontboldblack">If
+                you type normal text</span></td>
+            <td width="25%" valign="top" bgcolor="#DFEFFF"><span class="fontboldblack">If
+                you type a postcode&nbsp; </span></td>
+            <td width="25%" valign="top" bgcolor="#DFEFFF"><span class="fontboldblack">If
+                you type a postcode with property information </span>-&nbsp; </td>
+          </tr>
+          <tr>
+            <td width="25%" valign="top"><span class="fontboldblack">Robot's
+                Action</span></td>
+            <td width="25%" valign="top">Robot ignores what you typed - and the
+              text appears just as you typed it.&nbsp;</td>
+            <td width="25%" valign="top">Robot detects the postcode - and converts
+              it into an address. &nbsp; </td>
+            <td width="25%" valign="top">Robot detects the postcode - and converts
+              it into an address - placing the organisation or property information
+              into the address.<span class="fontboldblack">&nbsp;</span> </td>
+          </tr>
+          <tr>
+            <td width="25%"><span class="fontboldblack">What you would&nbsp;<br>
+        see without Robot: &nbsp;</span> </td>
+            <td width="25%">
+              <p>Dear Sir, </p>
+              <p>Following our meeting&nbsp; &nbsp; </p>
+            </td>
+            <td width="25%">B1 1RR &nbsp; </td>
+            <td width="25%">ABC Ltd, B1 1RR &nbsp; </td>
+          </tr>
+          <tr>
+            <td width="25%"><span class="fontboldblack">What you would see<br>
+        with Robot: &nbsp;</span> </td>
+            <td width="25%">
+              <p>Dear Sir, </p>
+              <p>Following our meeting &nbsp; </p>
+            </td>
+            <td width="25%">Commercial Street<br>
+        BIRMINGHAM<br>
+        B1 1RR &nbsp; </td>
+            <td width="25%">ABC Ltd<br>
+        Commercial Street<br>
+        BIRMINGHAM<br>
+        B1 1RR &nbsp; </td>
+          </tr>
+        </table>
+        <p>To use the Fast Find mode simply type a search such as #Commercial
+          Street,Birmingham# into your application and Robot will operate in
+          the same way as shown above.</p>
+        <p>When you install AFD Postcode, settings for the following applications
+          are installed automatically - and you will normally find that Robot
+          works just as you require without any changes or configuration at all:</p>
+        <table border="0" width="100%">
+          <tr>
+            <td>
+              <ul>
+                <li>Act!</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;dBase</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;FileMaker Pro</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Goldmine</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>Lotus 1-2-3</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Lotus AmiPro</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Lotus Approach</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Lotus Organiser</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>Lotus WordPro</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Maximizer</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Microsoft Access</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Microsoft Excel</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>Microsoft Word</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Microsoft Works</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Notepad</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Outlook</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>Paradox</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Quattro Pro</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;Sage</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;WinFax</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>WordPad</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;WordPerfect</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </blockquote>
+      <p class="fontboldblack"><a name="SettAss"></a><span class="parahead">Robot
+          Settings</span></p>
+      <blockquote>
+        <p> Robot is fully configurable and it is easy to modify the way it behaves
+          for an application already supported - or to create new settings for
+          other applications.&nbsp;&nbsp;</p>
+        <p>The behaviour of Robot is controlled by associating a group of settings
+          with your application. For most common applications Robot will work
+        without any additional configuration.&nbsp; If Robot detects a postcode
+        has been typed into an application that it does not recognise then you
+        will be prompted to teach Robot how to type an example address so that
+        it can learn from you and therefore complete the address automatically
+        in the future.&nbsp;&nbsp;</p>
+        <p align="center"><img border="0" src="images\detect.gif" width="328" height="177"></p>
+        <p>You can check the 'Don't ask me about this window again' option if
+        you do not want Robot to prompt you about this window when you type a
+        postcode in again - e.g. if you do not wish to use Robot with that
+        window.&nbsp; For more information on the process of teaching Robot how to insert the address see the <a class="link_blue" href="transfrm.htm#Teach">Show
+        AFD Robot How</a> section of
+        this manual.</p>
+        <p>Alternatively you can provide settings to tell Robot how the address information is passed to your application
+        (e.g. order of fields,&nbsp; keystrokes to send between fields).&nbsp; For full details of this, please refer to the
+        <a class="link_blue" href="transfrm.htm#Tell">Tell AFD Robot How</a> section of this manual.</p>
+        <p>For more advanced configuration, please also see the <a class="link_blue" href="transfrm.htm#Insert Settings Advanced">Insert and Robot Advanced Setup</a>
+        section.</p>
+      </blockquote>
+      <p><span class="fontboldblack"><a name="sysTray"></a></span><span class="parahead">System
+          Tray Icon</span></p>
+      <blockquote>
+        <p align="center"><img border="0" src="images\systray.gif" width="76" height="30"></p>
+        <p>By default Postcode displays a System Tray icon for Robot (near the
+          clock at the bottom right of your screen.&nbsp; This indicates if Robot
+          is enabled and gives you quick access to disable the Robot or configure
+          it's options.</p>
+        <p><span class="fontboldblack">Toggling Robot On/Off </span><br>
+          Clicking the icon will toggle Robot On and Off (enable and disable
+            it).&nbsp; You will see a green circle when it is on (as shown above)
+            and this will change to red when it is off.</p>
+        <p><span class="fontboldblack">Setting Options </span><br>
+          By right clicking the icon you will be presented with a small pop-up
+            menu allowing you to enable/disable the Robot, remove the icon from
+            the Sys Tray (see <a class="link_blue" href="#Enabling">Enabling Robot</a> for
+            how to re-instate the icon from the Postcode main screen), or Restore/Hide
+            the main form is you wish to toggle between using the Robot alone.&nbsp; You
+            can also gain quick access to the properties and settings for Robot
+            which are described above.</p>
+    </blockquote></td>
+  </tr>
+</table>
+<blockquote>&nbsp;</blockquote>
+
+</div>
+
+
+<div id="L5" style="position: absolute; left: 733px; top: 70px;">
+<input type="hidden" id="OP5" value="733">
+<img src="images\float_panel_bg_white_main.png" />
+</div>
+
+
+
+<div id="L6" style="position: absolute; left: 739px; top: 75px;">
+<input type="hidden" id="OP6" value="739">
+<img src="images\button_phone.png" alt="Any Questions? Call now on 01624 811711" title="Any Questions? Call now on 01624 811711" />
+</div>
+<div id="L7" style="position: absolute; left: 739px; top: 150px;">
+<input type="hidden" id="OP7" value="739">
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_blue_top.png" class="mod_header">
+&nbsp;<strong>
+Manual Contents
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="contents.htm"  alt=" Introduction & Installation " Title=" Introduction & Installation ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Introduction & Installation 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Overview.htm"  alt=" Overview " Title=" Overview ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Overview 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="FindBox.htm"  alt=" Find Box & Lookup " Title=" Find Box & Lookup ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Find Box & Lookup 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resfrm.htm"  alt=" Results List " Title=" Results List ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results List 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="srchfrm.htm"  alt=" Search Tab " Title=" Search Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Search Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resTab.htm"  alt=" Results Tab " Title=" Results Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="morefrm.htm"  alt=" More Tab " Title=" More Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ More Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="labfrm.htm"  alt=" Label Tab " Title=" Label Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Label Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="mapfrm.htm"  alt=" Map Tab " Title=" Map Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Map Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="nearfrm.htm"  alt=" Nearest Tab " Title=" Nearest Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Nearest Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censfrm.htm"  alt=" Censation Tab " Title=" Censation Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Censation Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="robotfrm.htm"  alt=" Postcode Robot " Title=" Postcode Robot ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode Robot 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlivedbl">
+<nobr>
+<a href="transfrm.htm"  alt=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses " Title=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="compfrm.htm"  alt=" Compact View " Title=" Compact View ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Compact View 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="otherfrm.htm"  alt=" Other Features " Title=" Other Features ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Features 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="pcdos.htm"  alt=" Postcode for DOS " Title=" Postcode for DOS ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode for DOS 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="api.htm"  alt=" Programming with Postcode " Title=" Programming with Postcode ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Programming with Postcode 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_green_top.png" class="mod_header">
+&nbsp;<strong>
+Appendix
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Commands.htm"  alt=" A - Command Line Options " Title=" A - Command Line Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A - Command Line Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Shortcut.htm"  alt=" B - Keyboard Shortcuts " Title=" B - Keyboard Shortcuts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ B - Keyboard Shortcuts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="GridRef.htm"  alt=" C - Grid References " Title=" C - Grid References ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ C - Grid References 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="eula.htm"  alt=" D - End User License Agreement " Title=" D - End User License Agreement ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ D - End User License Agreement 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="http://www.afd.co.uk/rereg/"  alt=" E - Re-Registration Form " Title=" E - Re-Registration Form ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ E - Re-Registration Form 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="counties.htm"  alt=" F - County Options " Title=" F - County Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ F - County Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censDesc.htm"  alt=" G - Censation Additional Info " Title=" G - Censation Additional Info ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ G - Censation Additional Info 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censCode.htm"  alt=" H - Censation Detailed Tables " Title=" H - Censation Detailed Tables ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ H - Censation Detailed Tables 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censBar.htm"  alt=" I - Censation Bar Charts " Title=" I - Censation Bar Charts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ I - Censation Bar Charts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censGlos.htm"  alt=" J - Censation Glossary " Title=" J - Censation Glossary ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ J - Censation Glossary 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Occupcy.htm"  alt=" K - Occupancy & Address Types " Title=" K - Occupancy & Address Types ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ K - Occupancy & Address Types 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="royalmailterms.htm"  alt=" L - Royal Mail Terms " Title=" L - Royal Mail Terms ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ L - Royal Mail Terms 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+</div>
+
+
+</div>
+ 
+<div style="position: absolute; left: 0px; width: 100%; height: 120; visibility: hidden;" name="footer" id="footer" class="footertext">
+<table width="100%" background="images\footer_bg.png">
+<tr>
+<td align="center" valign="top">
+<table width="940">
+<tr>
+<td width="420" align="left" valign="top" class="footertext">
+<a class="footertext" href="http://www.afd.co.uk/home.htm">'AFD'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_bankfinder.htm">'AFD BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_bankfinder.htm">'AFD POCKET BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/censation.htm">'CENSATION'</a>,
+'DATA EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_mailsaver.htm">'AFD MAILSAVER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_namesandnumbers.htm">'AFD NAMES &amp; NUMBERS'</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_namesandnumbers.htm">'POCKET NAMES &amp; NUMBERS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'AFD POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_postcode.htm">'POCKET POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode_everywhere.htm">'POSTCODE-EVERYWHERE&#8217;</a>,
+'POSTCODE EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_refiner.htm">'AFD REFINER&#8217;</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'ROBOT'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_tracemaster.htm">'TRACEMASTER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_worldaddress.htm">'AFD WORLD ADDRESS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_zipaddress.htm">'ZIPADDRESS'</a>,
+'POCKET ZIPADDRESS', 'Simply Beautiful',
+the AFD WorldAddress and the Flying Envelope devices are Registered Trade Marks of ZipAddress Ltd. 'ROBOT' Technology is protected by Patent No GB2369699.
+All other trade marks acknowledged.
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" align="left" class="footertext">
+AFD Products are subject to a <a href="http://www.afd.co.uk/eula.htm" target="_blank" class="footertext">License Agreement</a> and include a data license for one computer, renewable annually. AFD Software Limited. Registered in the Isle of Man No: 087072C Registered Office: Mountain View Innovation Centre, Jurby Road, Lezayre, Ramsey, ISLE OF MAN, IM7 2DZ
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td width="120" valign="top" align="left" class="footertext">
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Computers and</a>
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Software Ltd</a>. All rights reserved.<br />
+<a class="footertext" href="http://www.afd.co.uk/terms.htm">AFD Terms &amp; Conditions</a><br />
+<a class="footertext" href="http://www.afd.co.uk/privacy.htm">AFD Privacy Policy</a>
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" class="footertext">
+<img src="/images/logo_FQM.gif" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>

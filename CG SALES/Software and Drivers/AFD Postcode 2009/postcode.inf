@@ -1,0 +1,39 @@
+[Active]
+
+' Set this to "YES" to use this file
+EASYINST=YES
+
+[Setup]
+
+' Your Company Name
+COMPANY=Cash Generator Ltd
+
+' Your Account Code
+ACCOUNTCODE=CASHG02
+
+' Your Serial Number
+SERIALNUMBER=814114
+
+' Installation Password
+PASSWORD=NP22 5XL 2A
+
+' Program Directory Required
+PROGDIR=c:\postcode
+
+' Data Directory Required
+DATADIR=c:\postcode
+
+' A to install data, B to use data from CD, C to use existing data
+COPYDATA=A
+
+' A to install Map data, B to install standard data files only
+INSTALLMAP=A
+
+' To Accept EULA, set this to YES
+ACCEPTEULA=NO
+
+[Network Registration]
+
+' 0 - Standard Installation
+' 3 - Data Update Only - Set DataDir to the required data directory and run License Manager to update the path
+REGTYPE=0

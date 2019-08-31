@@ -1,0 +1,1399 @@
+***  Installation Started 08/05/2010 21:12  ***
+Title: AFD Postcode - Q.1/10
+Source: C:\DOCUME~1\cashgen\LOCALS~1\Temp\GLB50.tmp | 08-05-2010 | 21:12:22 | 71680
+Made Dir: c:\postcode
+File Copy: C:\postcode\afdhkey.exe | 04-25-2001 | 10:28:12 | 0.1.0.2 | 16896 | e5a43040
+File Copy: C:\postcode\pc2000.exe | 12-04-2009 | 10:12:48 | 5.9.0.6 | 1622664 | f1404e9d
+File Copy: C:\postcode\AFDDEMO.exe | 11-09-2007 | 11:09:04 | 1.0.0.0 | 53896 | cc96a45b
+File Copy: C:\postcode\AFDPatch.exe | 11-09-2007 | 11:03:36 | 1.0.2.0 | 62088 | f34703ff
+File Copy: C:\postcode\PC-DOS.EXE | 04-22-2003 | 12:58:08 | | 113240 | 5c3453d4
+File Copy: C:\postcode\PC-POP.EP | 12-06-1996 | 09:46:32 | | 514 | 196b173f
+File Copy: C:\postcode\PC-POP.EXE | 04-22-2003 | 16:07:34 | | 137430 | f0763aba
+File Copy: C:\postcode\PC-POP.HP | 12-06-1996 | 09:45:56 | | 561 | c1a7d45a
+File Copy: C:\postcode\PC-POP.INI | 02-28-1999 | 16:48:26 | | 514 | 52aae545
+File Copy: C:\postcode\PCPOPCF.EXE | 10-13-1998 | 09:29:48 | | 100846 | cbc12b79
+File Copy: C:\windows\system32\pcode32.dll | 11-16-2009 | 10:14:00 | 0.5.4.19 | 240264 | 725850eb
+File Copy: C:\windows\system32\afddata.dll | 12-04-2009 | 09:34:48 | 1.5.14.0 | 1340552 | bc33d295
+File Copy: C:\windows\system32\pcodex.dll | 11-09-2007 | 11:08:54 | 1.3.0.0 | 172680 | 5c69d294
+File Copy: C:\windows\system32\afdSystemInfo.dll | 11-09-2007 | 11:02:26 | 1.1.0.0 | 120968 | 2056e2
+File Copy: C:\windows\system32\change32.dll | 11-09-2007 | 11:02:04 | 1.5.0.0 | 90760 | 8983774b
+File Copy: C:\windows\system32\afdutl32.dll | 11-14-2008 | 15:05:12 | 0.1.1.16 | 100488 | 1874bb14
+File Copy: C:\windows\system32\afdutilx.dll | 08-10-2009 | 14:59:08 | 2.0.0.2 | 225928 | d03884a6
+File Copy: C:\windows\system32\afdrobot.dll | 01-08-2009 | 15:02:54 | 2.0.4.0 | 29320 | bafcdc5b
+File Copy: C:\windows\system32\zlib.dll | 11-09-2007 | 11:02:46 | 1.1.3.1 | 58504 | 47829f18
+File Copy: C:\windows\system32\postcode.dll | 11-12-2003 | 12:04:42 | 0.5.2.1 | 165376 | 67dbce18
+File Copy: C:\windows\system32\change16.dll | 02-24-2001 | 16:43:04 | 1.5.0.0 | 46592 | 9c7ca963
+File Copy: C:\windows\system32\afdutl16.dll | 08-05-2003 | 13:24:10 | 0.1.1.8 | 77568 | 96432c87
+File Copy: C:\windows\system32\zlib16.dll | 11-03-2000 | 12:18:48 | | 66332 | 4c7f437
+File Copy: C:\postcode\Eula.txt | 05-12-2009 | 12:51:36 | | 33639 | 610ba4b3
+File Copy: C:\postcode\POEula.txt | 11-29-2002 | 09:05:34 | | 8184 | deb74a50
+File Copy: C:\postcode\act.ini | 08-12-2000 | 21:50:26 | | 1633 | ac4741a4
+File Copy: C:\postcode\address.ini | 08-15-2000 | 08:16:26 | | 1577 | cb3d51c
+File Copy: C:\postcode\FileMake.ini | 08-12-2000 | 22:00:48 | | 1673 | 7d752a23
+File Copy: C:\postcode\glensoft.ini | 11-20-2006 | 17:05:06 | | 5294 | 1b0974a4
+File Copy: C:\postcode\gold4.ini | 11-01-2000 | 15:30:34 | | 1694 | de94233b
+File Copy: C:\postcode\gold5.ini | 11-01-2000 | 15:31:10 | | 1708 | 77bdcf50
+File Copy: C:\postcode\goldmine.ini | 01-31-2001 | 09:23:56 | | 1680 | 7632f3aa
+File Copy: C:\postcode\maximisr.ini | 08-12-2000 | 21:24:54 | | 1649 | d88c3392
+File Copy: C:\postcode\Medallion.ini | 12-31-2008 | 15:32:56 | | 2463 | d2ec3ff3
+File Copy: C:\postcode\organize.ini | 08-15-2000 | 16:08:54 | | 1668 | 13825c62
+File Copy: C:\postcode\raiser.ini | 08-18-2006 | 13:14:18 | | 1365 | d21ea33
+File Copy: C:\postcode\ros.ini | 11-20-2006 | 17:05:06 | | 5294 | fa63a6
+File Copy: C:\postcode\sage.ini | 08-15-2000 | 14:53:44 | | 1686 | d3f71327
+File Copy: C:\postcode\smart.ini | 02-17-2004 | 12:23:18 | | 5323 | a8c4ba04
+File Copy: C:\postcode\ssheet.ini | 08-12-2000 | 20:58:10 | | 1613 | 36e05a8b
+File Copy: C:\postcode\winfax.ini | 08-15-2000 | 16:30:38 | | 1657 | f8f3d367
+File Copy: C:\postcode\wp.ini | 06-29-2006 | 09:53:18 | | 1626 | 3f2381bb
+File Copy: C:\postcode\examples.txt | 10-02-2009 | 09:03:46 | | 422 | be3b0a08
+File Copy: C:\windows\postcode.ini | 12-11-2009 | 08:49:06 | | 7010 | 7a50fa71
+Made Dir: c:\postcode\Docs
+File Copy: C:\postcode\Docs\api.htm | 12-11-2009 | 10:10:58 | | 16016 | aaf6bb38
+File Copy: C:\postcode\Docs\censAdd.htm | 12-11-2009 | 10:10:58 | | 29646 | 7dfc9650
+File Copy: C:\postcode\Docs\censBar.htm | 12-11-2009 | 10:10:58 | | 17437 | 739465bb
+File Copy: C:\postcode\Docs\censCode.htm | 12-11-2009 | 10:11:00 | | 114269 | 81937803
+File Copy: C:\postcode\Docs\censDesc.htm | 12-11-2009 | 10:11:00 | | 38858 | 17ea1e6c
+File Copy: C:\postcode\Docs\censfrm.htm | 12-11-2009 | 10:11:00 | | 28724 | 3fdae9a0
+File Copy: C:\postcode\Docs\censGlos.htm | 12-11-2009 | 10:11:00 | | 24091 | 3723f20a
+File Copy: C:\postcode\Docs\Commands.htm | 12-11-2009 | 10:11:00 | | 16211 | a8e6edad
+File Copy: C:\postcode\Docs\compfrm.htm | 12-11-2009 | 10:11:00 | | 19049 | 42bbb93e
+File Copy: C:\postcode\Docs\contents.htm | 12-11-2009 | 10:11:02 | | 27068 | f61749c7
+File Copy: C:\postcode\Docs\counties.htm | 12-11-2009 | 10:11:02 | | 16097 | 98a961f1
+File Copy: C:\postcode\Docs\eula.htm | 12-11-2009 | 10:11:02 | | 61056 | c2e969bc
+File Copy: C:\postcode\Docs\FindBox.htm | 12-11-2009 | 10:11:02 | | 27440 | f9972e90
+File Copy: C:\postcode\Docs\GridRef.htm | 12-17-2009 | 10:27:46 | | 21149 | 14dfbcfc
+File Copy: C:\postcode\Docs\insfrm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\labfrm.htm | 12-11-2009 | 10:11:02 | | 18483 | 1898ef84
+File Copy: C:\postcode\Docs\mainstyles.css | 12-11-2009 | 10:11:10 | | 16060 | 890d260c
+File Copy: C:\postcode\Docs\mapfrm.htm | 12-11-2009 | 10:11:04 | | 24414 | c828a0a2
+File Copy: C:\postcode\Docs\morefrm.htm | 12-11-2009 | 10:11:04 | | 21648 | 4fff848d
+File Copy: C:\postcode\Docs\nearfrm.htm | 12-11-2009 | 10:11:04 | | 28385 | bcfcf591
+File Copy: C:\postcode\Docs\net.htm | 12-11-2009 | 10:11:04 | | 188402 | 185b194a
+File Copy: C:\postcode\Docs\Occupcy.htm | 12-11-2009 | 10:11:04 | | 28038 | 30aa2a23
+File Copy: C:\postcode\Docs\otherfrm.htm | 12-11-2009 | 10:11:06 | | 21395 | e803484d
+File Copy: C:\postcode\Docs\Overview.htm | 12-11-2009 | 10:11:06 | | 20161 | 3a15351
+File Copy: C:\postcode\Docs\pcdos.htm | 12-11-2009 | 10:11:06 | | 37711 | 52fad98d
+File Copy: C:\postcode\Docs\resfrm.htm | 12-11-2009 | 10:11:08 | | 16987 | 96526eee
+File Copy: C:\postcode\Docs\resTab.htm | 12-11-2009 | 10:11:08 | | 18298 | 89bf2785
+File Copy: C:\postcode\Docs\robotfrm.htm | 12-11-2009 | 10:11:08 | | 28868 | e731a018
+File Copy: C:\postcode\Docs\Shortcut.htm | 12-11-2009 | 10:11:08 | | 23072 | 9cbaaa7d
+File Copy: C:\postcode\Docs\srchfrm.htm | 12-11-2009 | 10:11:08 | | 21634 | 3bc04f9f
+File Copy: C:\postcode\Docs\transfrm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\wiz1frm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\wiz2frm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\wiz3frm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\wiz4frm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\wiz5frm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\wiz6frm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\wiz7frm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+File Copy: C:\postcode\Docs\wizfrm.htm | 12-11-2009 | 10:11:10 | | 68147 | 77a4bf3a
+Made Dir: c:\postcode\Docs\Images
+File Copy: C:\postcode\Docs\Images\advance2.gif | 10-29-2009 | 11:58:40 | | 15868 | 6a6e0794
+File Copy: C:\postcode\Docs\Images\advanced.gif | 10-29-2009 | 12:01:18 | | 30287 | 2f875ede
+File Copy: C:\postcode\Docs\Images\bg_header.jpg | 03-06-2009 | 14:26:18 | | 453 | 83dfb4bb
+File Copy: C:\postcode\Docs\Images\button_phone.png | 05-27-2009 | 14:56:12 | | 4995 | b28a6454
+File Copy: C:\postcode\Docs\Images\censAge.gif | 12-16-2003 | 17:29:54 | | 4193 | 16f24d47
+File Copy: C:\postcode\Docs\Images\censCharity.gif | 12-22-2003 | 09:17:46 | | 3688 | 1f259bff
+File Copy: C:\postcode\Docs\Images\censEcon.gif | 12-16-2003 | 16:44:58 | | 7028 | 59199f21
+File Copy: C:\postcode\Docs\Images\censHousing.gif | 12-16-2003 | 16:38:52 | | 4500 | 2dee5d2e
+File Copy: C:\postcode\Docs\Images\censIncome.gif | 12-16-2003 | 16:33:24 | | 3922 | 8db6f37d
+File Copy: C:\postcode\Docs\Images\censInd.gif | 12-16-2003 | 16:56:00 | | 4898 | 3758d437
+File Copy: C:\postcode\Docs\Images\censKids.gif | 12-17-2003 | 09:58:32 | | 3983 | 78b0b45
+File Copy: C:\postcode\Docs\Images\censMail.gif | 12-17-2003 | 10:05:38 | | 4438 | 37fdff0c
+File Copy: C:\postcode\Docs\Images\censMarital.gif | 12-16-2003 | 17:30:44 | | 5073 | a0947e64
+File Copy: C:\postcode\Docs\Images\censNews.gif | 12-17-2003 | 10:02:48 | | 3796 | 5ff4420c
+File Copy: C:\postcode\Docs\Images\censOcc.gif | 12-16-2003 | 17:25:02 | | 3801 | fb4f43c3
+File Copy: C:\postcode\Docs\Images\censPop.gif | 12-17-2003 | 10:01:32 | | 4677 | e125c0c3
+File Copy: C:\postcode\Docs\Images\censQual.gif | 12-17-2003 | 10:00:26 | | 4895 | fcf77d78
+File Copy: C:\postcode\Docs\Images\censReg.gif | 12-17-2003 | 09:59:36 | | 3425 | e8625170
+File Copy: C:\postcode\Docs\Images\censSocial.gif | 12-16-2003 | 17:27:36 | | 3575 | b69fcd96
+File Copy: C:\postcode\Docs\Images\censTenure.gif | 12-16-2003 | 16:37:12 | | 3356 | 462ed787
+File Copy: C:\postcode\Docs\Images\compact.gif | 10-29-2009 | 12:49:34 | | 13965 | 6b578a5a
+File Copy: C:\postcode\Docs\Images\ddeicon.gif | 09-02-2009 | 12:09:20 | | 1503 | d9088711
+File Copy: C:\postcode\Docs\Images\detached.gif | 10-29-2009 | 12:56:06 | | 98520 | 86022700
+File Copy: C:\postcode\Docs\Images\detect.gif | 10-29-2009 | 13:01:22 | | 9091 | 319c1b94
+File Copy: C:\postcode\Docs\Images\dotted.gif | 03-06-2009 | 11:21:26 | | 48 | 24bb28df
+File Copy: C:\postcode\Docs\Images\Example.gif | 09-01-2009 | 15:52:46 | | 9600 | 891c5593
+File Copy: C:\postcode\Docs\Images\fieldSel.gif | 09-02-2009 | 10:29:30 | | 1152 | 4fcd40d7
+File Copy: C:\postcode\Docs\Images\float_panel_bg_white_main.png | 06-05-2009 | 08:51:56 | | 777 | 18e71c89
+File Copy: C:\postcode\Docs\Images\float_panel_menu_arrows.png | 03-09-2009 | 10:34:46 | | 367 | c2375f4
+File Copy: C:\postcode\Docs\Images\footer_bg.png | 05-06-2009 | 16:12:36 | | 611 | 402545a5
+File Copy: C:\postcode\Docs\Images\gridref.gif | 12-11-2009 | 08:54:50 | | 14470 | 3055784
+File Copy: C:\postcode\Docs\Images\insert1.gif | 10-29-2009 | 13:08:14 | | 13168 | fbc8d0c2
+File Copy: C:\postcode\Docs\Images\insert2.gif | 10-29-2009 | 13:18:06 | | 12927 | 603c9a5
+File Copy: C:\postcode\Docs\Images\insert3.gif | 10-29-2009 | 13:21:04 | | 12692 | 20696f42
+File Copy: C:\postcode\Docs\Images\insert4.gif | 10-29-2009 | 13:23:06 | | 14546 | 323e1519
+File Copy: C:\postcode\Docs\Images\insert5.gif | 10-29-2009 | 13:24:36 | | 12730 | 3fdd54ca
+File Copy: C:\postcode\Docs\Images\keys.gif | 10-29-2009 | 13:27:12 | | 12503 | 9447fc7b
+File Copy: C:\postcode\Docs\Images\keysonly.gif | 10-29-2009 | 13:29:48 | | 11532 | cef66ca7
+File Copy: C:\postcode\Docs\Images\logo_AFD_main_new.png | 06-04-2009 | 16:11:24 | | 17412 | 2ce63345
+File Copy: C:\postcode\Docs\Images\manuals_float_panel_menu_bg_grey_base.png | 09-21-2009 | 16:27:52 | | 203 | 63628de0
+File Copy: C:\postcode\Docs\Images\manuals_float_panel_menu_bg_grey_mid.png | 02-10-2009 | 12:40:04 | | 156 | 787c6c73
+File Copy: C:\postcode\Docs\Images\manuals_float_panel_menu_blue_top.png | 09-21-2009 | 16:12:50 | | 327 | efabeac3
+File Copy: C:\postcode\Docs\Images\manuals_float_panel_menu_green_top.png | 09-21-2009 | 16:16:26 | | 301 | e0059598
+File Copy: C:\postcode\Docs\Images\mapdist.gif | 09-23-2009 | 16:25:08 | | 49363 | 896a9828
+File Copy: C:\postcode\Docs\Images\mapzoom.gif | 09-23-2009 | 16:25:38 | | 62860 | f0c43d47
+File Copy: C:\postcode\Docs\Images\mouse.gif | 10-29-2009 | 13:40:54 | | 9997 | e229d886
+File Copy: C:\postcode\Docs\Images\nearfilt.gif | 09-21-2009 | 09:35:52 | | 7508 | 3ae1c54e
+File Copy: C:\postcode\Docs\Images\newapp.gif | 10-29-2009 | 13:45:38 | | 13043 | e2c1eeca
+File Copy: C:\postcode\Docs\Images\pcmain1.gif | 10-29-2009 | 13:51:36 | | 31169 | fbca174a
+File Copy: C:\postcode\Docs\Images\pcMain10.gif | 09-23-2009 | 16:27:18 | | 26452 | afeb8089
+File Copy: C:\postcode\Docs\Images\pcMain11.gif | 09-24-2009 | 11:55:14 | | 31569 | b48e772c
+File Copy: C:\postcode\Docs\Images\pcMain2.gif | 09-24-2009 | 11:55:42 | | 27794 | 27a23501
+File Copy: C:\postcode\Docs\Images\pcMain3.gif | 09-24-2009 | 11:56:50 | | 29276 | 60e531b3
+File Copy: C:\postcode\Docs\Images\pcMain4.gif | 09-24-2009 | 11:56:16 | | 34571 | 4a11db1e
+File Copy: C:\postcode\Docs\Images\pcMain5.gif | 09-24-2009 | 11:54:16 | | 29312 | ab76fa8
+File Copy: C:\postcode\Docs\Images\pcMain6.gif | 10-29-2009 | 13:56:48 | | 53668 | cab061fd
+File Copy: C:\postcode\Docs\Images\pcMain7.gif | 09-24-2009 | 11:53:06 | | 33918 | 24fa2007
+File Copy: C:\postcode\Docs\Images\pcmain8.gif | 09-24-2009 | 11:52:30 | | 13042 | 30bb5091
+File Copy: C:\postcode\Docs\Images\pcmain9.gif | 09-24-2009 | 11:51:56 | | 35053 | 1a7af06e
+File Copy: C:\postcode\Docs\Images\pdf_icon_tiny.png | 03-31-2009 | 14:35:36 | | 539 | 1ba05b08
+File Copy: C:\postcode\Docs\Images\product_postcode.png | 03-17-2009 | 09:53:58 | | 20491 | b818b0f6
+File Copy: C:\postcode\Docs\Images\propdde.gif | 09-24-2009 | 12:19:06 | | 26795 | 7ce3a5fe
+File Copy: C:\postcode\Docs\Images\shim.gif | 01-13-2003 | 17:22:34 | | 43 | 9acceab1
+File Copy: C:\postcode\Docs\Images\shortcut.gif | 09-24-2009 | 12:34:10 | | 17132 | e694c93d
+File Copy: C:\postcode\Docs\Images\systray.gif | 09-02-2009 | 09:56:24 | | 1854 | 92958df5
+File Copy: C:\postcode\Docs\Images\teach.gif | 10-29-2009 | 14:00:20 | | 12173 | 895e9082
+File Copy: C:\postcode\Docs\Images\teachdne.gif | 10-29-2009 | 14:07:50 | | 13258 | c23aa7cc
+File Copy: C:\postcode\Docs\Images\teachfds.gif | 10-29-2009 | 14:03:18 | | 14922 | da83932e
+File Copy: C:\postcode\Docs\Images\tick.png | 03-02-2009 | 12:48:48 | | 241 | 50066e5f
+File Copy: C:\postcode\Docs\Images\ukmap.gif | 09-23-2009 | 16:28:18 | | 28283 | f0c20129
+File Copy: C:\postcode\Docs\Images\wordaddr.gif | 09-23-2009 | 16:27:50 | | 30723 | e5d0786f
+File Copy: C:\postcode\Docs\Rereg.rtf | 03-23-2009 | 16:48:20 | | 47641 | 316e5fcb
+File Copy: C:\postcode\changes.afd | 12-15-2009 | 02:56:00 | | 609680 | fc70413a
+File Copy: C:\postcode\pc1.dll | 01-05-2010 | 11:30:38 | | 14534705 | fc0f8075
+File Copy: C:\postcode\pc3.dll | 01-05-2010 | 11:30:38 | | 167524 | 2cba1417
+File Copy: C:\postcode\pc4.dll | 01-05-2010 | 11:30:38 | | 325950 | d4da79ea
+File Copy: C:\postcode\pc5.dll | 01-05-2010 | 11:30:38 | | 2672479 | ccea573c
+File Copy: C:\windows\system32\dssock32.ocx | 10-29-1996 | 22:14:08 | 1.70.0.1 | 69632 | d832c521
+File Copy: C:\windows\system32\COMDLG32.OCX | 03-13-2001 | 14:49:28 | 6.0.84.18 | 140288 | 84fbb29a
+File Copy: C:\windows\system32\TABCTL32.OCX | 12-06-2000 | 01:00:00 | 6.0.90.43 | 209608 | 30c3c8c7
+Self-Register: C:\windows\system32\pcodex.dll
+Self-Register: C:\windows\system32\afdutilx.dll
+Self-Register: C:\windows\system32\dssock32.ocx
+Self-Register: C:\windows\system32\COMDLG32.OCX
+Self-Register: C:\windows\system32\TABCTL32.OCX
+INI New: Created INI
+INI File: C:\WINDOWS\CHANGE.INI
+INI Sect: Changes
+INI Item: Full 
+INI Val: c:\postcode
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: Settings File
+INI Val: c:\postcode\wp.ini
+INI Old: C:\postcode\WP.INI
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: Settings
+INI Val: wp
+INI Old: Wp
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: No Remind
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: New Insert
+INI Val: 1
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Account Ref
+INI Val: CASHG02
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Serial No
+INI Val: 814114
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Data Set
+INI Val: Q.1/10
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Program Directory
+INI Val: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Postcode Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Default Directory
+INI Val: c:\postcode
+INI Old: c:\pc5
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Connection String
+INI Val: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI Old: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=**UPDATE PATH**\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Source
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Name
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Catalog
+INI Val: Nearest
+INI Old: Nearest
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Map
+INI Item: Detailed
+INI Val: 1
+INI Old: 1
+File Copy: C:\postcode\pc.dll
+Made Dir: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode.lnk
+Link Info: C:\postcode\pc2000.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode Help.lnk
+Link Info: C:\postcode\Docs\contents.htm |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Reregistration Form.lnk
+Link Info: C:\postcode\Docs\Rereg.rtf |  |  | 0 | 1 | 0 | 
+File Copy: C:\postcode\unwise.exe | 11-09-2007 | 11:03:26 | | 167048 | d8a5d19e
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 5
+RegDB Name: DisplayVersion
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: mailto:support@afd.co.uk
+RegDB Name: HelpLink
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 01624 811712
+RegDB Name: HelpTelephone
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Software Ltd
+RegDB Name: Publisher
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: http://www.afd.co.uk/
+RegDB Name: URLInfoAbout
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Helpdesk
+RegDB Name: Contact
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Name: Comments
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: c:\postcode\pc2000.exe,-0
+RegDB Name: DisplayIcon
+RegDB Root: 2
+Could not Self-Register: C:\windows\mstools.exe
+Could not Self-Register: C:\windows\fixAcc.exe
+User Rights: Admin
+***  Installation Started 02/08/2011 14:56  ***
+Title: AFD Postcode - Q.4/10
+Source: C:\DOCUME~1\cashgen\LOCALS~1\Temp\GLB2FE.tmp | 02-08-2011 | 14:56:38 | 71680
+File Overwrite: C:\postcode\afdhkey.exe | 04-25-2001 | 11:28:12 | 0.1.0.2 | 16896 | e5a43040
+File Overwrite: C:\postcode\pc2000.exe | 09-24-2010 | 11:21:36 | 5.9.0.11 | 1901192 | 35f693da
+File Overwrite: C:\postcode\AFDDEMO.exe | 11-09-2007 | 12:09:04 | 1.0.0.0 | 53896 | 6e9cd655
+File Overwrite: C:\postcode\AFDPatch.exe | 11-09-2007 | 12:03:36 | 1.0.2.0 | 62088 | 4dd1a70a
+File Overwrite: C:\postcode\PC-DOS.EXE | 04-22-2003 | 13:58:08 | | 113240 | 5c3453d4
+File Overwrite: C:\postcode\PC-POP.EP | 12-06-1996 | 10:46:32 | | 514 | 196b173f
+File Overwrite: C:\postcode\PC-POP.EXE | 04-22-2003 | 17:07:34 | | 137430 | f0763aba
+File Overwrite: C:\postcode\PC-POP.HP | 12-06-1996 | 10:45:56 | | 561 | c1a7d45a
+File Overwrite: C:\postcode\PC-POP.INI | 02-28-1999 | 17:48:26 | | 514 | 52aae545
+File Overwrite: C:\postcode\PCPOPCF.EXE | 10-13-1998 | 10:29:48 | | 100846 | cbc12b79
+File Overwrite: C:\windows\system32\pcode32.dll | 08-13-2010 | 09:24:14 | 0.5.4.23 | 242824 | fd677699
+File Overwrite: C:\windows\system32\afddata.dll | 09-03-2010 | 09:47:10 | 1.6.49.0 | 1449608 | 37956351
+File Overwrite: C:\windows\system32\afdSystemInfo.dll | 11-09-2007 | 12:02:26 | 1.1.0.0 | 120968 | 480881f8
+File Overwrite: C:\windows\system32\change32.dll | 11-09-2007 | 12:02:04 | 1.5.0.0 | 90760 | d6202deb
+File Overwrite: C:\windows\system32\afdutl32.dll | 11-14-2008 | 16:05:12 | 0.1.1.16 | 100488 | b095be2f
+File Overwrite: C:\windows\system32\afdrobot.dll | 01-08-2009 | 16:02:54 | 2.0.4.0 | 29320 | 4883fb72
+File Overwrite: C:\windows\system32\zlib.dll | 11-09-2007 | 12:02:46 | 1.1.3.1 | 58504 | f411a2b6
+File Overwrite: C:\windows\system32\change16.dll | 02-24-2001 | 17:43:04 | 1.5.0.0 | 46592 | 9c7ca963
+File Overwrite: C:\windows\system32\afdutl16.dll | 08-05-2003 | 14:24:10 | 0.1.1.8 | 77568 | 96432c87
+File Overwrite: C:\windows\system32\zlib16.dll | 11-03-2000 | 13:18:48 | | 66332 | 4c7f437
+File Overwrite: C:\postcode\Eula.txt | 07-08-2010 | 09:16:34 | | 33048 | 7e5c295
+File Overwrite: C:\postcode\POEula.txt | 03-12-2010 | 10:46:46 | | 38410 | cd4a4bf9
+File Overwrite: C:\postcode\examples.txt | 09-17-2010 | 11:03:16 | | 422 | 49223a30
+File Overwrite: C:\postcode\Docs\api.htm | 09-30-2010 | 09:38:14 | | 16738 | 4ad465c1
+File Overwrite: C:\postcode\Docs\censAdd.htm | 09-30-2010 | 09:38:16 | | 30368 | 48a34dc
+File Overwrite: C:\postcode\Docs\censBar.htm | 09-30-2010 | 09:38:18 | | 18159 | 3421b27b
+File Overwrite: C:\postcode\Docs\censCode.htm | 09-30-2010 | 09:38:18 | | 114991 | b25eb23f
+File Overwrite: C:\postcode\Docs\censDesc.htm | 09-30-2010 | 09:38:18 | | 39580 | b6793e0b
+File Overwrite: C:\postcode\Docs\censfrm.htm | 09-30-2010 | 09:38:20 | | 29446 | 1288fb70
+File Overwrite: C:\postcode\Docs\censGlos.htm | 09-30-2010 | 09:38:18 | | 24813 | f47ba870
+File Overwrite: C:\postcode\Docs\Commands.htm | 09-30-2010 | 09:38:20 | | 16933 | 7c43321c
+File Overwrite: C:\postcode\Docs\compfrm.htm | 09-30-2010 | 09:38:20 | | 19771 | a940a5d2
+File Overwrite: C:\postcode\Docs\contents.htm | 09-30-2010 | 09:38:22 | | 27635 | f6939c5
+File Overwrite: C:\postcode\Docs\counties.htm | 09-30-2010 | 09:38:20 | | 16819 | e2d9b66e
+File Overwrite: C:\postcode\Docs\eula.htm | 09-30-2010 | 09:38:22 | | 182191 | 2ff9cf1e
+File Overwrite: C:\postcode\Docs\FindBox.htm | 09-30-2010 | 09:38:22 | | 28162 | 6083725a
+File Overwrite: C:\postcode\Docs\GridRef.htm | 09-30-2010 | 09:38:22 | | 21871 | 242cd3e7
+File Overwrite: C:\postcode\Docs\insfrm.htm | 09-30-2010 | 09:38:30 | | 68869 | fab9918c
+File Overwrite: C:\postcode\Docs\labfrm.htm | 09-30-2010 | 09:38:22 | | 19205 | 937900cf
+File Overwrite: C:\postcode\Docs\mainstyles.css | 09-30-2010 | 09:38:28 | | 16629 | 8f60c454
+File Overwrite: C:\postcode\Docs\mapfrm.htm | 09-30-2010 | 09:38:24 | | 25136 | 9ebc3641
+File Overwrite: C:\postcode\Docs\morefrm.htm | 09-30-2010 | 09:38:24 | | 22370 | c6b1606e
+File Overwrite: C:\postcode\Docs\nearfrm.htm | 09-30-2010 | 09:38:24 | | 29107 | d3306dd0
+File Overwrite: C:\postcode\Docs\net.htm | 09-30-2010 | 09:38:24 | | 189124 | d4ec5693
+File Overwrite: C:\postcode\Docs\Occupcy.htm | 09-30-2010 | 09:38:26 | | 28760 | a3bd1d2d
+File Overwrite: C:\postcode\Docs\otherfrm.htm | 09-30-2010 | 09:38:26 | | 22074 | 14879cc6
+File Overwrite: C:\postcode\Docs\Overview.htm | 09-30-2010 | 09:38:26 | | 20883 | 78c97b98
+File Overwrite: C:\postcode\Docs\pcdos.htm | 09-30-2010 | 09:38:26 | | 38433 | f7610e16
+File Overwrite: C:\postcode\Docs\resfrm.htm | 09-30-2010 | 09:38:28 | | 17709 | c5a7f1d6
+File Overwrite: C:\postcode\Docs\resTab.htm | 09-30-2010 | 09:38:26 | | 19020 | 4ff44a7a
+File Overwrite: C:\postcode\Docs\robotfrm.htm | 09-30-2010 | 09:38:28 | | 29590 | b0f9db8f
+File Overwrite: C:\postcode\Docs\Shortcut.htm | 09-30-2010 | 09:38:28 | | 23805 | 47dfa0b2
+File Overwrite: C:\postcode\Docs\srchfrm.htm | 09-30-2010 | 09:38:28 | | 22356 | fbeaa723
+File Overwrite: C:\postcode\Docs\transfrm.htm |`Rπi9>∂26 d¥† 5:w?*ª2ò5$pÛx`-(ù,¶ybxπëk,F-,Z`OteÚÙ–kt}0FVc9hn2Uc&meaﬂ#vjÈH:‰2mxÿ±8,Z(8%s≥[\}u†¸Œ*2≥879∞t»\Öl<*÷=`|¢‰qf	ÒÄ:b	BNh‰5†G“Aftˆ`th:"SÜ\peqˇ°ËdQ\PÍÚsJ-í0.t©hâ0â,Ä!p=D/w-rr+2l·19"ì
+0ËÒ∫@|Qv$û;∏f†6p\)5`0≥i DÌÌe0‰Ùıh‡≤$B2ûPgS˝cftmD@¬W±-ÁA*gv|.`pl¢å%;·#øp∫pà~ b9Xä"t*l±ú'(øî* <fÁa"
+|19Êç	na(ıŒ\uq=‡I–\r#ÍL‡oZÎpgºKl#≈›ˆaJ>v?]ÂË<e x$tπ}3 çs 1 #®t∏ª˝00| nP®q6yx—QÚer	KxÁOåWxfe†èwwJ„0l l2bÀ2N4árybgAÿmk6c\#Qz5oÚnj4≠ %Úy%7∑≤` 2#|h(8r7{`|¢6>ΩEÓ;rA#πÏÒ9z_NÈim0ÎmapOj≠6lnpl–sztÔgd`oÒoæeËGzzlCxv´ t`ÿ34!ûì0†|Y— 30∏;≥%¸Zd49549 †∆q=°n≠¢V	dkgœRÒrˆs4‰ÿaCz‹PÔsx"ø$g^g¨i˚Uï`zwW3U¶`t†Á(1á8Úi≤!20t	p9&2z#0†xZ#6$\f1 î Jys∞©:içãF9l¡IvÁ2ıvLbH{1c~F|aadÂ|Dn€y˜i.K2Ì7ÓtŒ(|20≠!p 0ù ˆ=≠j!˛" ≤æ1| 78"&3∞5Ap=95:kúFwÃı@Gtkr¯{x”.a∂}±Oq{+.BuHdÎy¸I%a‰yDa v+gWwrÜC`¨í0"2iê,"∞ ll5`që8∫g1(lj|¿ó;,=,‹ >jtÉD$95ùŒQÎo zˆcr_•um
+®J8_po1Tbl·	|ÌszZOÌuvû%$v‡X√M& v˘e,"51,õô30¥πë>h(c1„∫r}nú£\!p∫3$x`Û‰4cRm¬›M%iFXÂvsV)¥&["√8rgwv„MD%≠hCs Homf}rƒÛ6[˛x˛dÚ/*0c(~*,∑udpø˙XK£º 2%>2>:1®LDx≤ˇΩ t1˜lÓ`@!’qYø•4lo´ÔredFº‡ldrAtcø¥Õ~Hg/3Zi}a˜Á*RvT}Ωœwh#ˇW,wzf)8î7<bö#pp™a|p!u2?∂H¥ X6¢‘´5;9 "æ\q67µ∂ÕıqÒi ]g‰zQRjq!2P∆[ÿˇsÙr[n+‘DO?!NLÍ≈ÛuwmÛFf"Køggk°pÏ+ïT%!≤# 4°Å<!1∏;?/≤¥hÙ!%gPz† RF‡'Ì4pMI@aLe “E£b%|g*%û
+=T+rt„GÂ{ÌtcySuAg©˚^kdNWkxCrO|*Ú·Ê!#0≤˝“B_1∞5lﬂh2("wªz¢`hPø·ª88:p}%0c1Ól2âéW©HÛ
+mtmRW"©pe
+É:$qÍwd!ˆteïCˆ|y·k„ÑcMjZ≈K?,+ge¢5r1>.íˆM6: *(‹ A6ø: z›© 9d?≠3 :`l!µªë})'31ì_¿,E Lf˚Êﬂ:ktv∫AvÀ{1%·ªCa^DMœSˇO|yÓ#=n•eÛÀÓ]aib*AiÊ¥˛rmi')∫x¶6z(ï6]S'{¯¯2xX|ô6/<+,¿ %} Ù#MÉoÀdÂo'ÒÛG"hÑq∫|#Œ˙+w}@Om fÁbëM˚¡F|V¿˚ﬁwbÆRŒ|#+cH¢ ^22+ørß∫s∞bÉvwwÓ9	1t`<√ùc58∞®4} êb4?23‰K>fd©p≈ÛbÚwvZ‰A2ISX1ÌÒvk·¥F<iz3s^IΩÔ}é
+„Q fp>+iâ&Aûhì0£.+˚àïx±vY#≤#*∞4d˘hı +˝8Ä^ 8·?;KÀƒ}{ƒ∫H8qÆ«≤c8ê‡x‹¢±+fmKefE	vã‚ÿAkmØIe¸´Nai)çs~k…G$~`aa∫ë2L>Ú∫9Q-¨zix°6Ωp˝$z•<¢fv¯X“≤"g-´‘£V@lÕ7gzv∂°_ev8œä‹={;bÓt Ø∏IWRW16Â©úgUYõA·q@¨gxJ°NKΩëóuij(y∑V oÿ1*¥$7r‰»⁄)&µ—π(©¢ÏT/6µB\òÃ<h‰¢GReVuÍÒ:e:¿#:‚˙10@}~›M|…£⁄!ïEá˜Ç¿(5*à·Ú¿|Z«Æ∂ÁÖà_àÿ©≤}öÏFÜﬂØ¥n8c.Æ3¥Hœ¥*t¯Â1*ÓWûuGC—î“mïXÂîE%ßl,=<k√fﬂÙl8Ïa<JìwL‘IØ©Ω»Få¶æ·x⁄\=r≥‚K‚`&¢ œÍÂ=qe˛AÏ˛‚ETçH"ãP ªr0ë√oGÆ/îtÅ|ƒ%Î&X/∞õQ_SÇ˜ﬁ Á‰ÓeÁe}8*ªt€nc‡ÍÖ]ÒB™¬§UM›ßw18≠<ÛmÃRŒBÜ‡EWºÎ3Â%ãÜºSMØ‘9+π°í9∞ù>Zˇ±å3Çrô1†eäÕs |÷*ûLb…9œ⁄=1y.ª£’T˙Ñs‡C‡T¬ËQÏ=6q≤ÀxdìåtúcÎÆd†ÖPóuvÌÑ≈ûu9jıKotPΩì≠k:T9n<qπ˝'.«°^J.Ü]Ø…”coôÊüû˙Úî=xLws…∫5{ß°Ãgø'OU %Ô_b∂I,F §|M≈w‘É&◊Ê%‡JÜfÙbòdÛA»wm˘öiVW,Ä+º∞1=+[´…áw&§√“∞n’	>Cq†ÊÜﬂÑG(üßUm#A•_‘c4"˘–Æ4ÃR.
+»+¥s>£X*1mñ9ï£*«*ì°8◊	2¡k˜ÿ†Õ(‚€‹>‚Ô…Ëfe◊‡ÚX§ıSŒ≠Ù	p ,‘¥U?¶ÿ∫„hÿ+Œ2øly¬π	$afësV(æ<µTh @õ:Ñ–¥Ø◊9π*m]â∂I£1:ZÃ]ÄÛΩU2âvWdã¨T˙C0£z6Èy%é5Èƒƒô<(øs;8KNÀ–Ÿ'$˚Ï)P—Í\¬°ı;ê® ˇ√πÏ'jÏêg·Zæ±Sõ∫¢tÍtüª¿=£Å‡cÇ.ô^≥iƒiÖœv˝˘u÷(„h¸Áå¢z€/ú§hö¿ßl‘^âÎ\èyºÛP="È6€·ÔÛﬂ;UhÁƒáû¿D4#Nu≈≥‹H∆@≥<Æ
+3Ä‹XÙÕxmcá¬Ùô‡øäL k£è˙)Uep’ƒ∑˘$Oë*ù}à„Ç¿<˚2∂ôÿ‰Ö¬r®¯oìÜa»π†v Å"o—LêAá;“rπ)fViÈ·∑ZıQÊo$vK V∂^/√-€Gt¯§™˘÷∏∆['Ïï¬‘,é√¬˜>öAë&=Œ=xÊ„h—\µ7¸©`Ö»+xC[S2ì#.lÓ¯⁄h⁄g9gÃdã—oP√XSÔi%®th∂◊[à¨8jñŒWBèDß/¬ì©çã`ªLﬂùÃV
+ã˜òñ¡˜¢D¢Õõß>MUÏöN∂Ó…Ω!¡≈L#X⁄y •Ìm£ wf.î€∞Õ f-/c ÈYOÈQg&?¨/∏›O’&Ô%˛ålnbõh´ˆ›ÅÄ¬k$”_’Ÿ<u¥·˘&|XÀ\ﬁ;Ø§Ô;ÆzPÊt¸®¶œØSNí2_.Â%N}˘?·k÷dpX}3–fˇú[dQ/ËÌgÔ‡À–4ıJ)xs6“ËÖnãC¶»8ÖH¨o$à*ÛìIª3(x⁄™!∆øãã≈¬nµGÜ¸jK∞àOS97Éö2h%Hò‰b¯jbë°>˝§y°}WÛ‚MTÁﬂ:Î†um§vπhy¶N]ÓWÑË‰èK_U®$ˆÃÑ‚2Ø]E »ÜÜ´.3 Â—Jp‚‘Qq1∑»©®T8k∆‚ıßÒ◊A"UpôQ‚tÏ~3D»æ…I(û>âøaUˆK?ñU∆∫oQ®ke∞°B˘áviS–-Ç≥êv6#ê„/õI¢µ∂¢N%·Wı@Hl'ºâΩÒ™OØ≈ã˜§˛Ôò-ˆLºúÔråZC∆ú˘˛µ€ΩΩu#§Ä^Ÿ˝P„l◊í‘IxWÇ§∂(≠∫’ù¬C˚[Ô†¢mE6Gh"gÇ∏ izô'∑FÊ`Ω¢V„fdŒQ}Ÿ•·F1V¡ñïNæù Xß/jL.HvÁ™Wﬁ’0ût·:˝¯0“≥oL2‘û”êÅÊNÄ«„Ÿ,›ÙBcàœ»nõÒ˚“Sì ‹D¶Aöﬁ∏…é∑‘ì{°ˆÏ™,≈&ûÚ>I·ßöEƒ_3=GëêÔÊ!5BÏƒnÍç—ØÆÃ—s≈÷ù8#l]Ÿˇ9¬ƒm≈(ëkµXÿ,Mqle(Ó∂£ÀÉSwã'Û—*Ø»üÔ7Î⁄{±˘’g…‹Ú8eâPO¨â{_ÅCXí&»∞Ô*ëû/^p)ä∑…~pAgOT#äı€˘>ä=ÿCs≥Ω°5jÉwŒ¯§~ê»7,íüïdÿ7È_µ+Õ’åC“í˝ô	≠≤uòS4á"sLπÂÍ∏g⁄k(%	Î≈@öªF†»≈∫Ô2◊öä-®u∞¡ÊêÆ1âj_.çÃ·Qj6zz≥Ç}nQñ˚Œ)ó}°%°õ‘¢‡w3+ÿX!ÜF∆∞\_˛¡I©,ñ9-Üè;∞«Üè◊û˙3òÄS|ﬁÑ˚à ‚ı∞)Éi9~W∫ÅúÛ≥ª\ä~∑	E;î[_x¸˝ƒÏH¿ﬂ“ z5~iû 	ñ¯„BôÚö@Ä¸_ãÎáB#-∞Ø&˚kõœR∫·(ü-˘Uö√¨‚`≈4ƒ≥¸£ıŒ‚›Ç«â√ìkµ.c< ÛúÔ«`Ó`©@◊, π◊_væoìÊ8ú=0Ÿ9*F}we%¸&”akÂ◊0F»6rhO -§≈¯≈p‹ŒÂ]ÿjÏΩÃù9 òä‰…‰å´Vô≤:
+$òg.4ﬁKßM$$“
+Õ%{r˙Ä2eÏ—IÇDÒ&}çˆ‰$ÔT2î?«‘∞¨+ˇ…ˆ⁄Ÿ
+˘≠ƒ•F·d†≤ô«Z5›YôrüŒé‘ŒÎh«2èDM…æ&ÂÉ‘yê“:‹ÕÔ√∂ı80ãÃNÔìèTN<¨}™)C5DπP◊DZ4H¸ûr∞háˆw£M\ÿe}D∑[ÁﬁyL¡!6YŸDÀû–„¬xk∫vÜ¶oKJö![m-£œÄ¯ÇÍıø4¨¿oTQ¢·vÁGXò›Õc∑/o„@ÁŸ⁄ÑﬁtñßöA	¸°aáø·-´i˚‹ˇa—ÿ©º'QPÜgí˝“‰ü[‰„⁄H…∏ä’HıK-˝ÉGçM1+æª#˚U±åXîvm,–´Jì‚º72D†…
+ÒªßÆ∞Uÿ
+Í—ƒÌ˙ıq“ˆJÀÛ¶◊ß¬™‚`o<≠$ñ¨˘AÜ0B:móıdwdvãzåræ„)?é+æâE◊2!8Ω$=AìXOÏv‹<6~áAyjÁ79˙˙5Œ5Îê#6i¬cX†∏dÈÜé(•/ƒÃê∑ËÍ)¨Ñ#·0ëÕÛ5MµÑ÷uÏ¬ŸƒO£˝*_s}gÉÜƒêˆÄ0*	Ò%.YDW…"}	 X¥ˇXI%«ÄπËõV∂∂ ï¨yl§≥Æ∏EàÃKdÑÒZ¸ˆãº>+^CÌí3ë¸ÖçÔÁ	ªuuòòJ çê∑ª⁄h°ZcNK®NçÍ9œl”aévrn¯"Èky∂{Y÷·}9z¥ˆ*f‚uÿ¬-!¿Só∫§íA3≤≠â´mÚ‹”◊ÏlıΩ°®ˆ¯<Â‚ÊêáãF F6Ω@fû,3çóƒj°µIc©]@øI »3P‰YË.—Ì=qôÒ°%"∞V&z#˙{éi4î
+e≈…œ‚	“´Ê>#˚3Îm[Übwíë]Ë)dVod≈†bù©±˙∑˝œ f˝5 ¥jjÂﬂM»wD€z#ÔﬁÙÈ5R˜Ó$2Õhoås&=Ì~ÌJé>Û§Ù»Û\‡&_Ã±ìnÑ*®f„°#¨9í¢$ΩY®$oè≥[≈%›ê≤FQ))ôàº~4úRæÓ¬ûhñ˜≤ÅÆt>©àÎ;ö	cø“ê	±Âı=wOWÅh‡€8Û>¡NÇ·√œ‹∏.Eõ î«}¨º·‚Æ∫ªT7h¥å19Â&6aÖ˙ây;’ÈØcM%¬ÏÃ@Ûè—z≠y»I¿/üqª≥e                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                :52 | | 167560 | 29c84148
+File Overwrite: C:\postcode\pc4.dll | 09-21-2010 | 12:44:50 | | 326374 | 651c51b6
+File Overwrite: C:\postcode\pc5.dll | 09-21-2010 | 12:44:50 | | 2671714 | b1cf272e
+File Overwrite: C:\windows\system32\dssock32.ocx | 10-29-1996 | 23:14:08 | 1.70.0.1 | 69632 | d832c521
+File Overwrite: C:\windows\system32\COMDLG32.OCX | | | | 140288 | 84fbb29a
+File Overwrite: C:\windows\system32\TABCTL32.OCX | | | | 209608 | 30c3c8c7
+Self-Register: C:\windows\system32\dssock32.ocx
+Self-Register: C:\windows\system32\COMDLG32.OCX
+Self-Register: C:\windows\system32\TABCTL32.OCX
+INI File: C:\WINDOWS\CHANGE.INI
+INI Sect: Changes
+INI Item: Full 
+INI Val: c:\postcode
+INI Old: c:\postcode
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: Settings File
+INI Val: c:\postcode\wp.ini
+INI Old: c:\postcode\wp.ini
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: Settings
+INI Val: wp
+INI Old: wp
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: No Remind
+INI Val: 1
+INI Old: 0
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: New Insert
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Account Ref
+INI Val: CASHG02
+INI Old: CASHG02
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Serial No
+INI Val: 812156
+INI Old: 814114
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Data Set
+INI Val: Q.4/10
+INI Old: Q.1/10
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Program Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Postcode Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Default Directory
+INI Val: c:\postcode
+INI Old: c:\postcode
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Connection String
+INI Val: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI Old: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Source
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Name
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Catalog
+INI Val: Nearest
+INI Old: Nearest
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Map
+INI Item: Detailed
+INI Val: 1
+INI Old: 0
+File Overwrite: C:\postcode\pc.dll
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode.lnk
+Link Info: C:\postcode\pc2000.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode Help.lnk
+Link Info: C:\postcode\Docs\contents.htm |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Reregistration Form.lnk
+Link Info: C:\postcode\Docs\Rereg.rtf |  |  | 0 | 1 | 0 | 
+File Overwrite: C:\postcode\unwise.exe | 11-09-2007 | 12:03:26 | | 167048 | d8a5d19e
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: AFD Postcode
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 5
+RegDB Name: DisplayVersion
+RegDB Root: 2
+RegDB Old: 5
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: mailto:support@afd.co.uk
+RegDB Name: HelpLink
+RegDB Root: 2
+RegDB Old: mailto:support@afd.co.uk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 01624 811712
+RegDB Name: HelpTelephone
+RegDB Root: 2
+RegDB Old: 01624 811712
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Software Ltd
+RegDB Name: Publisher
+RegDB Root: 2
+RegDB Old: AFD Software Ltd
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: http://www.afd.co.uk/
+RegDB Name: URLInfoAbout
+RegDB Root: 2
+RegDB Old: http://www.afd.co.uk/
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Helpdesk
+RegDB Name: Contact
+RegDB Root: 2
+RegDB Old: AFD Helpdesk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Name: Comments
+RegDB Root: 2
+RegDB Old: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: c:\postcode\pc2000.exe,-0
+RegDB Name: DisplayIcon
+RegDB Root: 2
+RegDB Old: c:\postcode\pc2000.exe,-0
+User Rights: Admin
+***  Installation Started 02/14/2011 16:21  ***
+Title: AFD Postcode - Q.4/10
+Source: C:\DOCUME~1\cashgen\LOCALS~1\Temp\GLB3B6.tmp | 02-14-2011 | 16:21:24 | 71680
+File Overwrite: C:\postcode\afdhkey.exe | 04-25-2001 | 11:28:12 | 0.1.0.2 | 16896 | e5a43040
+File Overwrite: C:\postcode\pc2000.exe | 09-24-2010 | 11:21:36 | 5.9.0.11 | 1901192 | 35f693da
+File Overwrite: C:\postcode\AFDDEMO.exe | 11-09-2007 | 12:09:04 | 1.0.0.0 | 53896 | 6e9cd655
+File Overwrite: C:\postcode\AFDPatch.exe | 11-09-2007 | 12:03:36 | 1.0.2.0 | 62088 | 4dd1a70a
+File Overwrite: C:\postcode\PC-DOS.EXE | 04-22-2003 | 13:58:08 | | 113240 | 5c3453d4
+File Overwrite: C:\postcode\PC-POP.EP | 12-06-1996 | 10:46:32 | | 514 | 196b173f
+File Overwrite: C:\postcode\PC-POP.EXE | 04-22-2003 | 17:07:34 | | 137430 | f0763aba
+File Overwrite: C:\postcode\PC-POP.HP | 12-06-1996 | 10:45:56 | | 561 | c1a7d45a
+File Overwrite: C:\postcode\PC-POP.INI | 02-28-1999 | 17:48:26 | | 514 | 52aae545
+File Overwrite: C:\postcode\PCPOPCF.EXE | 10-13-1998 | 10:29:48 | | 100846 | cbc12b79
+File Overwrite: C:\windows\system32\pcode32.dll | 08-13-2010 | 09:24:14 | 0.5.4.23 | 242824 | fd677699
+File Overwrite: C:\windows\system32\afddata.dll | 09-03-2010 | 09:47:10 | 1.6.49.0 | 1449608 | 37956351
+File Overwrite: C:\windows\system32\afdSystemInfo.dll | 11-09-2007 | 12:02:26 | 1.1.0.0 | 120968 | 480881f8
+File Overwrite: C:\windows\system32\change32.dll | 11-09-2007 | 12:02:04 | 1.5.0.0 | 90760 | d6202deb
+File Overwrite: C:\windows\system32\afdutl32.dll | 11-14-2008 | 16:05:12 | 0.1.1.16 | 100488 | b095be2f
+File Overwrite: C:\windows\system32\afdrobot.dll | 01-08-2009 | 16:02:54 | 2.0.4.0 | 29320 | 4883fb72
+File Overwrite: C:\windows\system32\zlib.dll | 11-09-2007 | 12:02:46 | 1.1.3.1 | 58504 | f411a2b6
+File Overwrite: C:\windows\system32\change16.dll | 02-24-2001 | 17:43:04 | 1.5.0.0 | 46592 | 9c7ca963
+File Overwrite: C:\windows\system32\afdutl16.dll | 08-05-2003 | 14:24:10 | 0.1.1.8 | 77568 | 96432c87
+File Overwrite: C:\windows\system32\zlib16.dll | 11-03-2000 | 13:18:48 | | 66332 | 4c7f437
+File Overwrite: C:\postcode\Eula.txt | 07-08-2010 | 09:16:34 | | 33048 | 7e5c295
+File Overwrite: C:\postcode\POEula.txt | 03-12-2010 | 10:46:46 | | 38410 | cd4a4bf9
+File Overwrite: C:\postcode\examples.txt | 09-17-2010 | 11:03:16 | | 422 | 49223a30
+File Overwrite: C:\postcode\Docs\api.htm | 09-30-2010 | 09:38:14 | | 16738 | 4ad465c1
+File Overwrite: C:\postcode\Docs\censAdd.htm | 09-30-2010 | 09:38:16 | | 30368 | 48a34dc
+File Overwrite: C:\postcode\Docs\censBar.htm | 09-30-2010 | 09:38:18 | | 18159 | 3421b27b
+File Overwrite: C:\postcode\Docs\censCode.htm | 09-30-2010 | 09:38:18 | | 114991 | b25eb23f
+File Overwrite: C:\postcode\Docs\censDesc.htm | 09-30-2010 | 09:38:18 | | 39580 | b6793e0b
+File Overwrite: C:\postcode\Docs\censfrm.htm | 09-30-2010 | 09:38:20 | | 29446 | 1288fb70
+File Overwrite: C:\postcode\Docs\censGlos.htm | 09-30-≤x92Ù24µ∫58v"Ï)ö4:$s¢s otr¬a∂u"ä’Ml, KdmRuN`eı¸ÄK1\tGve!kvmTD,mc,Cˇ#~cËhxº6m(Ÿ°8?=c`%1p≥PD]du∏¯€:&±x|∞0Œáx.|Ñ5at£≥>5ôäbfmdYÊ$˙W¬Qvdæ C:Z{~—palaÌê¿mQpYÚ˝}h4/©)*uπ…)à8ç31mR:w4tH1(„0>2≥4ÏÒ≥Q/q têcΩ ∂e0\2.7Èmu œøep†’,∫‘$f#ˆQ/X≠LBoicH√Ë5ÂD.Wgh|U`X(≤çQ6•R4ˆdº`ú{(#j28PÑh x ≤ñ#5¢‹ D<6≥q#
+}
+VÏÃu`Jr˜x÷}4a∂"“^Yr'„`ÍcEÿ7ms˚Nm?›ÔÙeC~~-TÂ†|  ;'s—3 ër`| q´w\∏ÚÁ  |$$7T©a>he—Tôr~IÊGçU`F~Ù‚W[H†)j G>^√Nt∆nha^E”u$)N!mzy†bp1≠3'¢<10°@†`0'<z~(Ppy&Q[22yê>=hZ‰FÌsvaç ƒ9Ln O˛ewt˙ipdJ ´7~tSl¡˙e$PÕ'AR
+dyÊm¢lÏ/Mx} ]!.ª	2mö~;<1ú “;˙38=ë0$,ô|°u˝	~!p%hPµíPaéyÏ±J.ecÚCÒM≤0?‹¡msp–Sı%JDˇOW\gÚiÌS’f:aUgÓ"2=≠˜p=ì9Úxˆ!2u5L0:"&\h^<êp36%#t0Üdcw§¢@-lÂ√B7e—s{y‰5≥H:Hpo3'ktd\AkeÁ]en#√rÌn,P:¢5Ê0⁄-u0~ æ!0 } ‹≥1®z$¸!H"≤π8v11|#fc‡3=\yGkj» LwÿÛTe%m$∫ S
+ﬁpgr§{≠Ta]'Cz|la¬ki`‰(} /S0b∞P< ÏÄ+:sò,*§rd|$[=ë2º%+;6ktƒEñ/?(‹e,NdÅJ'ziÙE™„{drÌsuK	¥uL@ÈVkWsaqljx˚Nm1Ôsrs¸0/≥5&%Ö>!4πq3$9 ü∞]32∑æê;(x`'Ú∞r6úô
+)}D‡wyfÛ‚|E;]?¿pè_%kwHØ_ec±^[,ƒ!i,(wÎ5X12´8R0Ø25\pd0†±9*∏x˛pÉ}8!*89:∂rt`øÈBbø¥1
+&hqAœTG7Ú˚˝.qw‘pÆpTCOÊeLEÔÁ7lo¢·rUl&¸‰f,p='∞≠›`5&rB09:∑¸:06&X)Tπ∂213∏DL$c0j:ê?dlàˆi}dËkv`rw2oÙa∫P\„”™o!)ÌRsr:‰Í˜uÙ)4M!Ù$9*s0%r†s†˙(∞2++ªr<4dL“’±t'†\%(køcdf†Äb≈\5 ÌNg"t‡â4e:†Q?uß≥Rk‰cPDJSZÍaPËˆ˝x`(]pa1–∫d>%Q!Zº7T"|5Ù0µ;È13<6 admÉˇvyfLdxNaAjZg∫Ûæ+Ag:†«ä\Zy˙4Sl¬mdof˙k‚ckR„˘∏(<= |408O30Ø 2Ë ˇ(*}>t®}$\±0'~¢ |0Òa4îˆ,wÍk·<á4Mz_·Iwm;`C∂1o{|f¬‰M<e"}‹OPhÂ:bzÕØ)0}>≠ !|q %∂≤£8 }!0;íê:ívlmËÏ® j26µi3ã:5)Ò±gg^PMÕAæo~e˙7r%x%r®ëì(	"lgÁ›‹unPg-∏v´dh¸,XT"<®Æ:p4ô;"]i0ìZ<:"v l!Ù<î¨(3)˘"6?bò3Êx% “!|eGe!wÚi∫ ?e”>\PéÛª"K`‰Xƒlcsp‚dN:`}Ìad82±lÉ0~tÒ2)] pi0”ü2 4êË,l ª4r? XÑkq6†wtb¬ufAåFveR?r1Âe:)¡ö\lir4![f∑ºLKpq®SÕ& t.hq|Aú`≥9© +'ÚÄx∏pY;¢9j2>dº(ß@5W∑2ê(lbCC˚f1FÊÃ@-m˘ 	wØ¬‚w(|Â¯ Q.†±/fvCmfy4∆è‚≤YsE˘[%g¨Í- |î1{?,7zap¢î0T8∫3([ ™#\b-x∞2´p¸0#f‰6vv1ê¬c'E!˘¡rSr¡6e+&∑≤Â~rÙ„œfeCÛzv)¢Æh6rU6vı≠¶|ôa°04!0P∞~ &ôìyyr,(~U }5'±`52ÊÀm"ˆ‚<}+Â·©D&4ÚysThj§ìb\TVqÙ„.teﬁs√‹(NpSKcTîÍñ%=L°¶á0-b´†a«!q¶æ™yóLß˘•|'(∞⁄Ü˙¥`07,àW∞l≤
+T—~EbﬂV$2}ı‹Ègì‘M
+Sßm vL¬kz^#◊F#Qd(P«1:b†õr†Æ≥! an%±£Yqx5≤= ?ÉÆ0607(<>tÁÓgAk?!lû∂∏dY^ˇzpQ∞tâlÊ:˛pe>nü'fIRÖ…N&\·´w<scMwÍ39?;£)ï^Ò¯9r!Tƒ¨>e7µ
+¥†$¸d8ª∞E$l¢H:¶yxùùºæC4AJ‰«fu˝[≈—?wk◊gP"À;\Cœe@S·`Mé5*É(Ü+lß|∞…2xJK(l r¥ö*]i¶¥s	Bê=ÆÍ;1¢0.t≈®8X2Ωºv(ƒ—CÃ1r+≤è#]&,e
+KÁ{|IÚ≈∏rg_})0uÑ≈Xg^ƒo5z]O¨õÄcuR+lê¬æQ%<i}7òL:¿2h>¶h<X6-a∏L.ºY"{\≈}©]zV¬~˘YQòc/ÎáXA2!D{∑L\ lh∏›qG3f:OÂÂXHﬂ˜¬'{∏#zTmbË¸ù˘1Ö7<,å∞%`Ò˙
+vp≥7lù≥_cÏ4o]øzÂX90ıE:c}à1ò_º1Ã,ë°8◊]3¡?¯ÿß‡^n˜óç-î™∫m=ﬂß£∂”™pŒ‹s2«±I<±‹˝¥ª'{≤>r˘!YÂÑw.y¬S?9ˇj‰hˆ'Õ∆∑Á“2Á7 p±¡tE7'äK◊˝Ùgâd dÁÈæPgX}Á7vΩ54ÿ$Í¥æØ}À43!⁄é)mÛ©!P´‚0YèÆ°aMØ‹¿øµ∏Y<ˆòj‡üàDë§∑xˆjªË˙j∂œ¥=ÿnÙF,ê$Kóeõ?º†,â:±'„ø∏ê®x5ë’=ãTÑ‚{„6ú∏l0ù·Z8&◊,÷˜°∂±2:DÀæπ„gbM$Ue8‚üvÕCÌ2˚!ù◊‡äV3åhŒú!€§˝˚J/ÊûÈ*{	≥∞§∑*|˙+¶Ùäﬁ¶f£`Ëä˘ÓËò1†’H%‡ï(<RÒ&ïx"£Ôz/j«f7¬-≈.aTR≈ˇ€7ŸlÛ?>6LOx}ût7ﬁcØcM‹ä*:∏ä±À	VÆ ÅôgùáñŒ‡8‚4fqñ'$@È¨0ûS@Á:π¸XÌ±\<i[S2ì9|3%Œ¡˝Xp
+HﬂG∞·7HzâtA{ÜS7®9Z¥—\Ó¸`úﬁFWºõ9¬Ñ£è÷ﬂb±®Ã]VÜ˙˘√KBàÂÂªfëƒ¯<ﬁô∆8Â≤«§s€Â.ü"«ÒáŸhwd"πûèÊÀW[=pycê?cˆM`13
+≠ìÈﬂ;⁄aô§EBUxÇv°ºô=ﬁÚÚ;-zìæ"©ª`M
+¡ï˜ff˚$£HΩœ™$˙<Pê%¢˝ÏéøS%ë N$∂0N}ˆƒ.ø_c*‹fÓœ@πU+	’–$÷È≠¥,Ê4[[q¯˜3Ã&ï^Ö•≠!	}’M 9ùõ%‹IF@µÃE†`¬‚Ï≤≠V–ÔÜf∆·8?	5ïë%Aè•AUŒ}d-ä£w–Ì
+≥D…‚KVπö§ëc\Ñuºú\g¶nóΩ⁄|8àü[qê—ı!Ø}}≥∑˛ÜëgnvÂ¿=ÉΩc ¿™∆ .oLT©ü”±Ä˙9I>4›^´KÏ=K≈⁄¢≈M~û.÷ógHÂ[]¯y‘∑ {ØRAÁ‡kyÉ
+SD–<Ç¶‰Rˇ„⁄GD£%íÕ‹7<éGCˇYCTœı¿ÒêøÄìÅ™ÇƒÒZÄ:ﬁ˜◊.“J_eÓº˜¯ç˜¬¿Nô≈7M˘≥6≥@Àúﬁ!.Z%®˜£ $ˇÁ8ä»WˆG⁄¨¢>	:OJz&ä®SmƒÔ{ÆŒq=ˆ≠Êëx∫A3Ùóë=OnAø˛,Û&)w…õ+:(Íyí`%[PC¶êmÙ∑|åyÆ
+Î«ÖNóe}9∏˜8˘∑ƒvıBã›ø™WnôßnÙêu?©òÍ∞Aû—E¥–Û ¬µÚØªÉ?¯¶ø¨zE≈&ë’á;ΩSÕtówaS@‰õÃ’r◊„DÚåêÖìŸïÌˇ8£í)%yë⁄2‹ájuˇˇ3•<ûpy|p∫´£©“J≤Tå†*ÖâèıR¸‹f†X ó˝≥≈éfR£GKÊò$m∫zc€ƒÊ™SãÅ\zM$°ú˚qh~K"G^Ø◊ê√,∑Yô˙#J˝â‰*>âdÄOß‰#ﬁıE†ˆÑ^Nç7˝7Á8äﬂÕ∆Á¥óJXMF‚{çZ€R∏/zV÷µñ`«q}a/d:øfßÜÄ¿ƒ‹k„k¯∂>î)øLôx¶ŒÆ…v¶e4ùr€å±J‘Ò].¸ewç∞^ÅõL–±¨‘úfPG4åQ8˜Mü‰T˛¡Fé>ME7ûqzÑâ<°û…®àå™¸2âÄHwI°≤Ì
+ﬂ§yÉ*fAEß∏äéÙÆÛ^øô?(5,·Ê$cÓÆÔÄ‘çñz/•)Œ†;`Ùëø%¿™ŒB ü˝â˙+”[◊…J¶.Òmr´`ª~Ü6g¯◊‚o?∫ ë‡∆•‚äÕÂ‡æ≥Òà.é?aH•˘Æ~ò7˛_…»0Ä¬o∑ÕcÃkÃı˜ót=/”Qe:2&;l6ÂâŒ∏+'¶ö:e†ÒG,%∏,Ñı©@µ„Ü!˛Hu˝‰„ πÂéLÎƒ˛“X∂ñÖdwœm{oXL°.˚>quEÿûπpk†„◊;`11x ∂#©g'ùÅΩwL¨O0{Tæ<Ãööπ:‰ôﬂí˘ówÓi˛VÀJùç⁄˛]<ª	j⁄3ç∆À˙ìü6°q“ZX‘ÿ™fÄz¿{ÖßG¨Õ◊°Íç{©Ú’ìW\ˆw	¢
+MVÙ∆}@<]8'•^ÑK"Z–áÁC7Å¶"ŸÙ`µ+1Ò6|$MËïπíE“S9`1öK´MÌìΩíkˇaˆ—E zeCœHÌäfX≈ÖœÚÀN‰·õÑhyà.ÆÔ ﬁµióÛ ˛≠å)M+≈&À¡⁄ôÔDÕX¨û@0∏C¢§Í‰÷<†»Û7Ãé…à–ÓZboﬁs~P®™ìsö£æ⁄Ï„q“ñ“]ùÊT…∏^FV´ùÚ°ïXMöxñ(ÕËP´ ŸˆúΩŸ}Z~4ì‘û’Úç¥ N¡‡z˙ÚˆÎó‰ØˆIËBË˚3Çèâª §(P≤iG§f]D|ÆÒ%?ø"*˜hh —v•˚W0·{ô,JS}~‰*ÃûZ„mêh/g√∑¨&˛¶	lÌ…1π*]&∑@
+¯,â∆´"◊QJ“÷í±ß©oà’BπÑ¸vãÂÇ÷U’ÑŸÅOÔ4s:¶}Rà`’Ùöt%6¶p:¸Dàm."PîökJ;ùÿ„î{6∫Fïhú‰P}Mb˚ã›é’Îfu∆ﬁUƒ¡¢ô@±Q∫G)*:ì∆ÃLKsØM≤Hq}{òÅj¥˜DR"ŸXÎ xsÃztåånÔòÀ»“aÖ¸cn˙"œÁ"Dq˜©}ÒèÏ8º<ßf,L¡5»d)‡à1[;$VMO?P…∑?ÿå¶-È{`≤„r˙…E^ƒß≥cXÃ6âËS2>“ÇRBtü//˜Ω≠v1·)à
+≈ËhÄ÷—‡‘¸˙#wCnc!òZè1\êO§BÁ,Íù“™nIgI	¿[c_Y≈ ¯}6OåMï‡+}©°˙‘ˇœ!f¨3`¥Ô†b≈€Mlw€z?#ÔﬁÙÈ5R˜Ó$2Õhoâ{ë&=Â~ÔJé™„§Ù»Û\‡"[Ã±nÑ*˝ÁÉ^ã„º9í¢$ΩYà oè≥ƒ%›ê≤GQ)	òàæ”~uæRºn¬èûhñ˜ˆÅÆt>©àÎ;ö	cø“ê	±Âº9˜GWàh€x˜>¡Ï#5Ç‡√œ‹∏.Eõ î«|¯Ò‡\º∫©D7iî¨19Â&6qÖ˙ây;’ÈØcO  ÙÃXÛœ—:≠Y»H¿/üqõ≥eA—                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                k7MÂgvA\ê¬p.Èà| 10Ω"2*0ó(î|fiìõy,39%|b|qi∑‰‘jDyd&Ehpr8]m!dgˇziÌ Ì4l{◊·nnRnI$u3∂_LjÏœ\n.¬$Ulµ`ƒCÅy*,¬0DtØ—~gO√Dad\M¿&ãSÜHddˆe.Lhmf‘@R~h¨Ì’`gI‚ÿmn¢q*y∑`…mà>çcgBle$VvPY:h„"p€_L?È‰Ô]HE8U%‹+©›<\id/ıkde™†FN/0Í◊·o Ó–'D ÆN7XØmbiM`*àÅjÈUgc>xp!c≤ÕogÙC/WÔL¯A‹W cN/	X≈*F-Î≈OuøîvV}tµ(!
+:ZwËà!npaﬁ€9Uu)ˆ#ÿp+!Á ¢n@LË pµ),3èΩ¶5)Ze~ï∫: P;d0∏|"1∞7@)1uØ$T∞˙ı]920d'R•b3(q—…GmN(MˆE‹p`tÂ∫S¥uh"loB”][}£pmocRMŸg.4i^If}m≤\ &7ç 4'≤01%≤F¢123!028R Rhq4_~6pÆ2| ·Æ;15"‚Ï∞33XKÈv55´B),A"≠7$ftPl‘Â2,CØUP/`~˜s˛7¯-G[;zmÊVQv¯omJ0ˆ/¬`Èo}ë17-ê}©)Â(p051y0:∫”",‡.ÚÆr%+|∞)¥18!Ïâipr“·7÷yeUcè}Ìrìv{tG>T«:\WÈ«hw√LÚxÁe&f4]qfdfPh6Æ`Lnv4%P7 îeZxt∏¢1m•õ01xëI<¢2±n.u-$|*0t!pa¶#3ë2Ùb$8ä$Èm⁄ Ovo∂pkdERÄ@ˇ\ønfLÓqLkÛÛ=aestbnıg'AG{>'mo*‹ T6à∂e4j0¯ U êv50£{∞ }!7
+=n4<ê)π 5 ˘<%. y'W~QjÑP∆ê4$rKñeZ#≤adm3`Q2^ïkÆf/%JtÈ”qm?.‹1n|d◊N5>#‰MÓËm10≠ru¥u%¯5Cr59pπ[00Æ9.1˘}7ø5‡XÉY604πa(6Ti´ß06ı∞”2ild+"¬™zWoŒ7"{VÒ;t}d≥Ú Mium£0ûF,h4H®fa0≠"Q.ï8!$6{ÛsQ33Ø0ByäB}Lm ÚµVZ1ˇtÊXÇ{8uin8-ˆs\sˇÛYDO∑πx3j&pbK–D,∞˚Î%wr
+µ0®0S }‡q±≥25*ˇ©2L0&µ¶r`25v∞ΩÕe]5k3V3r!çﬁ*)d ]•ßwx#¸WeK8MWy∆&nêÚa{w˛e%13Vnµ@ÆL|l \†ë≤399:0ºc|!¥2èˆr±>!Yf±l1f;'1 ~¶∞º-Ë| ")∑P<`}M¬«πgm$ˇVe8gæcXer°Sπ\◊xn%Ó
+cMt¨Ôten±R\zl∏‚V§g!#PP0´ Q†7º1p`a 3 ! ~“P´l"}$'>C∏1\(la≥G•{∑"V3 Ov≈Ú~~d|u;VB:_rkÙ·≠+!DÏ¿
+\9∂!q(ë:<t7&˘ °$>≥±∞,3;0=44}@3∑<2`¨T†ZÚ#),>TäWa_]§zv/Ígr)∂ga$ûPÙn3~¬k„4»TO@_ÏO68kd`9±s-9bù∞!$~$–9;tˆ;e:†˚!x(7©7!(|`3˜ºÖ|b.#√yäeCot%Ú˜â(Tf6™K:vÀs cÒ•AVupmÔqÎos7ˆ*:0~41πùêi ‚3ﬁk®µ∞p:#.Ï(Ó ;,Ú| #,®’m(XãFI.e-“Em(P'*hÇ-îCŒk|!∑-bMlÀ;È\DdÀÓhtu4%!%±2≠=U±&G î˘´§sÙÆ¬|#d p∂z:Ap˛cg#Òh¡oPÂkÁg!TVt¥s”ãce6†¡>]pˇ qx}B]»I`3w¿&∑Ÿ0„$@º`4l /ˇ#oò<x)6Û}≤º0ÈÅY®304:dip+´5∑êj1œ…u6Øó~d‚~hÏ<8πJªZQo„>°	dAVNK„rGÁ⁄Z-ênZ!° ¢3(ı£ P≥±!nms/.5uí“§/π≠Rµ©
+p`8ªVwd3FhéùNr˘J„aº/(°;+_p•2ËaÌD<)DÎ' D√ÛR'D'ø´˜%quõ≤øy7∂•!50Æ ¸b18 "™x@yÄˆ(4PˆÙµ†˛TLõ3®$6:LÌje ’T—a?&<=ÙZAG-2«j=wfˆA‹/#˜ﬁP|Í3Ñ·˘b&8‹th–9{„µuFWP1˚y8qü(rÛ¥wd,™≥aî§“:±í«(§rI∫e˘«5T∆˛£VØ≤“çøƒ9ÃæM‘èø¡h<E6®F—}“;`t“œw˙TJ#d˜]«⁄à@˜áO'Wúu)(n/›?rëéü;˘ŒOO›gLìW¡≥∂ŒLòÓ§®hÀ$6¢Úﬁ‰he∞Æbä¢
+H!jÈSqœÂ˘(oL“DæT¡“&D˚¸t±4îxπ¬Ò4Ôpµôf∆ˇùuø]Ú£tÊ=Jc00∑p\orßÍ≈û∑r„Œ¢T—ßw2j#≠ªeß∫k«äÙFj„Ñ3-˝)B·˘‡ :πözÁ{èù]zí7R{‚~M[Ò	E}—»°:2+Çb–Jxîeôö99Ug.îµıëD∑Ü∫F‰oTò‰l–[#=´Ào<0”ÕI!»2·ødbΩ¿3ŒEuÏ—Vòs~N\
+∞oCŒ¡≥<tı:˘iÊ¨nF∫Ókô!∫ßí0"‹‚ÄÕ∑Ëú lh!f∆°sùWùS¶h*wr‰EÌ<âÌ#”8üœ?◊⁄~∆RFèf=º!ïnÅT(‘õ^MT;”{ä•M|p®®ß]í`“⁄üS›jTlI∫ªöŸÈ√@(ïπUm#A•_‘c4!–Æ7ÃR-»+∫s>ÓV.*ié(…N∞.Õyî∞}˙gLõIm‚•Á•P9˘ﬁÕ{óπÔ†Mg—Á„Î“Œ8´˘C2È†I™€˙¥FÔQk=Î/!Òb±Ãal(Å?Ot‚-∞W`*LÅuí»¸È…{∫!;c≥–\Ôg|qﬁNî‡Ÿ+⁄:q~ò©XÈ^.(Í#ß!dyœ6«‚‚ë4tÓ.(2~éﬂ•0a˛ø5Å∫LU¬ÏÂ%íÚ‘ÆÀÍ‚
+üƒ8ΩE€Ó¿È™1‰
+eÓ¥¨yÍì§5¡iÚD˜¨qﬁ8Œ%¡‡sœ^h§s˙•°Î‚&¬Çní÷è#qçñòmôw∑‰c!4Ã6Õ¸˜ÔúoRÑ˜ÍÎº.5(M∂{áˆg_õ§\ÚMWx‘≈
+≤Õ
+fô'‹åÏ÷Ù©∞N⁄~ÒÔ√]`)*|˜Ìˆºxi¶?∑w¸ˆ“È&„4„›˛Çù˙Xï‡i-°Ω;*|Í;õC∂y≈»wK˛lﬁMå=—fÈi.º§ó`à2ùji3Z:G∆rû7‰y Õˆg©ç∂◊
+º»“≈y“îìœ9ŸI±j5qÂq=´Õq JZˆ¢ê‡ÚRy_≤vP
+‘–ÛIÊl&YˆV≥·MyÇpidÑNçV∂⁄ZÌÓPüŸ@Zºï9”…©çÿë5®˘ﬁ~CWÅÓÎè[Jû£˜ ∏iñ◊æ;<êââ8´¢≈Æt…°X)£„®‘:úX{z0Î∏çÊÉ jWe,0ßfP‚GO?∫/Ü¿ €-ıtô§LRGHÅ[®†í8œÉÂ3%JŒÍaÔ’/eó÷≤X<•;‡Ë◊ˆxÍr]ê!øˇ‰û˙Sa◊wFt≤lsCêà7ø! ^B!@Ç*ºñ`¥:Vl‡Õ+‹\√áï1Ú5J9S 6ﬁæ3œ!èG»≠Æ]»F.ó<xg—Œpü&]˚àˆ!Øæ≥ÈÏ^ØÆ‹F*Â¨d058Ç≈M[/öÎi◊/Y/IÕ˜`¬û ÷ößÏÕx`˚“l ±8ÓWDœ|4´gÑÊªŒaRÎ,÷K4ÄØÆwÏ'=ÍÚ™úÕeØûzLO⁄˘zi:è¯Ü§R3OÏ’Ï‰Ÿ˜}N3Jà~ÆHËiMŸ»ºÛM*À2ãπmUŒL]Ï2¯ù(8†.8≥¨>≠›döhåÁ¨JE\Ô˘KÃWHIÔ7åœ›'yé^SˇU@TÕ ˛óÖJ¶Äc›—Ï’ ∏◊9ÀåâM∞3moÌΩ≤Îø˝”ƒ`$Ä¡j…’¢_‹¨	î"xj∑§œXv¶∑¶TœúÈçˇÙ'O;_?+å®[dò≥j£NÃ*j¨‹Ã*_ÃB ˇ=£›¡|L~:∑Øv⁄1qÜ∞8Úhà#LrJ0o§ÇiÌ∑w˛Z®N∏Ádÿ›3SZlË•p·˘êh®‹«Ò≤F"îÈvÛêt0©òÆÂWBü”ôzv≈øt—»±ÚÈàmÚXK˝˛ÿ#z∏C§»√ó,NŸu¢J	:fΩõ—’	tñ‡H»ËÉ∆—µÒKµµo‡˛d`dG»èlõôY6'ˇˇ~µ(ïpj0,®Â∫¸ﬁLåd˚Òfúâº£L¢î=ÙA:”ﬂﬁç“'<∆eG'«◊(!TÅ`p’“Ä‰uÿØJeMi©ë¯P1h6%]„Ç≈ÄI„L⁄°4 †€˛c,ô+çµ˛$⁄˝¸Â‘HUÄ9¨Õ√œàΩ†Òô?4RÓ>˚äj{¢7|˝„å†x÷k0<* ;ìg±Ö'üîèÁFÍ(˜ F…\|K·"‹#Úè¢« ¸9G.ûs÷¡¶_X‘ÂbÂ:v◊ª	‹WÜa¶◊¥ÄÃw/-ûs¨]ŒÁr…óp!\û_IôÉ9òÌÑä’µ©œ1ûéFzBÃÿÂ  ÿL_“x.@*B¯˙ﬂﬁW›˘Ë¨ öxπ'=∞vn^Õ&Aà—¶q&t)¿¶;mÇ˜´Üæ∞ ”ÃØ—b˛ä´ MÏK?ÏbZÅ
+öjáå¶yf"¢√$÷˝ª«k‡—˙{Ìw5`Áî()Ø2ãsˇW≈ 8ÜD[?›v÷>$ ˛ıá(F/ê f?gp‹&k&‹|‘ø9}Œ GhÂ†Ô                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                \Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: mailto:support@afd.co.uk
+RegDB Name: HelpLink
+RegDB Root: 2
+RegDB Old: mailto:support@afd.co.uk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 01624 811712
+RegDB Name: HelpTelephone
+RegDB Root: 2
+RegDB Old: 01624 811712
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Software Ltd
+RegDB Name: Publisher
+RegDB Root: 2
+RegDB Old: AFD Software Ltd
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: http://www.afd.co.uk/
+RegDB Name: URLInfoAbout
+RegDB Root: 2
+RegDB Old: http://www.afd.co.uk/
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Helpdesk
+RegDB Name: Contact
+RegDB Root: 2
+RegDB Old: AFD Helpdesk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Name: Comments
+RegDB Root: 2
+RegDB Old: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: c:\postcode\pc2000.exe,-0
+RegDB Name: DisplayIcon
+RegDB Root: 2
+RegDB Old: c:\postcode\pc2000.exe,-0
+User Rights: Admin
+***  Installation Started 04/26/2013 12:05  ***
+Title: AFD Postcode - Q.1/13
+Source: C:\DOCUME~1\cashgen\LOCALS~1\Temp\GLB296.tmp | 04-26-2013 | 12:05:42 | 71680
+File Overwrite: C:\postcode\afdhkey.exe | 10-13-2010 | 09:49:56 | 0.1.0.2 | 22712 | f5e9589e
+File Overwrite: C:\postcode\pc2000.exe | 12-01-2010 | 14:45:54 | 5.9.0.19 | 1910456 | 2b3be505
+File Overwrite: C:\postcode\AFDDEMO.exe | 11-09-2007 | 11:09:04 | 1.0.0.0 | 54336 | 947cb659
+File Overwrite: C:\postcode\AFDPatch.exe | 11-09-2007 | 11:03:36 | 1.0.2.0 | 62528 | a5af4c82
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-DOS.EXE
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.EP
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.EXE
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.HP
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.INI
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PCPOPCF.EXE
+File Overwrite: C:\windows\system32\pcode32.dll | 01-31-2012 | 16:16:06 | 10.4.27.0 | 245344 | 3f1e5ec9
+File Overwrite: C:\windows\system32\afddata.dll | 05-15-2012 | 15:30:24 | 10.4.118.0 | 1941088 | c2d8909b
+File Overwrite: C:\windows\system32\afdSystemInfo.dll | 03-21-2012 | 13:05:04 | 10.4.1.1 | 204384 | 5a961c0b
+File Overwrite: C:\windows\system32\afdutl32.dll | 11-14-2008 | 16:05:12 | 0.1.1.16 | 100960 | f34900d7
+File Overwrite: C:\windows\system32\change16.dll | 02-24-2001 | 16:43:04 | 1.5.0.0 | 46592 | 9c7ca963
+File Overwrite: C:\windows\system32\afdutl16.dll | 08-05-2003 | 13:24:10 | 0.1.1.8 | 77568 | 96432c87
+File Overwrite: C:\windows\system32\change32.dll | | | | 651360 | b657bfe2
+File Overwrite: C:\windows\system32\afdrobot.dll | 01-08-2009 | 15:02:54 | 2.0.4.0 | 29760 | e4c1f2fd
+File Overwrite: C:\windows\system32\zlib.dll | 11-09-2007 | 11:02:46 | 1.1.3.1 | 58944 | 516008d1
+File Overwrite: C:\windows\system32\zlib16.dll | 11-03-2000 | 12:18:48 | | 66332 | 4c7f437
+File Overwrite: C:\postcode\Eula.txt | 12-13-2011 | 13:43:08 | | 33552 | 84c852dd
+File Overwrite: C:\postcode\POEula.txt | 03-12-2010 | 09:46:46 | | 38410 | cd4a4bf9
+File Overwrite: C:\postcode\examples.txt | 09-17-2010 | 10:03:16 | | 422 | 49223a30
+File Overwrite: C:\postcode\Docs\api.htm | 12-13-2011 | 13:53:02 | | 16798 | 6bac838f
+File Overwrite: C:\postcode\Docs\censAdd.htm | 12-13-2011 | 13:53:04 | | 30428 | 391300c5
+File Overwrite: C:\postcode\Docs\censBar.htm | 12-13-2011 | 13:53:04 | | 18219 | 830f6227
+File Overwrite: C:\postcode\Docs\censCode.htm | 12-13-2011 | 13:53:04 | | 115051 | 7dd22537
+File Overwrite: C:\postcode\Docs\censDesc.htm | 12-13-2011 | 13:53:04 | | 39640 | b0b5a2a3
+File Overwrite: C:\postcode\Docs\censfrm.htm | 12-13-2011 | 13:53:04 | | 29508 | 686f5cef
+File Overwrite: C:\postcode\Docs\censGlos.htm | 12-13-2011 | 13:53:04 | | 24873 | aa76ded6
+File Overwrite: C:\postcode\Docs\Commands.htm | 12-13-2011 | 13:53:04 | | 16993 | ad1f5821
+File Overwrite: C:\postcode\Docs\compfrm.htm | 12-13-2011 | 13:53:04 | | 19831 | dbbbbd30
+File Overwrite: C:\postcode\Docs\contents.htm | 12-13-2011 | 13:53:06 | | 27695 | aafd9a83
+File Overwrite: C:\postcode\Docs\counties.htm | 12-13-2011 | 13:53:06 | | 16879 | f136f193
+File Overwrite: C:\postcode\Docs\eula.htm | 12-13-2011 | 13:53:06 | | 182251 | 2c14f5c9
+File Overwrite: C:\postcode\Docs\FindBox.htm | 12-13-2011 | 13:53:06 | | 28222 | 84292e3d
+File Overwrite: C:\postcode\Docs\GridRef.htm | 12-13-2011 | 13:53:06 | | 21931 | 9210398a
+File Overwrite: C:\postcode\Docs\insfrm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\labfrm.htm | 12-13-2011 | 13:53:06 | | 19265 | 36516195
+File Overwrite: C:\postcode\Docs\mainstyles.css | 12-13-2011 | 13:53:10 | | 16629 | 8f60c454
+File Overwrite: C:\postcode\Docs\mapfrm.htm | 12-13-2011 | 13:53:08 | | 25196 | c4dccd97
+File Overwrite: C:\postcode\Docs\morefrm.htm | 12-13-2011 | 13:53:08 | | 22430 | 243ee30c
+File Overwrite: C:\postcode\Docs\nearfrm.htm | 12-13-2011 | 13:53:08 | | 29167 | 9cbd551
+File Overwrite: C:\postcode\Docs\net.htm | 12-13-2011 | 13:53:08 | | 189184 | abaa70c1
+File Overwrite: C:\postcode\Docs\Occupcy.htm | 12-13-2011 | 13:53:08 | | 28820 | c55d0f96
+File Overwrite: C:\postcode\Docs\otherfrm.htm | 12-13-2011 | 13:53:08 | | 22134 | d6606438
+File Overwrite: C:\postcode\Docs\Overview.htm | 12-13-2011 | 13:53:08 | | 20943 | 335e3aba
+File Overwrite: C:\postcode\Docs\pcdos.htm | 12-13-2011 | 13:53:10 | | 38493 | a734e57b
+File Overwrite: C:\postcode\Docs\resfrm.htm | 12-13-2011 | 13:53:10 | | 17769 | 88e9268f
+File Overwrite: C:\postcode\Docs\resTab.htm | 12-13-2011 | 13:53:10 | | 19080 | bfc7b63e
+File Overwrite: C:\postcode\Docs\robotfrm.htm | 12-13-2011 | 13:53:10 | | 29650 | 9a83d404
+File Overwrite: C:\postcode\Docs\Shortcut.htm | 12-13-2011 | 13:53:10 | | 23865 | b6a3bc59
+File Overwrite: C:\postcode\Docs\srchfrm.htm | 12-13-2011 | 13:53:10 | | 22416 | 671c1e57
+File Overwrite: C:\postcode\Docs\transfrm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\wiz1frm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\wiz2frm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\wiz3frm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\wiz4frm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\wiz5frm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\wiz6frm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\wiz7frm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\wizfrm.htm | 12-13-2011 | 13:53:10 | | 68929 | 1eca709a
+File Overwrite: C:\postcode\Docs\Images\advance2.gif | 10-29-2009 | 11:58:40 | | 15868 | 6a6e0794
+File Overwrite: C:\postcode\Docs\Images\advanced.gif | 01-28-2011 | 16:41:48 | | 20532 | 2c3dfaa5
+File Overwrite: C:\postcode\Docs\Images\bg_header.jpg | 03-06-2009 | 14:26:18 | | 453 | 83dfb4bb
+File Overwrite: C:\postcode\Docs\Images\button_phone.png | 05-27-2009 | 14:56:12 | | 4995 | b28a6454
+File Overwrite: C:\postcode\Docs\Images\censAge.gif | 12-16-2003 | 17:29:54 | | 4193 | 16f24d47
+File Overwrite: C:\postcode\Docs\Images\censCharity.gif | 12-22-2003 | 09:17:46 | | 3688 | 1f259bff
+File Overwrite: C:\postcode\Docs\Images\censEcon.gif | 12-16-2003 | 16:44:58 | | 7028 | 59199f21
+File Overwrite: C:\postcode\Docs\Images\censHousing.gif | 12-16-2003 | 16:38:52 | | 4500 | 2dee5d2e
+File Overwrite: C:\postcode\Docs\Images\censIncome.gif | 12-16-2003 | 16:33:24 | | 3922 | 8db6f37d
+File Overwrite: C:\postcode\Docs\Images\censInd.gif | 12-16-2003 | 16:5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                /13
+INI Old: Q.1/12
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Program Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Postcode Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Default Directory
+INI Val: c:\postcode
+INI Old: c:\postcode
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Connection String
+INI Val: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI Old: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Source
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Name
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Catalog
+INI Val: Nearest
+INI Old: Nearest
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Map
+INI Item: Detailed
+INI Val: 1
+INI Old: 0
+File Overwrite: C:\postcode\pc.dll
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode.lnk
+Link Info: C:\postcode\pc2000.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode Help.lnk
+Link Info: C:\postcode\Docs\contents.htm |  |  | 0 | 1 | 0 | 
+File Overwrite: C:\postcode\unwise.exe | 11-09-2007 | 11:03:26 | | 167048 | d8a5d19e
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: AFD Postcode
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 5
+RegDB Name: DisplayVersion
+RegDB Root: 2
+RegDB Old: 5
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: mailto:support@afd.co.uk
+RegDB Name: HelpLink
+RegDB Root: 2
+RegDB Old: mailto:support@afd.co.uk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 01624 811712
+RegDB Name: HelpTelephone
+RegDB Root: 2
+RegDB Old: 01624 811712
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Software Ltd
+RegDB Name: Publisher
+RegDB Root: 2
+RegDB Old: AFD Software Ltd
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: http://www.afd.co.uk/
+RegDB Name: URLInfoAbout
+RegDB Root: 2
+RegDB Old: http://www.afd.co.uk/
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Helpdesk
+RegDB Name: Contact
+RegDB Root: 2
+RegDB Old: AFD Helpdesk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Name: Comments
+RegDB Root: 2
+RegDB Old: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: c:\postcode\pc2000.exe,-0
+RegDB Name: DisplayIcon
+RegDB Root: 2
+RegDB Old: c:\postcode\pc2000.exe,-0
+User Rights: Admin
+***  Installation Started 05/28/2014 15:02  ***
+Title: AFD Postcode - Q.2/14
+Source: C:\DOCUME~1\cashgen\LOCALS~1\Temp\GLB240.tmp | 05-28-2014 | 15:02:48 | 71680
+File Overwrite: C:\postcode\afdhkey.exe | 10-13-2010 | 09:49:56 | 0.1.0.2 | 22560 | 13373e80
+File Overwrite: C:\postcode\pc2000.exe | 09-09-2013 | 12:47:04 | 5.10.0.9 | 1914400 | 7b83ae74
+File Overwrite: C:\postcode\AFDDEMO.exe | 11-09-2007 | 11:09:04 | 1.0.0.0 | 54336 | 947cb659
+File Overwrite: C:\postcode\AFDPatch.exe | 11-09-2007 | 11:03:36 | 1.0.2.0 | 62528 | a5af4c82
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-DOS.EXE
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.EP
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.EXE
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.HP
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.INI
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PCPOPCF.EXE
+File Overwrite: C:\windows\system32\pcode32.dll | 09-17-2013 | 09:26:48 | 10.5.36.0 | 253472 | 58c0a837
+File Overwrite: C:\windows\system32\afddata.dll | 08-09-2013 | 09:55:20 | 10.5.163.0 | 2080800 | d00dbf75
+File Overwrite: C:\windows\system32\afdSystemInfo.dll | 07-15-2013 | 07:51:46 | 10.5.12.0 | 305184 | 27467ea7
+File Overwrite: C:\windows\system32\change32.dll | 07-17-2013 | 11:01:52 | 10.5.9.0 | 821280 | 976b2c68
+File Overwrite: C:\windows\system32\afdutl32.dll | 11-14-2008 | 16:05:12 | 0.1.1.16 | 101408 | ccc27b29
+File Overwrite: C:\windows\system32\change16.dll | 02-24-2001 | 16:43:04 | 1.5.0.0 | 46592 | 9c7ca963
+File Overwrite: C:\windows\system32\afdutl16.dll | 08-05-2003 | 13:24:10 | 0.1.1.8 | 77568 | 96432c87
+File Overwrite: C:\windows\system32\afdrobot.dll | 09-09-2013 | 14:24:26 | 2.0.5.0 | 30240 | 7de66961
+File Overwrite: C:\windows\system32\zlib.dll | 11-09-2007 | 11:02:46 | 1.1.3.1 | 58944 | 516008d1
+File Overwrite: C:\windows\system32\zlib16.dll | 11-03-2000 | 12:18:48 | | 66332 | 4c7f437
+File Overwrite: C:\postcode\Eula.txt | 12-13-2013 | 11:00:52 | | 35060 | 616a7acf
+File Overwrite: C:\postcode\POEula.txt | 03-12-2010 | 09:46:46 | | 38410 | cd4a4bf9
+File Overwrite: C:\postcode\examples.txt | 09-17-2010 | 10:03:16 | | 422 | 49223a30
+File Overwrite: C:\postcode\Docs\api.htm | 03-18-2014 | 10:39:02 | | 17234 | 58ff8c5c
+File Overwrite: C:\postcode\Docs\censAdd.htm | 03-18-2014 | 10:39:02 | | 30864 | 5107aa0b
+File Overwrite: C:\postcode\Docs\censBar.htm | 03-18-2014 | 10:39:02 | | 18437 | 55c3ed4a
+File Overwrite: C:\postcode\Docs\censCode.htm | 03-18-2014 | 10:39:02 | | 88235 | 18338efd
+File Overwrite: C:\postcode\Docs\censDesc.htm | 03-18-2014 | 10:39:04 | | 35442 | abad8a8c
+File Overwrite: C:\postcode\Docs\censfrm.htm | 03-18-2014 | 10:39:04 | | 30091 | d4f14923
+File Overwrite: C:\postcode\Docs\censGlos.htm | 03-18-2014 | 10:39:04 | | 30040 | 6ee77cf1
+File Overwrite: C:\postcode\Docs\Commands.htm | 03-18-2014 | 10:39:04 | | 17429 | 257ae9f0
+File Overwrite: C:\postcode\Docs\compfrm.htm | 03-18-2014 | 10:39:04 | | 20267 | 1cc734e4
+File Overwrite: C:\postcode\Docs\contents.htm | 03-18-2014 | 10:39:06 | | 28152 | 3754a374
+File Overwrite: C:\postcode\Docs\counties.htm | 03-18-2014 | 10:39:06 | | 17315 | 704a34ad
+File Overwrite: C:\postcode\Docs\eula.htm | 03-18-2014 | 10:39:06 | | 67386 | a9795790
+File Overwrite: C:\postcode\Docs\FindBox.htm | 03-18-2014 | 10:39:06 | | 28658 | 6fb03f1c
+File Overwrite: C:\postcode\Docs\GridRef.htm | 03-18-2014 | 10:39:06 | | 22205 | 3fa5df2a
+File Overwrite: C:\postcode\Docs\insfrm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\labfrm.htm | 03-18-2014 | 10:39:06 | | 19701 | 5986ebc8
+File Overwrite: C:\postcode\Docs\mainstyles.css | 03-18-2014 | 10:39:12 | | 16664 | 24b91790
+File Overwrite: C:\postcode\Docs\mapfrm.htm | 03-18-2014 | 10:39:06 | | 25632 | bf20ea4b
+File Overwrite: C:\postcode\Docs\morefrm.htm | 03-18-2014 | 10:39:08 | | 22866 | e6bf3000
+File Overwrite: C:\postcode\Docs\nearfrm.htm | 03-18-2014 | 10:39:08 | | 29603 | ebd70873
+File Overwrite: C:\postcode\Docs\net.htm | 03-18-2014 | 10:39:08 | | 189620 | 901fafe8
+File Overwrite: C:\postcode\Docs\Occupcy.htm | 03-18-2014 | 10:39:08 | | 29220 | 8a3bad37
+File Overwrite: C:\postcode\Docs\otherfrm.htm | 03-18-2014 | 10:39:08 | | 22570 | 4873005a
+File Overwrite: C:\postcode\Docs\Overview.htm | 03-18-2014 | 10:39:08 | | 21379 | 801afbf5
+File Overwrite: C:\postcode\Docs\pcdos.htm | 03-18-2014 | 10:39:10 | | 38929 | 9f04cbd0
+File Overwrite: C:\postcode\Docs\resfrm.htm | 03-18-2014 | 10:39:10 | | 18205 | b9cf299c
+File Overwrite: C:\postcode\Docs\resTab.htm | 03-18-2014 | 10:39:10 | | 19693 | f3a1e560
+File Overwrite: C:\postcode\Docs\robotfrm.htm | 03-18-2014 | 10:39:10 | | 30086 | 28643e27
+File Copy: C:\postcode\Docs\royalmailterms.htm | 03-18-2014 | 10:39:10 | | 132922 | a67f3b82
+File Overwrite: C:\postcode\Docs\Shortcut.htm | 03-18-2014 | 10:39:12 | | 24301 | 8a9724b7
+File Overwrite: C:\postcode\Docs\srchfrm.htm | 03-18-2014 | 10:39:10 | | 22852 | 5cb6f1a
+File Overwrite: C:\postcode\Docs\transfrm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\wiz1frm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\wiz2frm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\wiz3frm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\wiz4frm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\wiz5frm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\wiz6frm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\wiz7frm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\wizfrm.htm | 03-18-2014 | 10:39:12 | | 69365 | a8903b7a
+File Overwrite: C:\postcode\Docs\Images\advance2.gif | 10-29-2009 | 11:58:40 | | 15868 | 6a6e0794
+File Overwrite: C:\postcode\Docs\Images\advanced.gif | 01-28-2011 | 16:41:48 | | 20532 | 2c3dfaa5
+File Copy: C:\postcode\Docs\Images\afd.png | 01-09-2014 | 14:47:58 | | 19703 | 73e94565
+File Overwrite: C:\postcode\Docs\Images\bg_header.jpg | 03-06-2009 | 14:26:18 | | 453 | 83dfb4bb
+File Overwrite: C:\postcode\Docs\Images\button_phone.png | 05-27-2009 | 14:56:12 | | 4995 | b28a6454
+File Overwrite: C:\postcode\Docs\Images\censAge.gif | 04-05-2013 | 09:25:20 | | 12573 | 3670e7cf
+File Overwrite: C:\postcode\Docs\Images\censCharity.gif | 04-05-2013 | 09:48:18 | | 14407 | 92d62360
+File Overwrite: C:\postcode\Docs\Images\censEcon.gif | 04-05-2013 | 08:56:22 | | 15854 | ddf708c5
+File Overwrite: C:\postcode\Docs\Images\censHousing.gif | 04-05-2013 | 08:41:04 | | 11735 | ab64ed59
+File Overwrite: C:\postcode\Docs\Images\censIncome.gif | 04-04-2013 | 15:58:48 | | 14295 | feca270f
+File Overwrite: C:\postcode\Docs\Images\censInd.gif | 04-05-2013 | 09:11:06 | | 16450 | 3a81071d
+File Overwrite: C:\postcode\Docs\Images\censKids.gif | 04-05-2013 | 09:56:24 | | 13276 | f2071c28
+File Overwrite: C:\postcode\Docs\Images\censMail.gif | 04-05-2013 | 09:46:50 | | 10824 | a3011e94
+File Overwrite: C:\postcode\Docs\Images\censMarital.gif | 04-05-2013 | 09:28:04 | | 13868 | 97660fe1
+File Overwrite: C:\postcode\Docs\Images\censNews.gif | 04-05-2013 | 09:50:02 | | 12684 | f2ad2215
+File Overwrite: C:\postcode\Docs\Images\censOcc.gif | 04-05-2013 | 09:20:02 | | 17053 | 143f641f
+File Overwrite: C:\postcode\Docs\Images\censPop.gif | 04-05-2013 | 10:07:38 | | 14415 | 328e6c9b
+File Overwrite: C:\postcode\Docs\Images\censQual.gif | 04-05-2013 | 10:30:22 | | 14789 | a1031888
+File Overwrite: C:\postcode\Docs\Images\censReg.gif | 04-05-2013 | 09:52:02 | | 11585 | a9b40a6f
+File Overwrite: C:\postcode\Docs\Images\censSocial.gif | 04-05-2013 | 09:22:30 | | 14662 | 7d1b783d
+File Overwrite: C:\postcode\Docs\Images\censTenure.gif | 04-05-2013 | 07:49:44 | | 16071 | f059f1ea
+File Overwrite: C:\postcode\Docs\Images\compact.gif | 01-28-2011 | 16:43:10 | | 9757 | 4e4062ec
+File Overwrite: C:\postcode\Docs\Images\ddeicon.gif | 11-11-2010 | 16:20:14 | | 1485 | a4670f4d
+File Overwrite: C:\postcode\Docs\Images\detached.gif | 12-13-2013 | 09:43:22 | | 120583 | cb12155d
+File Overwrite: C:\postcode\Docs\Images\detect.gif | 01-28-2011 | 16:48:12 | | 9137 | 418bed4d
+File Overwrite: C:\postcode\Docs\Images\dotted.gif | 03-06-2009 | 11:21:26 | | 48 | 24bb28df
+File Overwrite: C:\postcode\Docs\Images\Example.gif | 01-28-2011 | 16:48:58 | | 9179 | b7a786e5
+File Overwrite: C:\postcode\Docs\Images\fieldSel.gif | 01-28-2011 | 16:52:26 | | 331 | e1a87785
+File Overwrite: C:\postcode\Docs\Images\float_panel_bg_white_main.png | 06-05-2009 | 08:51:56 | | 777 | 18e71c89
+File Overwrite: C:\postcode\Docs\Images\float_panel_menu_arrows.png | 03-09-2009 | 10:34:46 | | 367 | c2375f4
+File Overwrite: C:\postcode\Docs\Images\footer_bg.png | 05-06-2009 | 16:12:36 | | 611 | 402545a5
+File Overwrite: C:\postcode\Docs\Images\gridref.gif | 01-28-2011 | 17:22:00 | | 13981 | 48b00b0e
+File Overwrite: C:\postcode\Docs\Images\insert1.gif | 10-29-2009 | 13:08:14 | | 13168 | fbc8d0c2
+File Overwrite: C:\postcode\Docs\Images\insert2.gif | 10-29-2009 | 13:18:06 | | 12927 | 603c9a5
+File Overwrite: C:\postcode\Docs\Images\insert3.gif | 10-29-2009 | 13:21:04 | | 12692 | 20696f42
+File Overwrite: C:\postcode\Docs\Images\insert4.gif | 10-29-2009 | 13:23:06 | | 14546 | 323e1519
+File Overwrite: C:\postcode\Docs\Images\insert5.gif | 10-29-2009 | 13:24:36 | | 12730 | 3fdd54ca
+File Overwrite: C:\postcode\Docs\Images\keys.gif | 10-29-2009 | 13:27:12 | | 12503 | 9447fc7b
+File Overwrite: C:\postcode\Docs\Images\keysonly.gif | 10-29-2009 | 13:29:48 | | 11532 | cef66ca7
+File Overwrite: C:\postcode\Docs\Images\logo_AFD_main_new.png | 06-04-2009 | 16:11:24 | | 17412 | 2ce63345
+File Overwrite: C:\postcode\Docs\Images\manuals_float_panel_menu_bg_grey_base.png | 09-21-2009 | 16:27:52 | | 203 | 63628de0
+File Overwrite: C:\postcode\Docs\Images\manuals_float_panel_menu_bg_grey_mid.png | 02-10-2009 | 12:40:04 | | 156 | 787c6c73
+File Overwrite: C:\postcode\Docs\Images\manuals_float_panel_menu_blue_top.png | 09-21-2009 | 16:12:50 | | 327 | efabeac3
+File Overwrite: C:\postcode\Docs\Images\manuals_float_panel_menu_green_top.png | 09-21-2009 | 16:16:26 | | 301 | e0059598
+File Overwrite: C:\postcode\Docs\Images\mapdist.gif | 12-13-2013 | 11:33:02 | | 48557 | c6c6594e
+File Overwrite: C:\postcode\Docs\Images\mapzoom.gif | 12-13-2013 | 11:34:24 | | 61534 | 13103058
+File Overwrite: C:\postcode\Docs\Images\mouse.gif | 10-29-2009 | 13:40:54 | | 9997 | e229d886
+File Overwrite: C:\postcode\Docs\Images\nearfilt.gif | 09-21-2009 | 09:35:52 | | 7508 | 3ae1c54e
+File Overwrite: C:\postcode\Docs\Images\newapp.gif | 10-29-2009 | 13:45:38 | | 13043 | e2c1eeca
+File Overwrite: C:\postcode\Docs\Images\pcmain1.gif | 01-31-2011 | 10:13:12 | | 15017 | 23e0442
+File Overwrite: C:\postcode\Docs\Images\pcMain10.gif | 09-20-2013 | 08:38:04 | | 17102 | 932b3da7
+File Overwrite: C:\postcode\Docs\Images\pcMain11.gif | 01-31-2011 | 13:11:58 | | 16248 | 6b4cedfe
+File Overwrite: C:\postcode\Docs\Images\pcMain2.gif | 01-31-2011 | 10:14:22 | | 16739 | 996daee0
+File Overwrite: C:\postcode\Docs\Images\pcMain3.gif | 09-17-2010 | 09:34:30 | | 18349 | 31cf25c5
+File Overwrite: C:\postcode\Docs\Images\pcMain4.gif | 09-17-2010 | 09:36:30 | | 20480 | 5537b45b
+File Overwrite: C:\postcode\Docs\Images\pcMain5.gif | 09-24-2009 | 11:54:16 | | 29312 | ab76fa8
+File Overwrite: C:\postcode\Docs\Images\pcMain6.gif | 12-13-2013 | 11:30:52 | | 49475 | b983d295
+File Overwrite: C:\postcode\Docs\Images\pcMain7.gif | 01-31-2011 | 10:24:06 | | 20743 | 2dfcb29b
+File Overwrite: C:\postcode\Docs\Images\pcmain8.gif | 01-31-2011 | 10:26:48 | | 9886 | c0f871fe
+File Overwrite: C:\postcode\Docs\Images\pcmain9.gif | 01-31-2011 | 10:45:28 | | 19120 | 347d3b05
+File Overwrite: C:\postcode\Docs\Images\pdf_icon_tiny.png | 03-31-2009 | 14:35:36 | | 539 | 1ba05b08
+File Overwrite: C:\postcode\Docs\Images\product_postcode.png | 03-17-2009 | 09:53:58 | | 20491 | b818b0f6
+File Overwrite: C:\postcode\Docs\Images\propdde.gif | 01-31-2011 | 13:13:28 | | 14008 | 8ff52d4f
+File Overwrite: C:\postcode\Docs\Images\shim.gif | 01-13-2003 | 17:22:34 | | 43 | 9acceab1
+File Overwrite: C:\postcode\Docs\Images\shortcut.gif | 01-31-2011 | 13:14:36 | | 13251 | 9c88c1fa
+File Overwrite: C:\postcode\Docs\Images\systray.gif | 09-02-2009 | 09:56:24 | | 1854 | 92958df5
+File Overwrite: C:\postcode\Docs\Images\teach.gif | 10-29-2009 | 14:00:20 | | 12173 | 895e9082
+File Overwrite: C:\postcode\Docs\Images\teachdne.gif | 10-29-2009 | 14:07:50 | | 13258 | c23aa7cc
+File Overwrite: C:\postcode\Docs\Images\teachfds.gif | 10-29-2009 | 14:03:18 | | 14922 | da83932e
+File Overwrite: C:\postcode\Docs\Images\tick.png | 03-02-2009 | 12:48:48 | | 241 | 50066e5f
+File Overwrite: C:\postcode\Docs\Images\ukmap.gif | 12-13-2013 | 11:35:40 | | 17450 | 68704d4e
+File Overwrite: C:\postcode\Docs\Images\wordaddr.gif | 09-17-2010 | 09:40:20 | | 24146 | 40c69050
+File Overwrite: C:\postcode\Docs\Rereg.rtf | 02-20-2014 | 11:24:44 | | 45555 | 8ef34580
+File Overwrite: C:\postcode\changes.afd | 03-24-2014 | 02:13:00 | | 596337 | a16ce59e
+File Overwrite: C:\postcode\pc1.dll | 03-24-2014 | 12:40:26 | | 14403405 | 921b92a2
+File Overwrite: C:\postcode\pc3.dll | 03-24-2014 | 12:40:26 | | 168062 | 9f270c0c
+File Overwrite: C:\postcode\pc4.dll | 03-24-2014 | 12:40:26 | | 337716 | 79abd8f4
+File Overwrite: C:\postcode\pc5.dll | 03-24-2014 | 12:40:26 | | 2658570 | ecced69f
+File Overwrite: C:\postcode\extra.afd | 12-14-2011 | 11:59:10 | | 806 | c515d770
+Date/Time: Following file not copied.
+File Overwrite: C:\windows\system32\dssock32.ocx | 10-30-1996 | 00:14:08 | 1.70.0.1 | 69632 | d832c521
+Date/Time: Following file not copied.
+File Overwrite: C:\windows\system32\COMDLG32.OCX | 03-13-2001 | 14:49:28 | 6.0.84.18 | 140288 | 84fbb29a
+Date/Time: Following file not copied.
+File Overwrite: C:\windows\system32\TABCTL32.OCX | 12-06-2000 | 01:00:00 | 6.0.90.43 | 209608 | 30c3c8c7
+Self-Register: C:\windows\system32\dssock32.ocx
+Self-Register: C:\windows\system32\COMDLG32.OCX
+Self-Register: C:\windows\system32\TABCTL32.OCX
+INI File: C:\WINDOWS\CHANGE.INI
+INI Sect: Changes
+INI Item: Full 
+INI Val: c:\postcode
+INI Old: c:\postcode
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: Settings File
+INI Val: c:\postcode\wp.ini
+INI Old: c:\postcode\wp.ini
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: Settings
+INI Val: wp
+INI Old: wp
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: No Remind
+INI Val: 1
+INI Old: 0
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: New Insert
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Account Ref
+INI Val: CASHG02
+INI Old: CASHG02
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Serial No
+INI Val: 814114
+INI Old: 814114
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Data Set
+INI Val: Q.2/14
+INI Old: Q.1/13
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Program Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Postcode Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Default Directory
+INI Val: c:\postcode
+INI Old: c:\postcode
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Connection String
+INI Val: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI Old: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Source
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Name
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Catalog
+INI Val: Nearest
+INI Old: Nearest
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Map
+INI Item: Detailed
+INI Val: 1
+INI Old: 0
+File Overwrite: C:\postcode\pc.dll
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode.lnk
+Link Info: C:\postcode\pc2000.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode Help.lnk
+Link Info: C:\postcode\Docs\contents.htm |  |  | 0 | 1 | 0 | 
+File Overwrite: C:\postcode\unwise.exe | 11-09-2007 | 11:03:26 | | 167048 | d8a5d19e
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: AFD Postcode
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 5
+RegDB Name: DisplayVersion
+RegDB Root: 2
+RegDB Old: 5
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: mailto:support@afd.co.uk
+RegDB Name: HelpLink
+RegDB Root: 2
+RegDB Old: mailto:support@afd.co.uk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 01624 811712
+RegDB Name: HelpTelephone
+RegDB Root: 2
+RegDB Old: 01624 811712
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Software Ltd
+RegDB Name: Publisher
+RegDB Root: 2
+RegDB Old: AFD Software Ltd
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: http://www.afd.co.uk/
+RegDB Name: URLInfoAbout
+RegDB Root: 2
+RegDB Old: http://www.afd.co.uk/
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Helpdesk
+RegDB Name: Contact
+RegDB Root: 2
+RegDB Old: AFD Helpdesk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Name: Comments
+RegDB Root: 2
+RegDB Old: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: c:\postcode\pc2000.exe,-0
+RegDB Name: DisplayIcon
+RegDB Root: 2
+RegDB Old: c:\postcode\pc2000.exe,-0
+User Rights: Admin
+***  Installation Started 04/20/2016 17:15  ***
+Title: AFD Postcode
+Source: C:\DOCUME~1\cashgen\LOCALS~1\Temp\GLB408.tmp | 04-20-2016 | 17:15:46 | 71680
+File Overwrite: C:\postcode\afdhkey.exe | 10-13-2010 | 09:49:56 | 0.1.0.2 | 22776 | 56b58ed2
+File Overwrite: C:\postcode\pc2000.exe | 09-14-2015 | 12:44:20 | 5.10.0.9 | 1914616 | bdbe6ecb
+File Overwrite: C:\postcode\AFDDEMO.exe | 11-09-2007 | 11:09:04 | 1.0.0.0 | 54336 | 947cb659
+File Overwrite: C:\postcode\AFDPatch.exe | 11-09-2007 | 11:03:36 | 1.0.2.0 | 63224 | 59ae7b0d
+File Copy: C:\postcode\dataCheck.exe | 11-09-2007 | 11:02:14 | 1.0.0.3 | 540920 | 1a48676b
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-DOS.EXE
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.EP
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.EXE
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.HP
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PC-POP.INI
+Date/Time: Following file not copied.
+ File Copy: c:\postcode\PCPOPCF.EXE
+File Overwrite: C:\windows\system32\pcode32.dll | 09-17-2013 | 09:26:48 | 10.5.36.0 | 253688 | 42907f6f
+File Overwrite: C:\windows\system32\afddata.dll | | | | 2081016 | b0ea8ff4
+File Overwrite: C:\windows\system32\afdSystemInfo.dll | 07-15-2013 | 07:51:46 | 10.5.12.0 | 305400 | d5fb60eb
+File Overwrite: C:\windows\system32\change32.dll | | | | 821496 | b2f923b1
+File Overwrite: C:\windows\system32\afdutl32.dll | 11-14-2008 | 16:05:12 | 0.1.1.16 | 101624 | 6a154da7
+File Overwrite: C:\windows\system32\change16.dll | 02-24-2001 | 16:43:04 | 1.5.0.0 | 46592 | 9c7ca963
+File Overwrite: C:\windows\system32\afdutl16.dll | 08-05-2003 | 13:24:10 | 0.1.1.8 | 77568 | 96432c87
+File Overwrite: C:\windows\system32\afdrobot.dll | 09-09-2013 | 14:24:26 | 2.0.5.0 | 30240 | 7de66961
+File Overwrite: C:\windows\system32\zlib.dll | 11-09-2007 | 11:02:46 | 1.1.3.1 | 58944 | 516008d1
+File Overwrite: C:\windows\system32\zlib16.dll | 11-03-2000 | 12:18:48 | | 66332 | 4c7f437
+File Overwrite: C:\postcode\Eula.txt | 12-17-2015 | 14:48:50 | | 36946 | 65d18c39
+File Overwrite: C:\postcode\POEula.txt | 03-27-2015 | 08:01:22 | | 7366 | 68c25df6
+File Overwrite: C:\postcode\examples.txt | 09-17-2010 | 10:03:16 | | 422 | 49223a30
+File Overwrite: C:\postcode\Docs\api.htm | 11-03-2015 | 10:22:46 | | 17293 | 35d9cac3
+File Overwrite: C:\postcode\Docs\censAdd.htm | 11-03-2015 | 10:22:46 | | 30923 | bd72c1b1
+File Overwrite: C:\postcode\Docs\censBar.htm | 11-03-2015 | 10:22:48 | | 18496 | 58466e84
+File Overwrite: C:\postcode\Docs\censCode.htm | 11-03-2015 | 10:22:48 | | 88438 | 8bae4c9f
+File Overwrite: C:\postcode\Docs\censDesc.htm | 11-03-2015 | 10:22:48 | | 35501 | f6ead9e0
+File Overwrite: C:\postcode\Docs\censfrm.htm | 11-03-2015 | 10:22:50 | | 30150 | b8c8443f
+File Overwrite: C:\postcode\Docs\censGlos.htm | 11-03-2015 | 10:22:48 | | 30099 | b07fb37e
+File Overwrite: C:\postcode\Docs\Commands.htm | 11-03-2015 | 10:22:50 | | 17488 | 13f6f8a4
+File Overwrite: C:\postcode\Docs\compfrm.htm | 11-03-2015 | 10:22:50 | | 20326 | 3646cc91
+File Overwrite: C:\postcode\Docs\contents.htm | 11-03-2015 | 10:22:52 | | 28057 | cc302487
+File Overwrite: C:\postcode\Docs\counties.htm | 11-03-2015 | 10:22:50 | | 17374 | f0677980
+File Overwrite: C:\postcode\Docs\eula.htm | 12-17-2015 | 14:51:58 | | 69951 | 194fbb7e
+File Overwrite: C:\postcode\Docs\FindBox.htm | 11-03-2015 | 10:22:50 | | 28691 | 9471ebba
+File Overwrite: C:\postcode\Docs\GridRef.htm | 11-03-2015 | 10:22:50 | | 22264 | 867fc332
+File Overwrite: C:\postcode\Docs\insfrm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\labfrm.htm | 11-03-2015 | 10:22:52 | | 19760 | 6e32e2cf
+File Overwrite: C:\postcode\Docs\mainstyles.css | 11-03-2015 | 10:23:10 | | 17314 | d0672705
+File Overwrite: C:\postcode\Docs\mapfrm.htm | 11-03-2015 | 10:22:52 | | 25691 | ce5b6eae
+File Overwrite: C:\postcode\Docs\morefrm.htm | 11-03-2015 | 10:22:52 | | 22925 | 40494fdb
+File Overwrite: C:\postcode\Docs\nearfrm.htm | 11-03-2015 | 10:22:52 | | 29662 | 5aae6182
+File Overwrite: C:\postcode\Docs\net.htm | 11-03-2015 | 10:22:54 | | 189679 | c05f5605
+File Overwrite: C:\postcode\Docs\Occupcy.htm | 11-03-2015 | 10:22:54 | | 29279 | 5e32ec5f
+File Overwrite: C:\postcode\Docs\otherfrm.htm | 11-03-2015 | 10:22:54 | | 22629 | 1c838c2a
+File Overwrite: C:\postcode\Docs\Overview.htm | 11-03-2015 | 10:22:54 | | 21438 | fd2eedea
+File Overwrite: C:\postcode\Docs\pcdos.htm | 11-03-2015 | 10:22:54 | | 38904 | 9792ee73
+File Overwrite: C:\postcode\Docs\resfrm.htm | 11-03-2015 | 10:22:56 | | 18264 | cf9ba272
+File Overwrite: C:\postcode\Docs\resTab.htm | 11-03-2015 | 10:22:56 | | 19752 | 365b3081
+File Overwrite: C:\postcode\Docs\robotfrm.htm | 11-03-2015 | 10:22:56 | | 30145 | bb551d78
+File Overwrite: C:\postcode\Docs\royalmailterms.htm | 12-18-2015 | 11:47:12 | | 56140 | cbba0290
+File Overwrite: C:\postcode\Docs\Shortcut.htm | 11-03-2015 | 10:22:58 | | 24360 | 6ff9a52
+File Overwrite: C:\postcode\Docs\srchfrm.htm | 11-03-2015 | 10:22:56 | | 22911 | 961b35
+File Overwrite: C:\postcode\Docs\transfrm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\wiz1frm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\wiz2frm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\wiz3frm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\wiz4frm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\wiz5frm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\wiz6frm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\wiz7frm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\wizfrm.htm | 11-03-2015 | 10:22:58 | | 69424 | a1b9c992
+File Overwrite: C:\postcode\Docs\Images\advance2.gif | 10-29-2009 | 11:58:40 | | 15868 | 6a6e0794
+File Overwrite: C:\postcode\Docs\Images\advanced.gif | 01-28-2011 | 16:41:48 | | 20532 | 2c3dfaa5
+File Overwrite: C:\postcode\Docs\Images\afd.png | 01-09-2014 | 14:47:58 | | 19703 | 73e94565
+File Overwrite: C:\postcode\Docs\Images\bg_header.jpg | 03-06-2009 | 14:26:18 | | 453 | 83dfb4bb
+File Overwrite: C:\postcode\Docs\Images\button_phone.png | 05-27-2009 | 14:56:12 | | 4995 | b28a6454
+File Overwrite: C:\postcode\Docs\Images\censAge.gif | 04-05-2013 | 09:25:20 | | 12573 | 3670e7cf
+File Overwrite: C:\postcode\Docs\Images\censCharity.gif | 04-05-2013 | 09:48:18 | | 14407 | 92d62360
+File Overwrite: C:\postcode\Docs\Images\censEcon.gif | 04-05-2013 | 08:56:22 | | 15854 | ddf708c5
+File Overwrite: C:\postcode\Docs\Images\censHousing.gif | 04-05-2013 | 08:41:04 | | 11735 | ab64ed59
+File Overwrite: C:\postcode\Docs\Images\censIncome.gif | 04-04-2013 | 15:58:48 | | 14295 | feca270f
+File Overwrite: C:\postcode\Docs\Images\censInd.gif | 04-05-2013 | 09:11:06 | | 16450 | 3a81071d
+File Overwrite: C:\postcode\Docs\Images\censKids.gif | 04-05-2013 | 09:56:24 | | 13276 | f2071c28
+File Overwrite: C:\postcode\Docs\Images\censMail.gif | 04-05-2013 | 09:46:50 | | 10824 | a3011e94
+File Overwrite: C:\postcode\Docs\Images\censMarital.gif | 04-05-2013 | 09:28:04 | | 13868 | 97660fe1
+File Overwrite: C:\postcode\Docs\Images\censNews.gif | 04-05-2013 | 09:50:02 | | 12684 | f2ad2215
+File Overwrite: C:\postcode\Docs\Images\censOcc.gif | 04-05-2013 | 09:20:02 | | 17053 | 143f641f
+File Overwrite: C:\postcode\Docs\Images\censPop.gif | 04-05-2013 | 10:07:38 | | 14415 | 328e6c9b
+File Overwrite: C:\postcode\Docs\Images\censQual.gif | 04-05-2013 | 10:30:22 | | 14789 | a1031888
+File Overwrite: C:\postcode\Docs\Images\censReg.gif | 04-05-2013 | 09:52:02 | | 11585 | a9b40a6f
+File Overwrite: C:\postcode\Docs\Images\censSocial.gif | 04-05-2013 | 09:22:30 | | 14662 | 7d1b783d
+File Overwrite: C:\postcode\Docs\Images\censTenure.gif | 04-05-2013 | 07:49:44 | | 16071 | f059f1ea
+File Overwrite: C:\postcode\Docs\Images\compact.gif | 01-28-2011 | 16:43:10 | | 9757 | 4e4062ec
+File Overwrite: C:\postcode\Docs\Images\ddeicon.gif | 11-11-2010 | 16:20:14 | | 1485 | a4670f4d
+File Overwrite: C:\postcode\Docs\Images\detached.gif | 06-27-2014 | 13:17:08 | | 119980 | d512548d
+File Overwrite: C:\postcode\Docs\Images\detect.gif | 01-28-2011 | 16:48:12 | | 9137 | 418bed4d
+File Overwrite: C:\postcode\Docs\Images\dotted.gif | 03-06-2009 | 11:21:26 | | 48 | 24bb28df
+File Overwrite: C:\postcode\Docs\Images\Example.gif | 01-28-2011 | 16:48:58 | | 9179 | b7a786e5
+File Overwrite: C:\postcode\Docs\Images\fieldSel.gif | 01-28-2011 | 16:52:26 | | 331 | e1a87785
+File Overwrite: C:\postcode\Docs\Images\float_panel_bg_white_main.png | 06-05-2009 | 08:51:56 | | 777 | 18e71c89
+File Overwrite: C:\postcode\Docs\Images\float_panel_menu_arrows.png | 03-09-2009 | 10:34:46 | | 367 | c2375f4
+File Overwrite: C:\postcode\Docs\Images\footer_bg.png | 05-06-2009 | 16:12:36 | | 611 | 402545a5
+File Overwrite: C:\postcode\Docs\Images\gridref.gif | 01-28-2011 | 17:22:00 | | 13981 | 48b00b0e
+File Overwrite: C:\postcode\Docs\Images\insert1.gif | 10-29-2009 | 13:08:14 | | 13168 | fbc8d0c2
+File Overwrite: C:\postcode\Docs\Images\insert2.gif | 10-29-2009 | 13:18:06 | | 12927 | 603c9a5
+File Overwrite: C:\postcode\Docs\Images\insert3.gif | 10-29-2009 | 13:21:04 | | 12692 | 20696f42
+File Overwrite: C:\postcode\Docs\Images\insert4.gif | 10-29-2009 | 13:23:06 | | 14546 | 323e1519
+File Overwrite: C:\postcode\Docs\Images\insert5.gif | 10-29-2009 | 13:24:36 | | 12730 | 3fdd54ca
+File Overwrite: C:\postcode\Docs\Images\keys.gif | 10-29-2009 | 13:27:12 | | 12503 | 9447fc7b
+File Overwrite: C:\postcode\Docs\Images\keysonly.gif | 10-29-2009 | 13:29:48 | | 11532 | cef66ca7
+File Overwrite: C:\postcode\Docs\Images\manuals_float_panel_menu_bg_grey_base.png | 09-21-2009 | 16:27:52 | | 203 | 63628de0
+File Overwrite: C:\postcode\Docs\Images\manuals_float_panel_menu_bg_grey_mid.png | 02-10-2009 | 12:40:04 | | 156 | 787c6c73
+File Overwrite: C:\postcode\Docs\Images\manuals_float_panel_menu_blue_top.png | 09-21-2009 | 16:12:50 | | 327 | efabeac3
+File Overwrite: C:\postcode\Docs\Images\manuals_float_panel_menu_green_top.png | 09-21-2009 | 16:16:26 | | 301 | e0059598
+File Overwrite: C:\postcode\Docs\Images\mapdist.gif | 06-27-2014 | 13:21:38 | | 47156 | 4ba82792
+File Overwrite: C:\postcode\Docs\Images\mapzoom.gif | 06-27-2014 | 13:23:30 | | 59776 | ee95cb7c
+File Overwrite: C:\postcode\Docs\Images\mouse.gif | 10-29-2009 | 13:40:54 | | 9997 | e229d886
+File Overwrite: C:\postcode\Docs\Images\nearfilt.gif | 09-21-2009 | 09:35:52 | | 7508 | 3ae1c54e
+File Overwrite: C:\postcode\Docs\Images\newapp.gif | 10-29-2009 | 13:45:38 | | 13043 | e2c1eeca
+File Overwrite: C:\postcode\Docs\Images\pcmain1.gif | 01-31-2011 | 10:13:12 | | 15017 | 23e0442
+File Overwrite: C:\postcode\Docs\Images\pcMain10.gif | 09-20-2013 | 08:38:04 | | 17102 | 932b3da7
+File Overwrite: C:\postcode\Docs\Images\pcMain11.gif | 01-31-2011 | 13:11:58 | | 16248 | 6b4cedfe
+File Overwrite: C:\postcode\Docs\Images\pcMain2.gif | 01-31-2011 | 10:14:22 | | 16739 | 996daee0
+File Overwrite: C:\postcode\Docs\Images\pcMain3.gif | 09-17-2010 | 09:34:30 | | 18349 | 31cf25c5
+File Overwrite: C:\postcode\Docs\Images\pcMain4.gif | 09-17-2010 | 09:36:30 | | 20480 | 5537b45b
+File Overwrite: C:\postcode\Docs\Images\pcMain5.gif | 09-24-2009 | 11:54:16 | | 29312 | ab76fa8
+File Overwrite: C:\postcode\Docs\Images\pcMain6.gif | 06-27-2014 | 13:15:36 | | 48010 | f243997f
+File Overwrite: C:\postcode\Docs\Images\pcMain7.gif | 12-04-2014 | 09:01:30 | | 21399 | 97790a6f
+File Overwrite: C:\postcode\Docs\Images\pcmain8.gif | 01-31-2011 | 10:26:48 | | 9886 | c0f871fe
+File Overwrite: C:\postcode\Docs\Images\pcmain9.gif | 01-31-2011 | 10:45:28 | | 19120 | 347d3b05
+File Overwrite: C:\postcode\Docs\Images\pdf_icon_tiny.png | 03-31-2009 | 14:35:36 | | 539 | 1ba05b08
+File Overwrite: C:\postcode\Docs\Images\product_postcode.png | 03-17-2009 | 09:53:58 | | 20491 | b818b0f6
+File Overwrite: C:\postcode\Docs\Images\propdde.gif | 01-31-2011 | 13:13:28 | | 14008 | 8ff52d4f
+File Overwrite: C:\postcode\Docs\Images\shim.gif | 01-13-2003 | 17:22:34 | | 43 | 9acceab1
+File Overwrite: C:\postcode\Docs\Images\shortcut.gif | 01-31-2011 | 13:14:36 | | 13251 | 9c88c1fa
+File Overwrite: C:\postcode\Docs\Images\systray.gif | 09-02-2009 | 09:56:24 | | 1854 | 92958df5
+File Overwrite: C:\postcode\Docs\Images\teach.gif | 10-29-2009 | 14:00:20 | | 12173 | 895e9082
+File Overwrite: C:\postcode\Docs\Images\teachdne.gif | 10-29-2009 | 14:07:50 | | 13258 | c23aa7cc
+File Overwrite: C:\postcode\Docs\Images\teachfds.gif | 10-29-2009 | 14:03:18 | | 14922 | da83932e
+File Overwrite: C:\postcode\Docs\Images\tick.png | 03-02-2009 | 12:48:48 | | 241 | 50066e5f
+File Overwrite: C:\postcode\Docs\Images\ukmap.gif | 12-13-2013 | 11:35:40 | | 17450 | 68704d4e
+File Overwrite: C:\postcode\Docs\Images\wordaddr.gif | 09-17-2010 | 09:40:20 | | 24146 | 40c69050
+File Overwrite: C:\postcode\Docs\Rereg.rtf | 09-28-2015 | 08:16:30 | | 1868 | aa24195d
+File Overwrite: C:\postcode\changes.afd
+File Overwrite: C:\postcode\pc1.dll
+File Overwrite: C:\postcode\pc3.dll
+File Overwrite: C:\postcode\pc4.dll
+File Overwrite: C:\postcode\pc5.dll
+File Copy: C:\postcode\datacheck.afd
+File Overwrite: C:\postcode\extra.afd | 05-18-2015 | 10:26:04 | | 806 | 112743ed
+Date/Time: Following file not copied.
+File Overwrite: C:\windows\system32\dssock32.ocx | 10-30-1996 | 00:14:08 | 1.70.0.1 | 69632 | d832c521
+Date/Time: Following file not copied.
+File Overwrite: C:\windows\system32\COMDLG32.OCX | 03-13-2001 | 14:49:28 | 6.0.84.18 | 140288 | 84fbb29a
+Date/Time: Following file not copied.
+File Overwrite: C:\windows\system32\TABCTL32.OCX | 12-06-2000 | 01:00:00 | 6.0.90.43 | 209608 | 30c3c8c7
+Self-Register: C:\windows\system32\dssock32.ocx
+Self-Register: C:\windows\system32\COMDLG32.OCX
+Self-Register: C:\windows\system32\TABCTL32.OCX
+INI File: C:\WINDOWS\CHANGE.INI
+INI Sect: Changes
+INI Item: Full 
+INI Val: c:\postcode
+INI Old: c:\postcode
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: Settings File
+INI Val: c:\postcode\wp.ini
+INI Old: c:\postcode\wp.ini
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: Settings
+INI Val: wp
+INI Old: wp
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: No Remind
+INI Val: 1
+INI Old: 0
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: General Settings
+INI Item: New Insert
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Account Ref
+INI Val: CASHG02
+INI Old: CASHG02
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Serial No
+INI Val: 814114
+INI Old: 814114
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Data Set
+INI Val: Q.2/16
+INI Old: Q.2/14
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Program Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Common
+INI Item: Postcode Directory
+INI Val: c:\postcode\
+INI Old: c:\postcode\
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Default Directory
+INI Val: c:\postcode
+INI Old: c:\postcode
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Connection String
+INI Val: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI Old: Provider=Microsoft Jet 4.0 OLE DB Provider;Data Source=c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Source
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Name
+INI Val: c:\postcode\phones4u.mdb
+INI Old: c:\postcode\phones4u.mdb
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Nearest
+INI Item: Database Catalog
+INI Val: Nearest
+INI Old: Nearest
+INI File: C:\WINDOWS\POSTCODE.INI
+INI Sect: Map
+INI Item: Detailed
+INI Val: 1
+INI Old: 0
+File Overwrite: C:\postcode\pc.dll
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode.lnk
+Link Info: C:\postcode\pc2000.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Documents and Settings\All Users\Start Menu\Programs\AFD Postcode\Postcode Help.lnk
+Link Info: C:\postcode\Docs\contents.htm |  |  | 0 | 1 | 0 | 
+File Overwrite: C:\postcode\unwise.exe | 11-09-2007 | 11:03:26 | | 167048 | d8a5d19e
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: AFD Postcode
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\postcode\UNWISE C:\postcode\install.log
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 5
+RegDB Name: DisplayVersion
+RegDB Root: 2
+RegDB Old: 5
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: mailto:support@afd.co.uk
+RegDB Name: HelpLink
+RegDB Root: 2
+RegDB Old: mailto:support@afd.co.uk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: 01624 811712
+RegDB Name: HelpTelephone
+RegDB Root: 2
+RegDB Old: 01624 811712
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Software Ltd
+RegDB Name: Publisher
+RegDB Root: 2
+RegDB Old: AFD Software Ltd
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: http://www.afd.co.uk/
+RegDB Name: URLInfoAbout
+RegDB Root: 2
+RegDB Old: http://www.afd.co.uk/
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Helpdesk
+RegDB Name: Contact
+RegDB Root: 2
+RegDB Old: AFD Helpdesk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Name: Comments
+RegDB Root: 2
+RegDB Old: AFD Postcode with new Robot technology offering easy access to accurate address entry from just the postcode.
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AFD Postcode
+RegDB Val: c:\postcode\pc2000.exe,-0
+RegDB Name: DisplayIcon
+RegDB Root: 2
+RegDB Old: c:\postcode\pc2000.exe,-0
+User Rights: Admin

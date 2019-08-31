@@ -1,0 +1,135 @@
+Royal Mail End User License
+
+Please note not all sections may relate to your License.
+
+1. Definitions and interpretations
+
+1.1 In this Licence the following terms have the following meanings:
+
+"address" refers to an address to which mail can be delivered 
+
+"Bureau Customer" a customer for a Bureau Service 
+
+"Bureau Services" a service comprising the Data Cleansing of a Customer Database and the supply of the resulting Cleansed Customer Database back to the relevant customer 
+
+"Customer Database" a database of an End User's customer 
+
+"Data Cleansing" the processing of existing data records using PAF® Data: 
+
+(a) including validating, reformatting, correcting or appending additional data to those records, and 
+
+(b) including the use of PAF® Data within address capture applications, but 
+
+(c) not including Data Extraction (whether carried out by an address capture application or otherwise), 
+
+and Cleansed shall be read accordingly 
+
+"Data Extraction" the extraction of PAF® Data or any part of it for the generation of new address records in a new or existing database 
+
+"End User" a single legal entity who you or a Licensee may permit to use PAF® Data through its Users in accordance with this Licence 
+
+"Extracted Data" data generated as a result of Data Extraction 
+
+"Licensee" a person whose use of PAF® Data you authorise further to this Licence, or whose use is authorised by such a person by way of a sub-licence granted further to this Licence (whether directly or by way of a chain of sub-licences) but not an End User 
+
+"PAF® Data" Royal Mail's database known as PAF®, and including the database known as the "Alias File" 
+
+"PAF® Licensing Centre" Royal Mail's website at www.poweredbypaf.com/licensing-centre or such other website as Royal Mail may notify further to this Licence 
+
+"Party" either Royal Mail or you (and Parties shall be read accordingly) 
+	
+"Royal Mail" Royal Mail Group Limited, acting by its Address Management Unit 
+
+"Solution" a product or service or other solution which benefits from or includes PAF® Data (including the provision of PAF® Data itself), in whatever form, however produced or distributed and whether or not including other functionality, services, software or data 
+
+"Standard PAF® Licence" a licence (other than a licence on the terms of this Licence) for the use of PAF® Data on standard terms for specified uses made generally available by Royal Mail on the PAF® Licensing Centre or otherwise 
+
+"Substantially All Database" a database which on its own or as part of another database comprises all or substantially all the addresses in the United Kingdom or any of England, Wales, Scotland or Northern Ireland 
+
+"Term" the period during which this Licence is in force according to its terms 
+
+"User" an individual authorised by an End User to use a Solution 
+
+"Website" a website, application or other remotely-enabled means of communicating with end user customers for products and services, made generally available to such customers 
+
+"Website Use" the use of PAF® Data to capture or verify address details of users of an End User's Website where: 
+
+(a) Website users are not the End User's employees or concerned with the provision of services to the End User (unless acting in a personal capacity), and 
+
+(b) neither the use of the Website or the End User's product and service offering is connected with the management of address data or Data Cleansing, and 
+
+(c) the address capture or verification is carried out for the purpose of the receipt of products or services enabled by the Website 
+
+"Working Day" Monday to Friday excluding bank and public holidays in England, and 
+
+1.2 In this Licence (unless the context otherwise requires) words following words such as "includes", "including" and "in particular" are read without limitation, and references to a person are to any natural or legal person whether incorporated or not.
+
+2. End Users' permitted use of Solutions
+
+End Users may freely use PAF® Data in Solutions in accordance with these End User Terms.
+
+3. Conditions of use
+
+(a) End Users must not make copies of PAF® Data except as permitted by these End User Terms or reasonably necessary for back-up, security, business continuity and system testing purposes.
+
+(b) End Users may use PAF® Data for Data Extraction but Extracted Data:
+
+(i) may only be accessed by Users, and
+
+(ii) must not be supplied or any access to it provided to any third party.
+
+(c) End Users may provide Cleansed data to third parties provided that:
+
+(i) where that supply is a Bureau Service, the End User and the Bureau Customers comply with the restrictions in Schedule 4, and
+
+(ii) if such databases are Substantially All Databases:
+
+(A) such databases are not represented or held out as a master, original or comprehensive address database or other similar description,
+
+(B) the access is provided in the course of the End User's normal data supply or routine business activities and is not carried on as a business in its own right, and
+
+(C) the provision includes a prominent notice that the relevant Cleansed data has been cleansed against PAF® Data.
+
+(d) End Users must not permit access to, display or communicate to the public any Solutions, except for the purposes of capturing or confirming address details of third parties.
+
+(e) Except as set out in these End User Terms, End Users must not:
+
+(i) transfer, assign, sell or licence Solutions or their use to any other person,
+
+(ii) use Solutions to create a product or service distributed or sold to any third party which relies on any use of PAF® Data, including copying, looking up or enquiring, publishing, searching, analysing, modifying and reformatting, or
+
+(iii) copy, reproduce, extract, reutilise or publish Solutions or any of them.
+
+4. Subcontracting
+
+End Users may provide PAF® Data to their subcontractors who may use it to the extent necessary for:
+
+(a) the provision of information technology services to the End User, or
+
+(b) acting on behalf of the End User
+
+in each case for the End User's own business purposes and not those of the sub-contractor and provided that each such sub-contractor agrees to observe the restrictions on use of PAF® Data contained in these End User Terms and that the End User is responsible for any breaches of those terms by such sub-contractor.
+
+5. Personal rights
+
+End User rights are personal, limited and non-transferable.
+
+6. Royal Mail's IPR notice
+
+The End User acknowledges that Royal Mail is the owner of the intellectual property rights in PAF® Data and the PAF® brand and it does not acquire and is not granted any rights to use those intellectual property rights other than as set out in these End User Terms.
+
+7. Cessation of use of PAF® Data
+
+End Users must cease use of PAF® Data if their right to use PAF® Data is terminated and also destroy any copies of PAF® Data they hold.
+
+8. PAF® use by Users
+
+End Users must ensure that:
+
+(a) these End User Terms bind their Users,
+
+(b) only their Users exercise the use rights of Solutions and PAF® Data granted to End Users further to these End User Terms, and
+
+(c) in the event of termination or expiry of End Users' rights to use Solutions and PAF® Data, the rights of Users to use them also terminate.
+
+

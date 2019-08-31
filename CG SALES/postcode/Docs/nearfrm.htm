@@ -1,0 +1,944 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="all, index, follow">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="General">
+	<meta name="copyright" content="2010 www.afd.co.uk">
+	<meta name="resource-type" content="document">
+	<meta name="revisit-after" content="1 days">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="private">
+	<meta http-equiv="cache-control" content="private">
+	<meta name="google-site-verification" content="aa8G154H89HoFpgt6FUreK14DQ96y_fGMhP-CGMVGxg" />
+
+
+
+	<META NAME="Description" CONTENT="AFD address list management systems use Electoral Roll, Royal Mail Postcode Address File (PAF) and commercial databases to provide quick address entry, address verification, postcode search, list cleaning and geodemographics for all PC systems, Unix, TCP/IP, the Internet, Web and Intranet. UK and Worldwide.">
+	<META NAME="Keywords" CONTENT="address management, postcode, postcode search, postcode finder, postcoding software, paf, postcode address file, postcoding, postcodes, address, addresses, address finder, royal mail, post office, uk address, uk address search, uk address finder, uk postcode, uk postcode search, grid reference, geocode, geodemographic, address capture, postcode web service, address web service, mailsort, presstream, barcode, zipcode, zipcodes, delivery point suffix, dps, internet, intranet, postcodeing">
+
+	<title>AFD Products: Postcode Manual</title>	
+
+	<base target="_top">
+
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/AFDicon.png">
+    <link href="mainstyles.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="css/start/jquery-ui-1.8.4.custom.css" rel="stylesheet" />	
+
+</head>
+
+<body class="mainbody" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div id='wrapper' style="  text-align: left;  width: 950px;  margin-left: auto;  margin-right: auto;  margin:0px auto;  position: relative; ">
+
+
+<div id="L1" style="position: absolute; left: 22px; top: 16px;">
+    <input type="hidden" id="OP1" value="22">
+    
+    
+    <a href="http://www.afd.co.uk">
+		<h1 class="h1Logo">
+			AFD Software. Address, Postcode and Bank solutions.
+		</h1>
+    </a>
+    
+    <!--
+    <a href="http://www.afd.co.uk/">
+        <img src="images\logo_AFD_main_new.png" 
+        alt="AFD Software - Address Management Solutions" 
+        Title="AFD Software - Address Management Solutions" 
+        width="350" height="99" border="0" />
+    </a>
+    -->
+    
+</div>
+
+
+<div id="L3" style="position: absolute; left: 380px; top: 36px;">
+<input type="hidden" id="OP3" value="380">
+<!-- <span class="Title_White">- Postcode Manual</span> -->
+</div>
+
+
+<div id="L4" style="position: absolute; left: 20px; top: 156px; width: 700px;">
+<input type="hidden" id="OP4" value="20">
+
+<title>AFD Postcode Manual: Nearest Tab</title>
+
+
+
+
+<p class="Title_Blue">NEAREST TAB</p>
+      <p><a name="NearestTab"></a><span class="parahead">Using the Nearest Tab
+          - <i>Plotter Only</i></span><span class="fontboldblack"> </span></p>
+      <ul>
+        <p>The Nearest Tab (keyboard shortcut [Alt]+6) allows you to create and
+          maintain lists, for example, of branch offices, regional centres or
+          outlets and then quickly determine which contact point is nearest the
+          postcode you enter into the main window.</p>
+        <p align="center"><img src="images\pcMain7.gif" alt="The Nearest Tab" width="451" height="454"> </p>
+        <p>The Nearest facility uses the Grid References supplied as part of
+          Postcode Plotter data, to calculate the approximate linear distances
+          between postcodes.&nbsp; </p>
+        <p><span class="fontboldblack">Please note</span>: These distances are
+          'As the Crow Flies', and will not be accurate travel distances. Most
+	  major expanses of water, mountain ranges, and other obstacles are taken
+	  account of to help ensure that the closest address is shown first.  However,
+	  in some cases because of local road layouts or geography the
+	  'Nearest' address may not be the easiest or
+          most practical to reach - so others further down the ranked list may
+          be more appropriate. </p>
+        <p>To use Nearest you must first either create a New Database or Select
+          an existing one - see below.</p>
+      </ul>
+      <p class="fontboldblack"><a name="NewDatabase"></a><span class="parahead">New
+          Database</span></p>
+      <ul>
+        <p>If you wish to create a new database to start building a nearest list
+          from scratch then select the Nearest menu and then 'New Database'.
+          This will prompt you to choose a path and filename for your nearest
+          database and create a new Microsoft Access database ready for adding
+          records.</p>
+      </ul>
+      <p class="fontboldblack"><a name="OpenDatabase"></a><span class="parahead">Opening
+          an Existing Database</span></p>
+      <ul>
+	<p><B>Access, Paradox, dBASE and FoxPro Tables</B></P>
+        <p>If you wish to use a non-ODBC database that you created before or one built up using
+          another program choose 'Open Database' from the 'Nearest' menu. This
+          will prompt you to select the database that you wish to use.</p>
+        <p>For Access databases you will also be prompted to select the table you wish to use if more than
+	  one exists in your chosen database file.</p>
+
+        <p>Nearest will use the following fields if they exist in the selected
+          database table:</p>
+        <table cols="6" width="530" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="5" align="right"><i>*</i></td>
+            <td width="87">Postcode</td>
+            <td width="6"></td>
+            <td width="72">DPS</td>
+            <td width="7" align="right"></td>
+            <td width="67">Title</td>
+            <td width="85">Organisation</td>
+            <td width="69">Property</td>
+            <td width="46">Street</td>
+          </tr>
+          <tr>
+            <td width="5"></td>
+            <td width="87">Locality</td>
+            <td width="6"></td>
+            <td width="72">Town</td>
+            <td width="7"></td>
+            <td width="67">County</td>
+            <td width="85">Km</td>
+            <td width="69">Miles</td>
+            <td width="46">Filter</td>
+          </tr>
+          <tr>
+            <td width="5"></td>
+            <td width="87">Notes</td>
+            <td width="6" align="right">
+              <p align="right"><i>*</i></p>
+            </td>
+            <td width="72">GridE</td>
+            <td width="7" align="right">
+              <p align="right"><i>*</i></p>
+            </td>
+            <td width="67">GridN</td>
+            <td width="85">Surname</td>
+            <td width="69">Firstname</td>
+            <td width="46">Initial</td>
+          </tr>
+          <tr>
+            <td width="5"></td>
+            <td width="87">Phone</td>
+            <td width="6"></td>
+            <td width="72">Fax</td>
+            <td width="7"></td>
+            <td width="67">Email</td>
+            <td width="85">WWW</td>
+          </tr>
+        </table>
+        <p>* must exist in the table and must contain a value.<br>
+    All fields must be of type 'Text' or equivalent.</p>
+        <p>For System Managers who have special requirements in linking or customising
+          existing databases with the Postcode Nearest facility, our <a class="link_blue" href="mailto:support@afd.co.uk">Help
+          Desk</a> will be pleased to provide further information.</p>
+
+	<p><B>ODBC Tables</B></P>
+        <p>If you wish to open a connection to an ODBC data source to which you have set up a Data Source Name (DSN) choose 'Open ODBC Connection'
+from the Nearest menu.  You will be prompted to enter the DSN, authentication details (if required), and the SQL Query String to connect to the table.</p>
+
+        <p>Fields will be used in the same way as described in the above section.<br>
+
+      </ul>
+      <p class="fontboldblack"><a name="AddingRecords"></a><span class="parahead">Adding
+          Records</span></p>
+      <ul>
+        <p>To add records to the Nearest table simply use the Search tab to search
+          for the records you require. Select those you wish to add to the Nearest
+          database and then select 'Add Records' from the 'Nearest' menu to add
+          them&nbsp; (or use the shortcut key [Ctrl] + A). Alternatively, if
+          you wish to add all the records in the results list to the nearest
+          database use the 'Add All Records' menu item.</p>
+      </ul>
+      <p class="fontboldblack"><a name="FindNearest"></a><span class="parahead">Finding
+          the 'Nearest'</span></p>
+      <ul>
+        <p>To find the nearest record to a postcode, enter the postcode in the
+          'Lookup' box and press the ENTER key. Results will be ranked in order
+          of distance away from your postcode. The 'Display Miles' and 'Display
+          Kilometers' options in the 'Nearest' menu can be used to determine
+          the units used for the distance displayed in the results.</p>
+      </ul>
+      <p class="fontboldblack"><a name="Updating"></a><span class="parahead">Updating
+          Records</span></p>
+      <ul>
+        <p>To update a record in the Nearest database, simply select the record
+          from the list under the Nearest tab and then type into the fields on
+          the tab itself. Once you are happy with your changes select 'Save Record'
+          from the 'Nearest' menu ([Ctrl]+ S) to save your changes to the database. </p>
+        <p>System Managers may disable the update facilities.</p>
+      </ul>
+      <p class="fontboldblack"><a name="DeletingRecords"></a><span class="parahead">Deleting
+          Records</span></p>
+      <ul>
+        <p>If you wish to remove records from the Nearest database, simply select
+          the records you wish to delete from the list under the Nearest tab
+          and then select 'Delete Selected Records' ([Ctrl]+K) from the 'Nearest'
+          menu. </p>
+        <p>System Managers may disable the delete facility.</p>
+      </ul>
+      <p class="fontboldblack"><a name="FilteringRecords"></a><span class="parahead">Filtering
+          Records</span></p>
+      <ul>
+        <p>The Filter field of a database, if present, allows you to assign a
+          value to each record for grouping. By selecting the 'Filter' option
+          from the 'Nearest' menu ([CTRL]+F) you can enter a pattern to apply
+          to the filter field to display only records matching that Filter.</p>
+        <p>For example, in a database of supermarkets with a filter field containing
+	  values such as "Groceries, Petrol, Clothing" a Filter field of &quot;Petrol&quot; will return only those stores
+          which include a Petrol Station.</p>
+        <p align="center"><img src="images\nearfilt.gif" width="318" height="141"> </p>
+        <p>Advanced users may use various wildcard characters, character lists,
+          and character ranges to test only part of the filter:</p>
+        <table border="0" width="318">
+          <tr>
+            <td width="14">&nbsp;&nbsp; </td>
+            <td width="72" class="fontboldblack">Code&nbsp;&nbsp; </td>
+            <td width="220" class="fontboldblack">Action</td>
+          </tr>
+          <tr>
+            <td width="14">&nbsp;&nbsp; </td>
+            <td width="72">{None}&nbsp;&nbsp; </td>
+            <td width="220">All Nearest Records</td>
+          </tr>
+          <tr>
+            <td width="14">&nbsp;&nbsp; </td>
+            <td width="72">?&nbsp;&nbsp; </td>
+            <td width="220">Any Character</td>
+          </tr>
+          <tr>
+            <td width="14">&nbsp;&nbsp; </td>
+            <td width="72">*&nbsp;&nbsp; </td>
+            <td width="220">Zero or more characters</td>
+          </tr>
+          <tr>
+            <td width="14">&nbsp;&nbsp; </td>
+            <td width="72">#&nbsp;&nbsp; </td>
+            <td width="220">Any single digit (0-9)</td>
+          </tr>
+          <tr>
+            <td width="14">&nbsp;&nbsp; </td>
+            <td width="72">[<i>charlist</i>]&nbsp;&nbsp; </td>
+            <td width="220">Any single character in <i>charlist</i></td>
+          </tr>
+          <tr>
+            <td width="14">&nbsp;&nbsp; </td>
+            <td width="72">[!<i>charlist</i>]&nbsp;&nbsp; </td>
+            <td width="220">Any single character not in <i>charlist</i></td>
+          </tr>
+        </table>
+      </ul>
+      <p class="fontboldblack"><a name="GridReferences"></a><span class="parahead">Looking
+          up Grid References</span></p>
+      <ul>
+        <p>If you are using an external database and have imported records without
+          Grid References, or have some incorrect Grid References they will need
+          to be populated from the Postcode Plotter data. To do this select the
+          records in the nearest list that require Grid References and select
+          'Lookup Grid References' from the 'Nearest' menu. You will be prompted
+          for action if an existing Grid Reference is found for any of the records.</p>
+      </ul>
+      <p class="fontboldblack"><a name="Labels"></a><span class="parahead">Making
+          Labels from Nearest Records</span></p>
+      <ul>
+        <p>To use the Label feature with a Nearest Record, simply select the
+          Nearest record you would like a label for and then select 'Transfer
+          To Label Tab' from the 'Nearest' menu, to transfer the record to the
+          Label Tab. </p>
+      </ul>
+      <p class="fontboldblack"><a name="Maps"></a><span class="parahead">Showing
+          the Position of a Nearest Record</span></p>
+      <ul>
+        <p>To use the Map feature to view the position of a Nearest Record, simply
+          select the Nearest record you would like to view on the map and then
+          select 'Transfer To Map Tab' from the 'Nearest' menu, to transfer the
+          record to the Map tab.</p>
+      </ul>
+      <p class="fontboldblack"><a name="ViewOneDecimal"></a><span class="parahead">Viewing
+          Distances to One Decimal Place.</span></p>
+      <blockquote>
+        <p>If you have several outlets in close proximity and need to be able
+          to distinguish between them you can select to have Nearest distances
+          displayed down to an accuracy of one decimal place.&nbsp; This can
+          be done by selecting the 'Show Decimal Place' option from the Nearest
+          menu.</p>
+      </blockquote>
+      <p class="fontboldblack"><a name="ImportExport"></a><span class="parahead">Importing
+          and Exporting Records</span></p>
+      <ul>
+        <p>Records can be imported from or exported to comma delimited text files.&nbsp; </p>
+        <p>To use this facility, simply select the 'Import Records' or 'Export
+          Records' on the 'Nearest' menu -you will be prompted for a filename
+          in both cases. The 'Export' option only exports the selected records.
+          'Import' imports all records in the supplied file. </p>
+        <p><span class="fontboldblack">Please note</span>:&nbsp; whether the
+          files have been imported or exported they must have all the fields
+          below in the order they appear below: </p>
+        <table cols="6" width="100%">
+          <tr>
+            <td>**Postcode</td>
+            <td>DPS</td>
+            <td>**Title</td>
+            <td>Organisation</td>
+            <td>Property</td>
+            <td>Street</td>
+          </tr>
+          <tr>
+            <td>Locality</td>
+            <td>Town</td>
+            <td>County</td>
+            <td>Km</td>
+            <td>Miles</td>
+            <td>Filter</td>
+          </tr>
+          <tr>
+            <td>Notes</td>
+            <td>GridE</td>
+            <td>GridN</td>
+            <td>Surname</td>
+            <td>Firstname</td>
+            <td>Initial</td>
+          </tr>
+          <tr>
+            <td>Phone</td>
+            <td>Fax</td>
+            <td>Email</td>
+            <td>WWW</td>
+          </tr>
+        </table>
+        <p>** must contain a value</p>
+    </ul>
+
+</div>
+
+
+<div id="L5" style="position: absolute; left: 733px; top: 70px;">
+<input type="hidden" id="OP5" value="733">
+<img src="images\float_panel_bg_white_main.png" />
+</div>
+
+
+
+<div id="L6" style="position: absolute; left: 739px; top: 75px;">
+<input type="hidden" id="OP6" value="739">
+<img src="images\button_phone.png" alt="Any Questions? Call now on 01624 811711" title="Any Questions? Call now on 01624 811711" />
+</div>
+<div id="L7" style="position: absolute; left: 739px; top: 150px;">
+<input type="hidden" id="OP7" value="739">
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_blue_top.png" class="mod_header">
+&nbsp;<strong>
+Manual Contents
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="contents.htm"  alt=" Introduction & Installation " Title=" Introduction & Installation ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Introduction & Installation 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Overview.htm"  alt=" Overview " Title=" Overview ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Overview 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="FindBox.htm"  alt=" Find Box & Lookup " Title=" Find Box & Lookup ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Find Box & Lookup 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resfrm.htm"  alt=" Results List " Title=" Results List ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results List 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="srchfrm.htm"  alt=" Search Tab " Title=" Search Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Search Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="resTab.htm"  alt=" Results Tab " Title=" Results Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Results Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="morefrm.htm"  alt=" More Tab " Title=" More Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ More Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="labfrm.htm"  alt=" Label Tab " Title=" Label Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Label Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="mapfrm.htm"  alt=" Map Tab " Title=" Map Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Map Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="nearfrm.htm"  alt=" Nearest Tab " Title=" Nearest Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Nearest Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censfrm.htm"  alt=" Censation Tab " Title=" Censation Tab ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Censation Tab 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="robotfrm.htm"  alt=" Postcode Robot " Title=" Postcode Robot ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode Robot 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlivedbl">
+<nobr>
+<a href="transfrm.htm"  alt=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses " Title=" Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Methods of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transferring Addresses 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="compfrm.htm"  alt=" Compact View " Title=" Compact View ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Compact View 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="otherfrm.htm"  alt=" Other Features " Title=" Other Features ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Other Features 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="pcdos.htm"  alt=" Postcode for DOS " Title=" Postcode for DOS ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Postcode for DOS 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="api.htm"  alt=" Programming with Postcode " Title=" Programming with Postcode ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Programming with Postcode 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+
+<table width="220" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+<td height="21" background="images\manuals_float_panel_menu_green_top.png" class="mod_header">
+&nbsp;<strong>
+Appendix
+</a>
+</strong>
+</td>
+</tr>
+
+<tr>
+<td background="images\manuals_float_panel_menu_bg_grey_mid.png" class="mod_header">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="15" height="4"></td><td width="185"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Commands.htm"  alt=" A - Command Line Options " Title=" A - Command Line Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A - Command Line Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Shortcut.htm"  alt=" B - Keyboard Shortcuts " Title=" B - Keyboard Shortcuts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ B - Keyboard Shortcuts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="GridRef.htm"  alt=" C - Grid References " Title=" C - Grid References ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ C - Grid References 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="eula.htm"  alt=" D - End User License Agreement " Title=" D - End User License Agreement ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ D - End User License Agreement 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="http://www.afd.co.uk/rereg/"  alt=" E - Re-Registration Form " Title=" E - Re-Registration Form ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ E - Re-Registration Form 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="counties.htm"  alt=" F - County Options " Title=" F - County Options ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ F - County Options 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censDesc.htm"  alt=" G - Censation Additional Info " Title=" G - Censation Additional Info ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ G - Censation Additional Info 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censCode.htm"  alt=" H - Censation Detailed Tables " Title=" H - Censation Detailed Tables ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ H - Censation Detailed Tables 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censBar.htm"  alt=" I - Censation Bar Charts " Title=" I - Censation Bar Charts ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ I - Censation Bar Charts 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="censGlos.htm"  alt=" J - Censation Glossary " Title=" J - Censation Glossary ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ J - Censation Glossary 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="Occupcy.htm"  alt=" K - Occupancy & Address Types " Title=" K - Occupancy & Address Types ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ K - Occupancy & Address Types 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+<tr>
+<td>
+<div class="arrowlive">
+<nobr>
+<a href="royalmailterms.htm"  alt=" L - Royal Mail Terms " Title=" L - Royal Mail Terms ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ L - Royal Mail Terms 
+</a>
+</nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<tr><td height="4"><img src="images\manuals_float_panel_menu_bg_grey_base.png" /></td></tr>
+</table>
+
+
+
+<p>
+
+</div>
+
+
+</div>
+ 
+<div style="position: absolute; left: 0px; width: 100%; height: 120; visibility: hidden;" name="footer" id="footer" class="footertext">
+<table width="100%" background="images\footer_bg.png">
+<tr>
+<td align="center" valign="top">
+<table width="940">
+<tr>
+<td width="420" align="left" valign="top" class="footertext">
+<a class="footertext" href="http://www.afd.co.uk/home.htm">'AFD'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_bankfinder.htm">'AFD BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_bankfinder.htm">'AFD POCKET BANKFINDER&#8217;</a>,
+<a class="footertext" href="http://www.afd.co.uk/censation.htm">'CENSATION'</a>,
+'DATA EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_mailsaver.htm">'AFD MAILSAVER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_namesandnumbers.htm">'AFD NAMES &amp; NUMBERS'</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_namesandnumbers.htm">'POCKET NAMES &amp; NUMBERS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'AFD POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_pocket_postcode.htm">'POCKET POSTCODE'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_postcode_everywhere.htm">'POSTCODE-EVERYWHERE&#8217;</a>,
+'POSTCODE EVOLUTION',
+<a class="footertext" href="http://www.afd.co.uk/product_refiner.htm">'AFD REFINER&#8217;</a>, 
+<a class="footertext" href="http://www.afd.co.uk/product_postcode.htm">'ROBOT'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_tracemaster.htm">'TRACEMASTER'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_worldaddress.htm">'AFD WORLD ADDRESS'</a>,
+<a class="footertext" href="http://www.afd.co.uk/product_zipaddress.htm">'ZIPADDRESS'</a>,
+'POCKET ZIPADDRESS', 'Simply Beautiful',
+the AFD WorldAddress and the Flying Envelope devices are Registered Trade Marks of ZipAddress Ltd. 'ROBOT' Technology is protected by Patent No GB2369699.
+All other trade marks acknowledged.
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" align="left" class="footertext">
+AFD Products are subject to a <a href="http://www.afd.co.uk/eula.htm" target="_blank" class="footertext">License Agreement</a> and include a data license for one computer, renewable annually. AFD Software Limited. Registered in the Isle of Man No: 087072C Registered Office: Mountain View Innovation Centre, Jurby Road, Lezayre, Ramsey, ISLE OF MAN, IM7 2DZ
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td width="120" valign="top" align="left" class="footertext">
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Computers and</a>
+Copyright &copy;2015
+<a class="footertext" href="http://www.afd.co.uk">AFD Software Ltd</a>. All rights reserved.<br />
+<a class="footertext" href="http://www.afd.co.uk/terms.htm">AFD Terms &amp; Conditions</a><br />
+<a class="footertext" href="http://www.afd.co.uk/privacy.htm">AFD Privacy Policy</a>
+</td>
+<td width="5"></td><td width="1" background="images/footerline.png" style="background-repeat: no-repeat;"></td><td width="5"></td>
+<td valign="top" class="footertext">
+<img src="/images/logo_FQM.gif" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
